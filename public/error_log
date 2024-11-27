@@ -1,0 +1,431 @@
+[21-Nov-2024 09:37:12 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:13 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:13 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:13 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:13 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:13 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:14 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:14 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:14 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:20 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:20 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:20 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:20 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:20 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:22 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:23 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:23 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:24 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:25 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:26 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:30 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:30 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:30 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:30 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:32 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:32 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:33 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:35 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:35 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:36 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:36 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:37 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:38 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:38 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:38 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:39 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:39 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:39 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:40 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:41 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:42 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:47 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:47 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:48 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:48 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:50 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:50 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:52 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:52 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:54 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:54 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:57 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:57 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:37:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:01 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:12 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:12 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:12 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:12 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:13 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:13 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:14 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:14 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:17 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:20 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:22 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:22 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:24 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:24 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:25 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:28 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:29 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:32 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:42 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:49 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:51 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:38:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:00 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:00 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:00 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:00 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:00 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:00 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:01 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:06 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:07 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:07 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: Permission denied in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:08 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:09 UTC] PHP Warning:  require(/home/youexcel/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/youexcel/public_html/public/index.php on line 34
+[21-Nov-2024 09:39:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/youexcel/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/youexcel/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/youexcel/public_html/public/index.php on line 34
