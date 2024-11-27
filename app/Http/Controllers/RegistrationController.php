@@ -299,6 +299,8 @@ private function fetchZohoAccessToken()
     
     function addregistration(Request $req)
 {
+   
+    // dd($req->toArray());
     // Send Data to Zoho CRM
     $accessToken = $this->fetchZohoAccessToken();
     

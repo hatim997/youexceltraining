@@ -1028,6 +1028,13 @@ function closeModal(modalId, overlayId) {
         swal("THANK YOU", "Your form has been submitted.\nYou will get a confirmation email soon.", "success");
     </script>
 @endif
+
+@if(Session::has('paymentproof'))
+    <script>
+        swal("Oops", "Your form not submitted.\n Please Upload Your Proof of Payment File.", "error");
+    </script>
+@endif
+
 @if(Session::has('appoinmentt'))
     <script>
         const el = document.createElement('div')
