@@ -402,7 +402,7 @@ $zohoData = [
         [
             "Email" => $req->email ?? "N/A",
             "Complete_Address" => $req->address ?? "N/A",
-            "Course" => $req->cfma ?? "N/A", // Assuming $req->cfma contains the course value
+            "Course" => 6442514000000585439 ?? 0000, // Assuming $req->cfma contains the course value
             "Contact_No" => $req->cellnumber ?? "N/A",
             "City" => $req->city ?? "N/A",
             "Qualification" => $req->qualification ?? "N/A",
