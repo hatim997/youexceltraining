@@ -305,8 +305,64 @@ private function fetchZohoAccessToken()
     $accessToken = $this->fetchZohoAccessToken();
     
     if(!$req->file2) {
-        Session::flash('paymentproof', 'Please Upload Your Payment Proof!');
-        return redirect('registration_form');
+
+
+        
+    // Data for Zoho API
+$zohoData = [
+    "data" => [
+        [
+            "Email" => $req->email ?? "N/A",
+            "Complete_Address" => $req->address ?? "N/A",
+            "Course" => 6442514000000585439 ?? 0000, // Assuming $req->cfma contains the course value
+            "Contact_No" => $req->cellnumber ?? "N/A",
+            "City" => $req->city ?? "N/A",
+            "Qualification" => $req->qualification ?? "N/A",
+            "First_Name" => $req->name ?? "N/A",
+            "Lead_Status" => "Contacted", // Default value
+            "Job_Designation" => $req->designation ?? "N/A",
+            "Employer_Name" => $req->empname ?? "N/A",
+            "CNIC" => $req->cnic ?? "N/A",
+            "Country_Name" => "Pakistan", // Default value
+            "Designation" => $req->designation ?? "N/A",
+            "Father_Husband_s_Name" => $req->fname ?? "N/A",
+            "Date_of_Birth" => $req->date ?? "N/A",
+            "WhatsApp_Number" => $req->cellnumber ?? "N/A",
+            "Comments" => "N/A", // Default value
+            "Last_Name" => "N/A", // Default value
+            "Lead_Source" => "Registration Form", // Default value
+        
+        ]
+    ]
+];
+
+    
+    // dd($accessToken);
+    if (!is_array($accessToken)) {
+        try {
+            $zohoResponse = Http::withHeaders([
+                "Authorization" => "Bearer $accessToken",
+                "Content-Type" => "application/json"
+            ])->post("https://www.zohoapis.com/crm/v7/Leads", $zohoData);
+
+            if (!$zohoResponse->successful()) {
+                \Log::error('Zoho API Error: ' . $zohoResponse->body());
+            }
+        } catch (\Exception $e) {
+            \Log::error('Zoho API Exception: ' . $e->getMessage());
+        }
+    } else {
+        \Log::error('Zoho Access Token Error: ' . json_encode($accessToken));
+    }
+        // Session::flash('paymentproof', 'Please Upload Your Payment Proof!');
+        // return redirect('registration_form');
+
+    Session::flash('appoinmentbooked', 'Appointment has been successfully booked!');
+    return redirect('registration_form');
+
+
+
+
     } else {
         
     
