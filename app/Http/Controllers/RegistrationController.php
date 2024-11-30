@@ -306,6 +306,31 @@ private function fetchZohoAccessToken()
     
     if(!$req->file2) {
 
+    $Register = new Registers;
+    if ($req->file('file1')) {
+        $file = $req->file('file1');
+        $extension = $file->getClientOriginalExtension();
+        $fileName = md5(time()) . '.' . $extension;
+        $file->move(public_path() . '/files/', $fileName);
+        $Register->Image = $fileName;
+    }
+    
+  
+
+    $Register->email = $req->email;
+    $Register->chooseprogramme = $req->cfma;
+    $Register->name = $req->name;
+    $Register->fathername = $req->fname;
+    $Register->address = $req->address;
+    $Register->city = $req->city;
+    $Register->employeename = $req->empname;
+    $Register->designation = $req->designation;
+    $Register->cellnumber = $req->cellnumber;
+    $Register->dateofbirth = $req->date;
+    $Register->cnic = $req->cnic;
+    $Register->qualification = $req->qualification;
+    $Register->save();
+
 
         
     // Data for Zoho API
