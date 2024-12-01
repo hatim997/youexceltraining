@@ -511,6 +511,18 @@ Footer Area
 <li>
 <p class="footer-info"><i class="fa-light fa-envelope"></i><a class="text-inherit" href="#"> info@youexceltraining.com</a></p>
 </li>
+<li>
+<p class="footer-info"><i class="fa-light fa-envelope"></i><a class="text-inherit" href="#"> info@youexceltraining.com</a></p>
+</li>
+<li>
+<p class="footer-info"><i class="fa-light fa-envelope"></i><a class="text-inherit" href="{{ url('/contact') }}"> Contact Us</a></p>
+</li><br>
+<li>
+<p class="footer-info"><i class="fa-map-marker-alt"></i>
+    <a class="text-inherit" target="_blank" href="https://maps.app.goo.gl/EDR1J7oucv12oi7X8"><br>
+    YouExcel,Suite: 503-506, 5th Floor, Al Samad Tower, Block 13-B, <br>
+    Main University Road, Gulshan-e-Iqbal, Karachi, Pakistan.</p></a>
+</li>                        
                 </ul>
                         </div>
                     </div>

@@ -40,9 +40,7 @@
                         Office hours are 10am – 5pm <br> Monday-Sunday .
                     </p>
                     <p class="contact-info">
-                        <i class="fas fa-map-marker-alt"></i>
-                      <a href="https://maps.app.goo.gl/ra8PRpKk6pB3RwEv8">  YouExcel, Suite: 503-506, 5th Floor, Al Samad Tower, Block 13-B, Main University Road, Gulshan-e-Iqbal, Karachi, Pakistan.
-                   </a> </p>
+                     </p>
                     <p class="contact-info">
                         <i class="fas fa-whatsapp-square"></i>
                         <a class="text-inherit" href="tel:+923313016699">+92-331-3016699</a>
