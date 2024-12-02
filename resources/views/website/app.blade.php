@@ -924,7 +924,7 @@ menuLinks.forEach(function(link) {
 
     // Add mouseout event listener
     link.addEventListener('mouseout', function() {
-        this.style.color = '#aaa'; // Reset the text color on mouseout
+        this.style.color = '#000000'; // Reset the text color on mouseout
     });
 });
     }
