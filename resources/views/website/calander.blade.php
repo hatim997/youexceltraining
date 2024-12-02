@@ -70,7 +70,7 @@ td, th {
     background-color: #f5f5f5;
 }
 
-.page-width{
+.container-table100{
     zoom: 75%;
 }
 
