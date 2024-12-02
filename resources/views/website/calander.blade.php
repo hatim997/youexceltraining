@@ -70,6 +70,10 @@ td, th {
     background-color: #f5f5f5;
 }
 
+.page-width{
+    zoom: 75%;
+}
+
 
 
 @media(max-width: 576px) {

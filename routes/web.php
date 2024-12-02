@@ -496,10 +496,13 @@ Route::middleware(['auth'])->group(function () {
     });
 });
 
-Route::get('/calander', function () {
-    $calendars = Calendar::all(); // Fetch all records from the calendars table
-    return view('website.calander', compact('calendars')); // Pass the records to the view
-});
+// For website
+Route::get('/calander', [CalendarController::class, 'WebCalender']);
+
+// Route::get('/calander', function () {
+//     $calendars = Calendar::all(); // Fetch all records from the calendars table
+//     return view('website.calander', compact('calendars')); // Pass the records to the view
+// });
 
 // Route::get('/course', [CoursesController::class, 'index']);
 Route::get('/add-calendar', [CalendarController::class, 'index'])->name('add.calendar');

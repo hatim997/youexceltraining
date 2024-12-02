@@ -115,4 +115,9 @@ class CalendarController extends Controller
 
         return redirect()->route('add.calendar')->with('success', 'All entries with the title "' . $title . '" have been deleted successfully!');
     }
+
+    public function WebCalender() {
+        $calendars = Calendar::orderBy('created_at', 'ASC')->get();
+        return view('website.calander', compact('calendars'));
+    }
 }
