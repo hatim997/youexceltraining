@@ -88,7 +88,6 @@ td, th {
         <div class="container z-index-common">
             <div class="breadcumb-content text-center" >
                              <h1 class="breadcumb-title">
-                                Training Calendar 
                                 @if($calendars->isNotEmpty())
                                     {{ $calendars[0]->title }}
                                 @else
