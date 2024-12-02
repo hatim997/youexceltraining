@@ -924,9 +924,12 @@ menuLinks.forEach(function(link) {
 
     // Add mouseout event listener
     link.addEventListener('mouseout', function() {
-        this.style.color = '#000000'; // Reset the text color on mouseout
+        this.style.color = '#000000'; // Set the text color to black on mouseout
     });
 });
+
+
+
     }
     if (currentScrollPos === 0) {
         document.getElementById("navbar").style.top = "27px";
