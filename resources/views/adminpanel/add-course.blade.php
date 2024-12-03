@@ -27,7 +27,7 @@
         <div class="container-fluid">
             <!---------------- form start  -------------------->
 
-            <form method="POST" action="{{url('adminpanelform')}}" enctype="multipart/form-data">
+            <form method="POST" action="{{ route('course.store') }}" enctype="multipart/form-data">
                 <!-- {{csrf_field()}}    -->
                 @csrf
 {{--                <div class="row">--}}

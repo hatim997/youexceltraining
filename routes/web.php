@@ -427,7 +427,7 @@ Route::middleware(['auth'])->group(function () {
     });
     
     Route::get('/course', [CoursesController::class, 'index']);
-    Route::post('/adminpanelform', [CoursesController::class, 'addcourses']);
+    Route::post('/course-store', [CoursesController::class, 'addcourses'])->name('course.store');
     Route::post('/edit/{id}', [CoursesController::class, 'editCourses']);
     Route::get('/add-course', [CoursesController::class, 'show']);
     Route::get('/delete-course/{id}', [CoursesController::class, 'delete']);
