@@ -2,12 +2,12 @@
     <div class="vs-menu-area text-center">
         <button class="vs-menu-toggle"><i class="fa-light fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="{{url("/home")}}"><img src="https://youexceltraining.com/img/Yourexcel-img/excel-logo-new.png" alt="Educino"></a>
+            <a href="{{url("/")}}"><img src="https://youexceltraining.com/img/Yourexcel-img/excel-logo-new.png" alt="Educino"></a>
         </div>
         <div class="vs-mobile-menu">
             <ul>
                 <li>
-                    <a href="{{url("/home")}}">Home</a>
+                    <a href="{{url("/")}}">Home</a>
                 </li>
                 <li>
                     <a href="{{url("/about")}}">About Us</a>
@@ -64,15 +64,16 @@ Header Area
             <div class="container-fluid  position-relative z-index-common">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
-                        <div class="vs-logo"> <a href="{{url("/home")}}"><img src="https://youexceltraining.com/img/Yourexcel-img/excel-logo-new.png" alt="logo"></a> </div>
+                        <div class="vs-logo"> <a href="{{url("/")}}"><img src="https://youexceltraining.com/img/Yourexcel-img/excel-logo-new.png" alt="logo"></a> </div>
                     </div>
                     <div class="col text-end text-xl-end">
                         <nav class="main-menu menu-style1 d-none d-lg-block">
                             <ul>
                                 <li>
-                                    <a href="{{url("/home")}}">Home</a>
+                                    <a href="{{url("/")}}">Home</a>
                                 </li>
-                                <li class="menu-item-has-children">
+                                {{--  class="menu-item-has-children" dropdown --}}
+                                <li>
                                     <a href="{{url("/about")}}">About Us</a>
                         <!--            <ul class="sub-menu">-->
                         <!--    <li><a href="#">Vision</a></li>-->
@@ -81,7 +82,7 @@ Header Area
                           
                         <!--</ul>-->
                                 </li>
-                                <li class="menu-item-has-children">
+                                <li>
                                     <a href="{{url("/courses")}}">Training Programs</a>
                             <!--        <ul class="sub-menu">-->
                             <!--<li><a href="#">SQL</a></li>-->
@@ -94,9 +95,9 @@ Header Area
                 </li>
              
                                 
-                                <li>
+                                {{-- <li>
                                     <a href="#">Gallery</a>
-                                </li>
+                                </li> --}}
                                   <li>
                                 <a href="{{url("/Reviews")}}" class="vs-btn style3">Review</a>
                                  </li>

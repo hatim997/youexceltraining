@@ -516,7 +516,8 @@ Footer Area
 </li>
 <li>
 <p class="footer-info"><i class="fa-light fa-envelope"></i><a class="text-inherit" href="{{ url('/contact') }}"> Contact Us</a></p>
-</li><br>
+</li>
+<br><br>
 <li>
 <p class="footer-info"><i class="fa-map-marker-alt"></i>
     <a class="text-inherit" target="_blank" href="https://maps.app.goo.gl/EDR1J7oucv12oi7X8"><br>
@@ -670,7 +671,7 @@ Footer Area
 </div>
 
 
-<a  class="scrollToTopp  scroll-btnn show" onclick="actionToggle();" ><i class="fa-solid fa-pen-to-square"></i></a>
+<a class="scrollToTopp scroll-btnn show" onclick="actionToggle();" ><i class="fa-solid fa-pen-to-square"></i></a>
 
 <form action="/nomanform" method="POST">
     @csrf
