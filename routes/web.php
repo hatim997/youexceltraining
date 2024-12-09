@@ -308,6 +308,7 @@ Route::get('courses/excel-mastery', [CoursesController::class, 'excelMastery']);
 Route::get('courses/advanced-excel', [CoursesController::class, 'advancedExcel']);
 Route::get('courses/sql-analytics', [CoursesController::class, 'sqlAnalytics']);
 Route::get('courses/financial-modeling', [CoursesController::class, 'financialModeling']);
+Route::get('courses/financial-modeling-self', [CoursesController::class, 'financialModelingSelf']);
 Route::get('courses/ai-integrated-office', [CoursesController::class, 'aiIntegratedOffice']);
 Route::get('courses/cit', [CoursesController::class, 'cit']);
 Route::get('courses/python-data-analysis', [CoursesController::class, 'pythonDataAnalysis']);

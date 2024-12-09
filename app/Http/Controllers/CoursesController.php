@@ -148,7 +148,12 @@ class CoursesController extends Controller
         $pdf = $data->image;
         return view('website.course4', compact('pdf'));
     }
-
+    public function financialModelingSelf()
+    {
+         $data= Courses::find(31);
+        $pdf = $data->image;
+        return view('website.course15', compact('pdf'));
+    }
     public function aiIntegratedOffice()
     {
          $data= Courses::find(53);

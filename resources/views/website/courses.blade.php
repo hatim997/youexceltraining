@@ -179,6 +179,33 @@
                         </div>
                     </div>
                 </div>
+
+                {{-- 15 --}}
+                <div class="col-sm-6 col-xl-4">
+                    <div class="course-style1 has-border" onclick="window.open('courses/financial-modeling-self');">
+                        <div class="course-img">
+                            <a href="financial-modeling"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/FMA.jpg" alt="Course Img"></a>
+                   
+                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vs-btn style2 popup-video"><i class="fas fa-play"></i>Preview Course</a>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-top">
+                                <div class="course-review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i>(4.5)</div>
+                              
+                            </div>
+                            <h3 class="h5 course-name"><a href="courses/financial-modeling-self" class="text-inherit">Financial Modeling Self</a></h3>
+                           
+                        </div>
+                        <div class="course-meta">
+                            <span><i class="fal fa-users"></i>1890 Students</span>
+                            <span><i class="fal fa-clock">24h</i></span>  
+                            </div>
+                              <div class=" my-3">
+                              <a href="enquiry-form/financial-modeling-self" class="vs-btn style4 py-3 me-3">Enquire Now</a>
+                             <a  href="courses/financial-modeling-self" class="vs-btn style4 py-3 "> Learn More </a>
+                        </div>
+                    </div>
+                </div>
                 
                  <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border">
