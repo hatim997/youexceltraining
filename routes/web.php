@@ -15,6 +15,7 @@ use App\Http\Controllers\EmailController;
 use App\Http\Controllers\countController;
 use App\Http\Controllers\ResourceController;
 use App\Http\Controllers\CalendarController;
+use App\Http\Controllers\GalleryController;
 
 use Illuminate\Support\Facades\Route;
 use App\Models\Courses;
@@ -397,9 +398,11 @@ Route::get('/compare-courses', function () {
 Route::get('/Reviews', function () {
     return view('website.Reviews');
 });
-Route::get('/Events-gallery', function () {
-    return view('website.Events-gallery');
-});
+    // Route::get('/Events-gallery', function () {
+    //     return view('website.Events-gallery');
+    // });
+    Route::get('/Events-gallery', [GalleryController::class, 'EventGallery'])->name('event.gallery');
+
 Route::get('/Picture-gallery', function () {
     return view('website.Picture-gallery');
 });
@@ -426,6 +429,23 @@ Route::middleware(['auth'])->group(function () {
         return view('adminpanel.main-page');
     });
     
+    // for gallary cat
+    Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery_cat');
+    Route::post('/store-gallery-cat', [GalleryController::class, 'storegallerycat'])->name('store.gallery.cat');
+    Route::get('/edit-gallery-cat/{id}', [GalleryController::class, 'editgallerycat'])->name('edit_gallery_cat');
+    Route::post('/update-gallery-cat/{id}', [GalleryController::class, 'updategallerycat'])->name('update.gallery.cat');
+    Route::get('/delete-gallery-cat/{id}', [GalleryController::class, 'deletegallerycat'])->name('delete_gallery_cat');
+    // Route::get('/edit/{id}', [GalleryController::class, 'editShowdata']);
+
+
+    // for gallary image
+    Route::get('/gallery-image', [GalleryController::class, 'GalleryImg'])->name('gallery_img');
+    Route::post('/store-gallery-img', [GalleryController::class, 'storegalleryImg'])->name('store.gallery.img');
+    Route::get('/delete-gallery-img/{id}', [GalleryController::class, 'deletegalleryImg'])->name('delete_gallery_img');
+    // Route::get('/edit-gallery-cat/{id}', [GalleryController::class, 'editgallerycat'])->name('edit_gallery_cat');
+    // Route::post('/update-gallery-cat/{id}', [GalleryController::class, 'updategallerycat'])->name('update.gallery.cat');
+
+
     Route::get('/course', [CoursesController::class, 'index']);
     Route::post('/course-store', [CoursesController::class, 'addcourses'])->name('course.store');
     Route::post('/edit/{id}', [CoursesController::class, 'editCourses']);

@@ -19,6 +19,14 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Course id CRM</label>
+                            <input type="text" class="form-control" id="duration" name="duration">
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-5">
+                        <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Position</label>
                             <input type="text" class="form-control"  value="{{$Course['position']}}" id="position" name="position">
                         </div>

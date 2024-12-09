@@ -57,7 +57,7 @@
                                                         required>
                                                         <!-- <option value="Choose from dropdown list" selected>Choose from dropdown list</option> -->
                                                         @foreach ($courses as $cour)
-                                                            <option value="{{ $cour->coursename }}">{{ $cour->coursename }}
+                                                            <option value="{{ $cour->duration }}">{{ $cour->coursename }}
                                                             </option>
                                                         @endforeach
                                                         <option value="Other">Other</option>

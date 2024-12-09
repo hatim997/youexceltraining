@@ -54,7 +54,7 @@ return [
 
     'url' => env('APP_URL', 'http://localhost/youexcell'),
 
-    'asset_url' => env('ASSET_URL', 'http://localhost/youexcell/public/'),
+    'asset_url' => env('ASSET_URL', 'http://localhost/youexcell/public'),
 
     /*
     |--------------------------------------------------------------------------

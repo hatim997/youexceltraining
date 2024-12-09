@@ -22,7 +22,7 @@ class CoursesController extends Controller
     }
     function addcourses(Request $req)
     {
-        $Course= new Courses;
+        
 //        if ($req->file('image')) {
 //            $file = $req->file('image');
 //            // foreach ($request->file('images') as $index => $file) {
@@ -34,8 +34,10 @@ class CoursesController extends Controller
 //            $Course->image=$fileName;
 //        }
 //        $Course->duration=$req->duration;
+        $Course= new Courses;
         $Course->coursename=$req->coursename;
         $Course->position=$req->position;
+        $Course->duration=$req->duration;
         $Course->save();
         return redirect('add-course');
     }
@@ -62,6 +64,7 @@ class CoursesController extends Controller
         $Course= Courses::find($id);
         $Course->coursename=$req->coursename;
         $Course->position=$req->position;
+        $Course->duration=$req->duration;
         $Course->save();
         return redirect('add-course');
     }

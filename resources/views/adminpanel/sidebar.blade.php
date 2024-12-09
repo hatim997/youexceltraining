@@ -32,6 +32,23 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a href="{{ route('gallery_cat') }}" class="nav-link">
+                        <i class="nav-icon fas fa-book"></i>
+                        <p>
+                            Add Gallery Category
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="{{ route('gallery_img') }}" class="nav-link">
+                        <i class="nav-icon fas fa-book"></i>
+                        <p>
+                            Add Gallery Image
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href="add-course" class="nav-link">
                         <i class="nav-icon fas fa-book"></i>
                         <p>

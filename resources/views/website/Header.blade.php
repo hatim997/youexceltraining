@@ -95,9 +95,9 @@ Header Area
                 </li>
              
                                 
-                                {{-- <li>
-                                    <a href="#">Gallery</a>
-                                </li> --}}
+                                <li>
+                                    <a href="{{ url('/Events-gallery') }}">Gallery</a>
+                                </li>
                                   <li>
                                 <a href="{{url("/Reviews")}}" class="vs-btn style3">Review</a>
                                  </li>

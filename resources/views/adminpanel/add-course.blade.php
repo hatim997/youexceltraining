@@ -55,6 +55,12 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Course id CRM</label>
+                            <input type="text" class="form-control" id="duration" name="duration">
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Position</label>
                             <input type="text" class="form-control" id="position" name="position">
                         </div>
@@ -91,7 +97,7 @@
 {{--                                    <th scope="col">Image</th>--}}
                                     <th scope="col">Position</th>
                                     <th scope="col">Course Name</th>
-{{--                                    <th scope="col">Description</th>--}}
+                                   <th scope="col">Course id CRM</th>
                                     <th scope="col">Action</th>
 
                                 </tr>
@@ -103,7 +109,7 @@
 {{--                                  <td>{{$Course['image']}}</td>--}}
                                   <td>{{$Course['position']}}</td>
                                   <td>{{$Course['coursename']}}</td>
-{{--                                  <td>{{$Course['description']}}</td>--}}
+                                 <td>{{$Course['duration']}}</td>
                                   <td>
                                       <a class="btn btn-danger" href="delete-course/{{$Course['id']}}"><i class="fas fa-trash-alt"></i></a>
                                       <a href="{{url('edit').'/'.$Course['id']}}" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary"><i class="fas fa-edit"></i></a>

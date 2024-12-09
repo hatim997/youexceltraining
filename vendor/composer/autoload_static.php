@@ -319,8 +319,8 @@ class ComposerStaticInitcf14086919a839fe740e00554e4baff6
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -525,6 +525,7 @@ class ComposerStaticInitcf14086919a839fe740e00554e4baff6
         'App\\Http\\Controllers\\CoursesController' => __DIR__ . '/../..' . '/app/Http/Controllers/CoursesController.php',
         'App\\Http\\Controllers\\EmailController' => __DIR__ . '/../..' . '/app/Http/Controllers/EmailController.php',
         'App\\Http\\Controllers\\FeedbackController' => __DIR__ . '/../..' . '/app/Http/Controllers/FeedbackController.php',
+        'App\\Http\\Controllers\\GalleryController' => __DIR__ . '/../..' . '/app/Http/Controllers/GalleryController.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\JazzCashController' => __DIR__ . '/../..' . '/app/Http/Controllers/JazzCashController.php',
         'App\\Http\\Controllers\\KamyabjawanController' => __DIR__ . '/../..' . '/app/Http/Controllers/KamyabjawanController.php',
@@ -554,6 +555,7 @@ class ComposerStaticInitcf14086919a839fe740e00554e4baff6
         'App\\Models\\Contactus' => __DIR__ . '/../..' . '/app/Models/Contactus.php',
         'App\\Models\\Feedback' => __DIR__ . '/../..' . '/app/Models/Feedback.php',
         'App\\Models\\Freedemo' => __DIR__ . '/../..' . '/app/Models/Freedemo.php',
+        'App\\Models\\GalleryCategory' => __DIR__ . '/../..' . '/app/Models/GalleryCategory.php',
         'App\\Models\\Kamyabjawan' => __DIR__ . '/../..' . '/app/Models/Kamyabjawan.php',
         'App\\Models\\LeadForm' => __DIR__ . '/../..' . '/app/Models/LeadForm.php',
         'App\\Models\\LeadFromTwo' => __DIR__ . '/../..' . '/app/Models/LeadFromTwo.php',
@@ -564,6 +566,7 @@ class ComposerStaticInitcf14086919a839fe740e00554e4baff6
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Models\\cfmarecorded' => __DIR__ . '/../..' . '/app/Models/cfmarecorded.php',
         'App\\Models\\funnelform' => __DIR__ . '/../..' . '/app/Models/funnelform.php',
+        'App\\Models\\galleryImage' => __DIR__ . '/../..' . '/app/Models/galleryImage.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',

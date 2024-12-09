@@ -339,7 +339,7 @@ $zohoData = [
         [
             "Email" => $req->email ?? "N/A",
             "Complete_Address" => $req->address ?? "N/A",
-            "Course" => 6442514000000585439 ?? 0000, // Assuming $req->cfma contains the course value
+            "Course" => (int)$req->duration ?? 0000, // Assuming $req->cfma contains the course value
             "Contact_No" => $req->cellnumber ?? "N/A",
             "City" => $req->city ?? "N/A",
             "Qualification" => $req->qualification ?? "N/A",
@@ -483,7 +483,7 @@ $zohoData = [
         [
             "Email" => $req->email ?? "N/A",
             "Complete_Address" => $req->address ?? "N/A",
-            "Course" => 6442514000000585439 ?? 0000, // Assuming $req->cfma contains the course value
+            "Course" => (int)$req->duration  ?? 0000, // Assuming $req->cfma contains the course value
             "Contact_No" => $req->cellnumber ?? "N/A",
             "City" => $req->city ?? "N/A",
             "Qualification" => $req->qualification ?? "N/A",
