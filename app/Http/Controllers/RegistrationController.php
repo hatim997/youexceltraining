@@ -38,7 +38,7 @@ class RegistrationController extends Controller
 //        dd($course);
         $course=str_replace("-"," ",$course);
         $course = ucwords($course);
-        return view("website.regester",['course'=>$course]);
+            return view("website.regester2",['course'=>$course]);
     }
 
 
@@ -142,124 +142,124 @@ class RegistrationController extends Controller
         return redirect('registration_form');
     }
     
-//     function addregistration(Request $req)
-//     {
+    function addregistrationtwo(Request $req)
+    {
         
-//         // dd($req->toArray());
+        // dd($req->toArray());
         
-//       //dd($req->all());
-//         $Register = new Registers;
-//         if ($req->file('file1')) {
-//             $file = $req->file('file1');
-//             // foreach ($request->file('images') as $index => $file) {
-//             $fileOriginalName = $file->getClientOriginalName();
-//             $extension = $file->getClientOriginalExtension();
-//             $fileName = md5(time()) . '.' . $extension;
-//             $file->move(public_path() . '/files/', $fileName);
-//             // }
-//             $Register->Image = $fileName;
-//         }
-//         $Register->email = $req->email;
-//         $Register->chooseprogramme = $req->cfma;
-//         $Register->name = $req->name;
-//         $Register->fathername = $req->fname;
-//         $Register->address = $req->address;
-//         $Register->city = $req->city;
-//         $Register->employeename = $req->empname;
-//         $Register->designation = $req->designation;
-//         $Register->cellnumber = $req->cellnumber;
-//         $Register->dateofbirth = $req->date;
-//         $Register->cnic = $req->cnic;
-//         $Register->qualification = $req->qualification;
+      //dd($req->all());
+        $Register = new Registers;
+        if ($req->file('file1')) {
+            $file = $req->file('file1');
+            // foreach ($request->file('images') as $index => $file) {
+            $fileOriginalName = $file->getClientOriginalName();
+            $extension = $file->getClientOriginalExtension();
+            $fileName = md5(time()) . '.' . $extension;
+            $file->move(public_path() . '/files/', $fileName);
+            // }
+            $Register->Image = $fileName;
+        }
+        $Register->email = $req->email;
+        $Register->chooseprogramme = $req->cfma;
+        $Register->name = $req->name;
+        $Register->fathername = $req->fname;
+        $Register->address = $req->address;
+        $Register->city = $req->city;
+        $Register->employeename = $req->empname;
+        $Register->designation = $req->designation;
+        $Register->cellnumber = $req->cellnumber;
+        $Register->dateofbirth = $req->date;
+        $Register->cnic = $req->cnic;
+        $Register->qualification = $req->qualification;
 
-//         $details = [
-//             'name' => $req->name,
-//             'phone' => $req->phone,
-//             'email' => $req->email,
-//             'coursesintrested' => $req->coursesintrested,
-//             'comments' => $req->comments
-//         ];
-
-
-//         // Mail::to($req)->send(new ContactMail($details));
-//         // Mail::to('nomanpeerzada9t9@gmail.com')->send(new ContactMail($details));
-//         $Register->save();
-
-//         $data = $req->all();
-//         $data = [
-//             "name" => $req->name,
-//             "cfma" => $req->cfma,
-//         ];
+        $details = [
+            'name' => $req->name,
+            'phone' => $req->phone,
+            'email' => $req->email,
+            'coursesintrested' => $req->coursesintrested,
+            'comments' => $req->comments
+        ];
 
 
-// // dd($req->all());
+        // Mail::to($req)->send(new ContactMail($details));
+        // Mail::to('nomanpeerzada9t9@gmail.com')->send(new ContactMail($details));
+        $Register->save();
 
-//         $to_name = $req->name;
-//         $to_email = $req->email;
-//         // $to_email_one = 'send@youexceltraining.com';
-//         // $to_email_two = 'youexceltraining@gmail.com';
-//         $to_email_three = 'youexcel.connect@gmail.com';
-//         // $to_email_four = 'muneera.amer@youexceltraining.com';
+        $data = $req->all();
+        $data = [
+            "name" => $req->name,
+            "cfma" => $req->cfma,
+        ];
 
-//         Mail::send("emails.ContactMail1", ["email_data" => $data], function ($message) use ($to_name, $to_email, $req) {
-//             $message->to($to_email, $to_name)->subject("YouExcel Training program Registration Confirmation");
-//             $message->from("send@youexceltraining.com", "YouExcel Training");
-//         });
 
-//         // Mail::send("emails.ContactMail1", ["email_data" => $data], function ($message) use ($to_name, $to_email_one, $req) {
-//         //     $message->to($to_email_one, $to_name)->subject("YouExcel Training program Registration Confirmation");
-//         //     $message->from("send@youexceltraining.com", "YouExcel Training");
-//         // });
+// dd($req->all());
 
-//         // Mail::send("emails.ContactMail1", ["email_data" => $data], function ($message) use ($to_name, $to_email_two, $req) {
-//         //     $message->to($to_email_two, $to_name)->subject("YouExcel Training program Registration Confirmation");
-//         //     $message->from("send@youexceltraining.com", "YouExcel Training");
-//         // });
+        $to_name = $req->name;
+        $to_email = $req->email;
+        // $to_email_one = 'send@youexceltraining.com';
+        // $to_email_two = 'youexceltraining@gmail.com';
+        $to_email_three = 'youexcel.connect@gmail.com';
+        // $to_email_four = 'muneera.amer@youexceltraining.com';
 
-//         Mail::send("emails.ContactMail1", ["email_data" => $data], function ($message) use ($to_name, $to_email_three, $req) {
-//             $message->to($to_email_three, $to_name)->subject("YouExcel Training program Registration Confirmation");
-//             $message->from("send@youexceltraining.com", "YouExcel Training");
-//         });
+        Mail::send("emails.ContactMail1", ["email_data" => $data], function ($message) use ($to_name, $to_email, $req) {
+            $message->to($to_email, $to_name)->subject("YouExcel Training program Registration Confirmation");
+            $message->from("send@youexceltraining.com", "YouExcel Training");
+        });
 
-//         // Mail::send("emails.ContactMail1", ["email_data" => $data], function ($message) use ($to_name, $to_email_four, $req) {
-//         //     $message->to($to_email_four, $to_name)->subject("YouExcel Training program Registration Confirmation");
-//         //     $message->from("send@youexceltraining.com", "YouExcel Training");
-//         // });
+        // Mail::send("emails.ContactMail1", ["email_data" => $data], function ($message) use ($to_name, $to_email_one, $req) {
+        //     $message->to($to_email_one, $to_name)->subject("YouExcel Training program Registration Confirmation");
+        //     $message->from("send@youexceltraining.com", "YouExcel Training");
+        // });
+
+        // Mail::send("emails.ContactMail1", ["email_data" => $data], function ($message) use ($to_name, $to_email_two, $req) {
+        //     $message->to($to_email_two, $to_name)->subject("YouExcel Training program Registration Confirmation");
+        //     $message->from("send@youexceltraining.com", "YouExcel Training");
+        // });
+
+        Mail::send("emails.ContactMail1", ["email_data" => $data], function ($message) use ($to_name, $to_email_three, $req) {
+            $message->to($to_email_three, $to_name)->subject("YouExcel Training program Registration Confirmation");
+            $message->from("send@youexceltraining.com", "YouExcel Training");
+        });
+
+        // Mail::send("emails.ContactMail1", ["email_data" => $data], function ($message) use ($to_name, $to_email_four, $req) {
+        //     $message->to($to_email_four, $to_name)->subject("YouExcel Training program Registration Confirmation");
+        //     $message->from("send@youexceltraining.com", "YouExcel Training");
+        // });
 
 
         
 
 
-//         if ($req->payment_method == "pay_now") {
+        if ($req->payment_method == "pay_now") {
           
-//          $course_fee=[
-//             "Advanced MS Excel"=>15000,
-//             "Basic to Intermediate Python Programming"=>18500,
-//             "Certificate in Information Technology"=>12400,
-//               "Certificate in Information Technology (CIT)"=>12400,
-//             "Certificate in Office Management Course"=>12000,
-//             "Computerized Accounting"=>15000,
-//             "Customer Services Specialist"=>28000,
-//             "Dashboard Reporting with Power BI"=>28000,
-//             "Advanced Dashboard Reporting with Power BI ( 1 month)"=>28000,
-//             "Data Analytics with Tableau"=>16000,
-//             "Data Science with BI Reporting"=>28000,
-//             "Excel Skills for Business Forecasting"=>11700,
-//             "Excelling in Linkedln profile and Job Interviews"=>1500,
-//             "Financial Modeling and Analysis"=>15000,
-//             "Tax Management with Return Filing"=>16000,
-//             "Financial Modeling and Analysis Advanced"=>16000,
-//             "Financial Modeling and Analysis Fundamental"=>16000,
-//         ];
+         $course_fee=[
+            "Advanced MS Excel"=>15000,
+            "Basic to Intermediate Python Programming"=>18500,
+            "Certificate in Information Technology"=>12400,
+              "Certificate in Information Technology (CIT)"=>12400,
+            "Certificate in Office Management Course"=>12000,
+            "Computerized Accounting"=>15000,
+            "Customer Services Specialist"=>28000,
+            "Dashboard Reporting with Power BI"=>28000,
+            "Advanced Dashboard Reporting with Power BI ( 1 month)"=>28000,
+            "Data Analytics with Tableau"=>16000,
+            "Data Science with BI Reporting"=>28000,
+            "Excel Skills for Business Forecasting"=>11700,
+            "Excelling in Linkedln profile and Job Interviews"=>1500,
+            "Financial Modeling and Analysis"=>15000,
+            "Tax Management with Return Filing"=>16000,
+            "Financial Modeling and Analysis Advanced"=>16000,
+            "Financial Modeling and Analysis Fundamental"=>16000,
+        ];
 
-//         $fee= $course_fee[$req->cfma];
-//             return view("website.gopayfast", ['fee' => $fee, "course" => $req->cfma,'phone'=>$req->phone,
-//                 'email'=>$req->email,"reg_id"=>$Register->id]);
-//         }
+        $fee= $course_fee[$req->cfma];
+            return view("website.gopayfast", ['fee' => $fee, "course" => $req->cfma,'phone'=>$req->phone,
+                'email'=>$req->email,"reg_id"=>$Register->id]);
+        }
 
-//         Session::flash('appoinmentbooked', 'Appoinment has been Successfully !!');
-//         return redirect('registration_form');
-//     }
+        Session::flash('appoinmentbooked', 'Appoinment has been Successfully !!');
+        return redirect('registration_form');
+    }
 
 private function fetchZohoAccessToken()
 {

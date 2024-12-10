@@ -537,6 +537,7 @@ Route::delete('/delete-entries/{title}', [CalendarController::class, 'deleteAllB
 
     // website Registration routes
     Route::post('/Registration-Form', [RegistrationController::class, 'addregistration'])->name('Registration-Form');
+    Route::post('/Registration-Form-two', [RegistrationController::class, 'addregistrationtwo'])->name('Registration-Form-two');
     // website Registration routes
 
     // website CFMA_RECORDED routes
