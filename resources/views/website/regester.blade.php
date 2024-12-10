@@ -42,6 +42,7 @@
                                         <h5>Please choose Programme: <span style="color: red;">*</span></h5>
                                         <div class="row">
                                             <div class="col-lg-12">
+                                                {{-- {{ dd($courses) }} --}}
                                                 @if (isset($course))
 
                                                     <div class="form-group">

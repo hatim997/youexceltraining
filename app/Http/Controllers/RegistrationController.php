@@ -302,6 +302,10 @@ private function fetchZohoAccessToken()
    
     // dd($req->toArray());
     // Send Data to Zoho CRM
+    // dd($req->cfma);
+    $courses=Courses::where('duration', $req->cfma)->first();
+    // dd($courses->coursename);
+
     $accessToken = $this->fetchZohoAccessToken();
     
     if(!$req->file2) {
@@ -318,7 +322,7 @@ private function fetchZohoAccessToken()
   
 
     $Register->email = $req->email;
-    $Register->chooseprogramme = $req->cfma;
+    $Register->chooseprogramme = $courses->coursename;
     $Register->name = $req->name;
     $Register->fathername = $req->fname;
     $Register->address = $req->address;
@@ -339,7 +343,7 @@ $zohoData = [
         [
             "Email" => $req->email ?? "N/A",
             "Complete_Address" => $req->address ?? "N/A",
-            "Course" => (int)$req->duration ?? 0000, // Assuming $req->cfma contains the course value
+            "Course" => $req->cfma ?? 0000, // Assuming $req->cfma contains the course value
             "Contact_No" => $req->cellnumber ?? "N/A",
             "City" => $req->city ?? "N/A",
             "Qualification" => $req->qualification ?? "N/A",
@@ -360,6 +364,8 @@ $zohoData = [
         ]
     ]
 ];
+
+// dd($zohoData);
 
     
     // dd($accessToken);
@@ -404,7 +410,7 @@ $zohoData = [
   
 
     $Register->email = $req->email;
-    $Register->chooseprogramme = $req->cfma;
+    $Register->chooseprogramme = $courses->coursename;
     $Register->name = $req->name;
     $Register->fathername = $req->fname;
     $Register->address = $req->address;
@@ -483,7 +489,7 @@ $zohoData = [
         [
             "Email" => $req->email ?? "N/A",
             "Complete_Address" => $req->address ?? "N/A",
-            "Course" => (int)$req->duration  ?? 0000, // Assuming $req->cfma contains the course value
+            "Course" => $req->cfma  ?? 0000, // Assuming $req->cfma contains the course value
             "Contact_No" => $req->cellnumber ?? "N/A",
             "City" => $req->city ?? "N/A",
             "Qualification" => $req->qualification ?? "N/A",
