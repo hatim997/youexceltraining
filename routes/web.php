@@ -463,6 +463,7 @@ Route::middleware(['auth'])->group(function () {
     // adminpanel Registration routes
         Route::get('/view-registered', [RegistrationController::class, 'showtable']);
         Route::get('/view-registered/{id}', [RegistrationController::class, 'delete']);
+        Route::post('/items/multi-delete', [RegistrationController::class, 'web.php'])->name('items.multiDelete');
     // adminpanel Registration routes
 
     // adminpanel CFMA RECORDED routes

@@ -616,4 +616,14 @@ $zohoData = [
         $data->delete();
         return redirect('view-registered');
     }
+
+    public function multiDelete(Request $request)
+    {
+        // dd($request->all());
+        // Delete the selected items
+        Registers::destroy($request->items);
+
+        // Redirect back with a success message
+        return redirect()->back()->with('success', 'Selected items deleted successfully.');
+    }
 }

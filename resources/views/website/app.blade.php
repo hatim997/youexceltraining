@@ -384,6 +384,7 @@ max-width:80%;
 </head>
 
 <body class="page-width">
+    <script type="text/javascript" src="https://crm.zoho.com/crm/javascript/zcga.js"> </script>
 @include('website.loader')
 @include('website.Header')
 @yield('content')

@@ -137,9 +137,8 @@ Start a conversation with one of our Training Solutions Experts to see if YouExc
                                 <div class="row pl-4">
                                     <div class="col-12 text-center">
                                         <br/>
-                                        <button
-                                          
-                                            type="submit" class="vs-btn py-3">Submit</button>
+                                        <input type="hidden" id="zc_gad" name="zc_gad" value=""/>
+                                        <button type="submit" class="vs-btn py-3">Submit</button>
                                     </div>
                                 </div>
                             </form>
