@@ -92,7 +92,7 @@
                                     <td>{{ $Course->id }}</td>
                                     <td>{{ $Course->category->cat_name ?? 'N/A' }}</td> <!-- Display the category name -->
                                     <td>
-                                        <img src="../storage/app/public/{{ $Course->image }}" alt="Course Image" style="width: 100px; height: auto;" />
+                                        <img src="{{ asset('gallery_images/' . $Course->image) }}" alt="Course Image" style="width: 100px; height: auto;" />
                                     </td>
                                     <td>
                                         <a class="btn btn-danger" href="{{ route('delete_gallery_img', $Course->id) }}">

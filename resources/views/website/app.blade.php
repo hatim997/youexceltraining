@@ -1067,6 +1067,25 @@ function closeModal(modalId, overlayId) {
     </script>
 @endif
 
+@if(Session::has('tna2025'))
+    <script>
+        // Create a custom SweetAlert content with message and a button
+        const el = document.createElement('div');
+        el.innerHTML = `
+            <p>{{ Session::get('tna2025') }}</p> <!-- Success message -->
+            <a href="{{ Session::get('course') }}" class="btn btn-primary" style="margin-top: 10px; text-decoration: none; padding: 10px 15px; color: white; background-color: #007bff; border-radius: 5px;">Go to Courses</a>
+        `;
+
+        // Show SweetAlert
+        swal({
+            title: "Thank You!",
+            content: el,
+            icon: "success",
+            button: false, // Disable default button
+        });
+    </script>
+@endif
+
 
 <!-- checkbox enable disable Start -->
 <script>

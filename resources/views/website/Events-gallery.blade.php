@@ -290,9 +290,15 @@
 								<ul id="tp-grid-{{ $year }}" class="tp-grid">
 									@foreach ($items as $item)
 									
-										<li data-pile="{{ $item->category->cat_name }}" class="grid_3">
+										{{-- <li data-pile="{{ $item->category->cat_name }}" class="grid_3">
 											<a href="../storage/app/public/{{ $item->image }}" data-gal="photo[{{ $item->category->cat_name }}]">
 												<img src="../storage/app/public/{{ $item->image }}" alt="#{{ $item->id }}" width="500px" style="height: 500px" />
+											</a>
+										</li> --}}
+
+										<li data-pile="{{ $item->category->cat_name }}" class="grid_3">
+											<a href="{{ asset('gallery_images/' . $item->image) }}" data-gal="photo[{{ $item->category->cat_name }}]">
+												<img src="{{ asset('gallery_images/' . $item->image) }}" alt="#{{ $item->id }}" width="500px" style="height: 500px" />
 											</a>
 										</li>
 									

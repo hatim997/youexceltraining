@@ -31,7 +31,10 @@ class LeadFormController extends Controller
         $leadform->remark = $req->remark;
 
         $leadform->save();
-        return redirect('/courses');
+
+        Session::flash('tna2025', 'Your Assessment Form Has Been Submitted Successfully !!');
+        Session::flash('course', url('/courses'));
+        return redirect()->back();
     }
     
     function addregistration(Request $req)

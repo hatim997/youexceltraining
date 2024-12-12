@@ -72,18 +72,21 @@ class GalleryController extends Controller
         return view('adminpanel.gallery_img', compact('data', 'galleryCat'));
     }
 
-    function storegalleryImg(Request $request)
+    public function storegalleryImg(Request $request)
     {
-        // dd($request->all());
+        // Ensure at least one file is uploaded
+        if ($request->hasFile('image')) {
+            foreach ($request->file('image') as $file) {
+                $imageName = time() . '_' . $file->getClientOriginalName();
 
-        foreach ($request->file('image') as $file) {
-            $path = $file->store('gallery_images', 'public');
+                $file->move(public_path('gallery_images'), $imageName);
 
-            GalleryImage::create([
-                'gallery_cat_id' => $request->gallery_cat_id,
-                'image' => $path,
-                'type' => $file->getClientOriginalExtension(),
-            ]);
+                GalleryImage::create([
+                    'gallery_cat_id' => $request->gallery_cat_id,
+                    'image' => $imageName,
+                    'type' => $file->getClientOriginalExtension(),
+                ]);
+            }
         }
 
         return redirect()->back();
