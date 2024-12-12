@@ -463,7 +463,7 @@ Route::middleware(['auth'])->group(function () {
     // adminpanel Registration routes
         Route::get('/view-registered', [RegistrationController::class, 'showtable']);
         Route::get('/view-registered/{id}', [RegistrationController::class, 'delete']);
-        Route::post('/items/multi-delete', [RegistrationController::class, 'web.php'])->name('items.multiDelete');
+        Route::post('/items/multi-delete', [RegistrationController::class, 'multiDelete'])->name('items.multiDelete');
     // adminpanel Registration routes
 
     // adminpanel CFMA RECORDED routes
@@ -498,6 +498,9 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/view-navttcform', [LeadFormController::class, 'showtables']);
        Route::get('/view-Leadform/{id}', [LeadFormController::class, 'delete']);
        Route::get('/view-navttc-form-data', [LeadFormController::class, 'showtableNavttcData']);
+       
+       Route::post('/lead/multi-delete', [LeadFormController::class, 'leadmultiDelete'])->name('lead.multiDelete');
+
        Route::get('/kt', [countController::class, 'countrecord']);
        Route::get('/kt', [countController::class, 'dashboard']);
     // adminpanel LeadForm routes

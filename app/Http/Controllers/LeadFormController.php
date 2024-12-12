@@ -328,4 +328,14 @@ if (array_key_exists($coursesInterested, $grp)) {
         return redirect('view-Leadform');
     }
 
+    public function leadmultiDelete(Request $request)
+    {
+        // dd($request->all());
+        // Delete the selected items
+        LeadForm::destroy($request->items);
+
+        // Redirect back with a success message
+        return redirect()->back()->with('success', 'Selected items deleted successfully.');
+    }
+
 }
