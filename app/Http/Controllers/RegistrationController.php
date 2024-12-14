@@ -304,7 +304,7 @@ private function fetchZohoAccessToken()
     // Send Data to Zoho CRM
     // dd($req->cfma);
     $courses = Courses::where('duration', $req->cfma)->first();
-    // dd($courses->coursename);
+    // dd($courses->duration);
 
     $accessToken = $this->fetchZohoAccessToken();
     
@@ -343,7 +343,7 @@ $zohoData = [
         [
             "Email" => $req->email ?? "N/A",
             "Complete_Address" => $req->address ?? "N/A",
-            "Course" => $req->cfma ?? 0000, // Assuming $req->cfma contains the course value
+            "Course" => $courses->duration ?? 0000, // Assuming $req->cfma contains the course value
             "Contact_No" => $req->cellnumber ?? "N/A",
             "City" => $req->city ?? "N/A",
             "Qualification" => $req->qualification ?? "N/A",
@@ -489,7 +489,7 @@ $zohoData = [
         [
             "Email" => $req->email ?? "N/A",
             "Complete_Address" => $req->address ?? "N/A",
-            "Course" => $req->cfma  ?? 0000, // Assuming $req->cfma contains the course value
+            "Course" => $courses->duration  ?? 0000, // Assuming $req->cfma contains the course value
             "Contact_No" => $req->cellnumber ?? "N/A",
             "City" => $req->city ?? "N/A",
             "Qualification" => $req->qualification ?? "N/A",
