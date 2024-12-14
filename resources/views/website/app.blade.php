@@ -64,8 +64,7 @@
      <link rel="stylesheet" href="{{asset('css/style.css')}}">
      <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
-  />
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"/>
     
     
     <!-- Meta Pixel Code --> <script> !function(f,b,e,v,n,t,s) 
@@ -381,6 +380,14 @@ max-width:80%;
     </style>
     <!-- links live  -->
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RWYF7CZYLY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RWYF7CZYLY');
+</script>
 </head>
 
 <body class="page-width">

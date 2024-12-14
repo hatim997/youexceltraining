@@ -303,7 +303,7 @@ private function fetchZohoAccessToken()
     // dd($req->toArray());
     // Send Data to Zoho CRM
     // dd($req->cfma);
-    $courses=Courses::where('duration', $req->cfma)->first();
+    $courses = Courses::where('duration', $req->cfma)->first();
     // dd($courses->coursename);
 
     $accessToken = $this->fetchZohoAccessToken();
