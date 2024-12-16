@@ -1,5 +1,8 @@
-@extends('website.app', ['title' => 'About Us'])
+@extends('website.app')
 
+@section('title', 'Cyber Security Master | Big Data Analytics Course in Karachi')
+@section('meta_description', 'Master Cyber Security, Big Data Analytics, and Data Science in Karachi. Learn Data Analytics with SQL and advance your career with expert-led courses')
+@section('meta_keywords', 'Cyber Security Master, Big Data Analytics Course in Karachi, data science and analytics, Data Analytics with SQL')
 
 
 @push('style')

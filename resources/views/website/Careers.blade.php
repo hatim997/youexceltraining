@@ -1,4 +1,9 @@
-@extends('website.app', ['title'=>'Careers'])
+@extends('website.app')
+
+@section('title', 'Career Training Programs Karachi | Microsoft Course training')
+@section('meta_description', 'Boost your career with top career training programs in Karachi. Enroll in Microsoft course training and management course training for professional growth')
+@section('meta_keywords', 'career training programs Karachi, microsoft course training, management course training')
+
 
 @section('content')
 <div class="breadcumb-wrapper " data-bg-src="">

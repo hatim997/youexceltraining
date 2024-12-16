@@ -1,5 +1,12 @@
 <!--================ Start Header Menu Area =================-->
-@extends('website.app', ['title' => 'Training Calender'])
+@extends('website.app')
+
+
+@section('title', 'Data Science Course Karachi | Computerized Accounting')
+@section('meta_description', 'Enroll in our Data Science Course Karachi and Computerized Accounting Course Karachi. Gain in-demand skills to excel in data analysis and financial management')
+@section('meta_keywords', 'Data Science Course Karachi, computerized accounting course karachi')
+
+
 <!--================ End Header Menu Area =================-->
 
 <!--================ Start Home Banner Area =================-->

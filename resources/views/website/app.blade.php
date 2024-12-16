@@ -9,7 +9,14 @@
     <link rel="icon" href="{{asset('img/Yourexcel-img/favicon.png')}}">
    
 
-   <title>{{ $title ?? '' }} | Youexcel Training </title>
+    <!-- Title -->
+    <title>@yield('title', 'Advanced Excel For Data Analysis Course in Karachi')</title>
+    <!-- Meta Description -->
+    <meta name="description" content="@yield('meta_description', 'Join our Advanced Excel Course in Karachi to master Excel for data analysis, financial modeling, and Excel financial modeling. Boost your skills today')">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="@yield('meta_keywords', 'advanced excel course in karachi, excel for data analysis, financial modeling in excel, excel financial modeling')">
+
+   {{-- <title>{{ $title ?? '' }} | Youexcel Training </title> --}}
     <!-- slider our clients  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
