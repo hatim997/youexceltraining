@@ -81,7 +81,7 @@ class LeadFormController extends Controller
         $courses = Courses::where('duration', $req->coursesintrested)->first();
 
         $accessToken = $this->fetchZohoAccessToken();
-        // dd($courses->coursename, $accessToken);
+        // dd($accessToken, $courses->coursename);
         $leadform = new LeadForm;
 
         $leadform->whatsapp = $req->whatsapp;
@@ -89,7 +89,7 @@ class LeadFormController extends Controller
         $leadform->Phone = $req->phone;
         $leadform->Email = $req->email;
         $leadform->city = $req->city;
-        $leadform->CoursesIntrested = $courses->coursename;
+        $leadform->CoursesIntrested = $courses->coursename ?? "N/A";
         $leadform->Comments = $req->comments;
         $leadform->save();
 
@@ -102,7 +102,7 @@ class LeadFormController extends Controller
                     "Contact_No" => $req->phone ?? "N/A", // done
                     "City" => $req->city ?? "N/A", // done
                     "First_Name" => $req->name ?? "N/A", // done
-                    
+                    "Last_Name" => "N/A",
                     "WhatsApp_Number" => $req->whatsapp ?? "N/A", // done
                     "Comments" => $req->comments ?? "N/A", // done
                     "Lead_Source" => "Enquiry Form", // Default value
@@ -120,11 +120,15 @@ class LeadFormController extends Controller
                     $zohoResponse = Http::withHeaders([
                         "Authorization" => "Bearer $accessToken",
                         "Content-Type" => "application/json"
-                    ])->post("https://www.zohoapis.com/crm/v7/Leads", $zohoData);
+                    ])->post("https://www.zohoapis.com/crm/v7/Leads",$zohoData);
         
+                 
                     if (!$zohoResponse->successful()) {
+                        // dd($zohoResponse->body());
                         \Log::error('Zoho API Error: ' . $zohoResponse->body());
                     }
+                
+                
                 } catch (\Exception $e) {
                     \Log::error('Zoho API Exception: ' . $e->getMessage());
                 }
