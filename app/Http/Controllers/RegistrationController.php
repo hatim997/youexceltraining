@@ -318,9 +318,6 @@ private function fetchZohoAccessToken()
         $file->move(public_path() . '/files/', $fileName);
         $Register->Image = $fileName;
     }
-    
-  
-
     $Register->email = $req->email;
     $Register->chooseprogramme = $courses->coursename;
     $Register->name = $req->name;
@@ -334,16 +331,13 @@ private function fetchZohoAccessToken()
     $Register->cnic = $req->cnic;
     $Register->qualification = $req->qualification;
     $Register->save();
-
-
-        
     // Data for Zoho API
 $zohoData = [
     "data" => [
         [
             "Email" => $req->email ?? "N/A",
             "Complete_Address" => $req->address ?? "N/A",
-            "Course" => $courses->duration ?? 0000, // Assuming $req->cfma contains the course value
+            "Course" => $req->cfma ?? 0000, // Assuming $req->cfma contains the course value
             "Contact_No" => $req->cellnumber ?? "N/A",
             "City" => $req->city ?? "N/A",
             "Qualification" => $req->qualification ?? "N/A",
@@ -365,7 +359,7 @@ $zohoData = [
     ]
 ];
 
-// dd($zohoData);
+// dd($accessToken, $zohoData );
 
     
     // dd($accessToken);
