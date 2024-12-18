@@ -11,6 +11,8 @@ use Mail;
 use Session;
 use Auth;
 use App\Http\Controllers\HomeController;
+use App\Models\Courses;
+use Illuminate\Support\Facades\Http;
 
 class LeadFormController extends Controller
 {
@@ -37,8 +39,49 @@ class LeadFormController extends Controller
         return redirect()->back();
     }
     
+
+    private function fetchZohoAccessToken()
+    {
+        $url = 'https://accounts.zoho.com/oauth/v2/token';
+
+        $params = [
+            'refresh_token' => '1000.ff08f6ec0e5ff50f8f21aba0a76bbd24.6b1c6e930d5926bef222c00b73281ec9',
+            'client_id' => '1000.L2BP3SY8HGFW5Y55YSSGQZREXQCEZG',
+            'client_secret' => 'd6e712a73fe0ba890234e948b086653e65d03dea51',
+            'grant_type' => 'refresh_token',
+        ];
+
+        try {
+            // Make the HTTP POST request to Zoho's token endpoint
+            $response = Http::asForm()->post($url, $params);
+
+            // Check if the response is successful
+            if ($response->successful()) {
+                $data = $response->json();
+                return $data['access_token']; // Return the access token
+            }
+
+            // Handle non-successful responses
+            return [
+                'error' => true,
+                'message' => $response->body(),
+                'status' => $response->status(),
+            ];
+        } catch (\Exception $e) {
+            // Catch and return any exceptions that occur
+            return [
+                'error' => true,
+                'message' => $e->getMessage(),
+            ];
+        }
+    }
     function addregistration(Request $req)
     {
+
+        $courses = Courses::where('duration', $req->coursesintrested)->first();
+
+        $accessToken = $this->fetchZohoAccessToken();
+        // dd($courses->coursename, $accessToken);
         $leadform = new LeadForm;
 
         $leadform->whatsapp = $req->whatsapp;
@@ -46,9 +89,52 @@ class LeadFormController extends Controller
         $leadform->Phone = $req->phone;
         $leadform->Email = $req->email;
         $leadform->city = $req->city;
-        $leadform->CoursesIntrested = $req->coursesintrested;
+        $leadform->CoursesIntrested = $courses->coursename;
         $leadform->Comments = $req->comments;
+        $leadform->save();
 
+        $zohoData = [
+            "data" => [
+                [
+                    "Email" => $req->email ?? "N/A", // done
+                    "Complete_Address" => $req->address ?? "N/A",
+                    "Course" => $req->coursesintrested ?? 0000, // Assuming $req->cfma contains the course value
+                    "Contact_No" => $req->phone ?? "N/A", // done
+                    "City" => $req->city ?? "N/A", // done
+                    "First_Name" => $req->name ?? "N/A", // done
+                    
+                    "WhatsApp_Number" => $req->whatsapp ?? "N/A", // done
+                    "Comments" => $req->comments ?? "N/A", // done
+                    "Lead_Source" => "Enquiry Form", // Default value
+                
+                ]
+            ]
+        ];
+        
+        // dd($accessToken, $zohoData );
+        
+            
+            // dd($accessToken);
+            if (!is_array($accessToken)) {
+                try {
+                    $zohoResponse = Http::withHeaders([
+                        "Authorization" => "Bearer $accessToken",
+                        "Content-Type" => "application/json"
+                    ])->post("https://www.zohoapis.com/crm/v7/Leads", $zohoData);
+        
+                    if (!$zohoResponse->successful()) {
+                        \Log::error('Zoho API Error: ' . $zohoResponse->body());
+                    }
+                } catch (\Exception $e) {
+                    \Log::error('Zoho API Exception: ' . $e->getMessage());
+                }
+            } else {
+                \Log::error('Zoho Access Token Error: ' . json_encode($accessToken));
+            }
+
+
+
+        
         $details = [
             'name' => $req->name,
             'phone' => $req->phone,
@@ -57,7 +143,6 @@ class LeadFormController extends Controller
             'comments' => $req->comments
         ];
 
-        $leadform->save();
 
         $datamail = $req->all();
         $datamail = [

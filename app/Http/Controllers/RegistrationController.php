@@ -464,19 +464,6 @@ $zohoData = [
 } else {
     Session::flash('error', 'No file uploaded.');
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
     // Data for Zoho API
 $zohoData = [
     "data" => [

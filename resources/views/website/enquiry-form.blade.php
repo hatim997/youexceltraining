@@ -78,7 +78,7 @@ Start a conversation with one of our Training Solutions Experts to see if YouExc
                                                     placeholder="Choose from dropdown list">
                                                 <!-- <option value="Choose from dropdown list" selected readonly>Choose from dropdown list</option> -->
                                                 @foreach($courses as $cour)
-                                                    <option value="{{$cour->coursename}}">{{$cour->coursename}}</option>
+                                                    <option value="{{ $cour->duration }}">{{$cour->coursename}}</option>
                                                 @endforeach
                                                 <option value="Other">Other</option>
                                             </select>
