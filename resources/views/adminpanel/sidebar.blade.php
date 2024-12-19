@@ -58,6 +58,15 @@
                 </li>
 
                 <li class="nav-item">
+                    <a href="{{ route('program.name') }}" class="nav-link">
+                        <i class="nav-icon fas fa-book"></i>
+                        <p>
+                            Add Program Name
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
                     <a href="add-calendar" class="nav-link">
                         <i class="nav-icon fas fa-book"></i>
                         <p>
@@ -99,6 +108,16 @@
                         </p>
                     </a>
                 </li>
+
+                <li class="nav-item">
+                    <a href="{{ route('corporate.leadform') }}" class="nav-link">
+                        <i class="nav-icon fas fa-book"></i>
+                        <p>
+                            Corporate Lead Data
+                        </p>
+                    </a>
+                </li>
+
                      <li class="nav-item">
                     <a href="add-brochure" class="nav-link">
                         <i class="nav-icon fas fa-book"></i>

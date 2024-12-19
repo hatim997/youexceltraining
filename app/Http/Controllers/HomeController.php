@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Courses;
+use App\Models\Program;
 use App\Models\Application;
 use App\Models\SupportForm;
 use Session;
@@ -149,8 +150,14 @@ function addsupportform(Request $req)
 
     public function enquiry_form()
     {
-        $courses=Courses::orderBy("coursename","asc")->get();
+        $courses=Courses::orderBy("course","asc")->get();
         return view('website.enquiry-form',['courses'=>$courses]);
+    }
+
+    public function enquiry_corporate()
+    {
+        $program = Program::orderBy("program_name","asc")->get();
+        return view('website.enquiry-Coporate',compact('program'));
     }
 
     public function enquiry_form_custom()

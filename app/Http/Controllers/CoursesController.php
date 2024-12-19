@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Courses;
+use App\Models\LeadCorporate;
+use App\Models\Program;
 use Auth;
 use Illuminate\Support\Str;
 
@@ -41,6 +43,37 @@ class CoursesController extends Controller
         $Course->save();
         return redirect('add-course');
     }
+
+    public function CorporateLead() 
+    {
+        $data = LeadCorporate::orderBy('id', 'DESC')->get();
+
+        return view('adminpanel.corporate_leadform', compact('data'));
+    }
+
+    public function Programshow()  
+    {
+        $programs = Program::orderBy("program_name","asc")->get();
+        return view('adminpanel.program_name', compact('programs'));
+    }
+
+    public function ProgramStore(Request $req)  
+    {
+        // dd($req->all());
+        Program::create([
+            'program_name' => $req->program_name,
+        ]);
+
+        return redirect()->back();
+        
+    }
+
+    function DeleteProgram($id)
+    {
+        $data= Program::find($id);
+        $data->delete();
+        return redirect()->back();
+    }
     function show()
     {
         $data= Courses::orderBy("coursename","asc")->get();
@@ -59,6 +92,23 @@ class CoursesController extends Controller
         $Course= Courses::find($id);
         return view('adminpanel.edit', compact('Course'));
     }
+
+    public function EditProgram($id)  
+    {
+        $program = Program::where('id', $id)->first();
+
+        return view('adminpanel.edit_program', compact('program'));
+    }
+
+    
+    public function UpdateProgram(Request $req, $id)  
+    {
+        Program::findOrFail($id)->update([
+            'program_name' => $req->program_name
+        ]);
+        return redirect()->route('program.name');
+    }
+
     function editCourses(Request $req, $id)
     {
         $Course= Courses::find($id);

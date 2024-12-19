@@ -532,6 +532,9 @@ Footer Area
 <li>
 <p class="footer-info"><i class="fa-light fa-envelope"></i><a class="text-inherit" href="{{ url('/contact') }}"> Contact Us</a></p>
 </li>
+<li>
+<p class="footer-info"><i class="fa-light fa-envelope"></i><a class="text-inherit" href="{{ url('/contact') }}"> Contact Us</a></p>
+</li>
 <br><br>
 <li>
 <p class="footer-info"><i class="fa-map-marker-alt"></i>
@@ -1067,6 +1070,18 @@ function closeModal(modalId, overlayId) {
 @if(Session::has('paymentproof'))
     <script>
         swal("Oops", "Your form not submitted.\n Please Upload Your Proof of Payment File.", "error");
+    </script>
+@endif
+
+@if(Session::has('leadcorporate_success'))
+    <script>
+        swal("Success", "{{ Session::get('leadcorporate_success') }}", "success");
+    </script>
+@endif
+
+@if(Session::has('leadcorporate_error'))
+    <script>
+        swal("Oops", "{{ Session::get('leadcorporate_error') }}", "error");
     </script>
 @endif
 

@@ -13,6 +13,7 @@ use Auth;
 use App\Http\Controllers\HomeController;
 use App\Models\Courses;
 use Illuminate\Support\Facades\Http;
+use App\Models\LeadCorporate;
 
 class LeadFormController extends Controller
 {
@@ -36,6 +37,36 @@ class LeadFormController extends Controller
 
         Session::flash('tna2025', 'Your Assessment Form Has Been Submitted Successfully !!');
         Session::flash('course', url('/courses'));
+        return redirect()->back();
+    }
+
+    public function LeadCorporate(Request $req)
+    {
+        // dd($req->all());
+        try {
+            // Insert data into the database
+            LeadCorporate::create([
+                'training_program_name' => $req->training_program_name,
+                'organization_name' => $req->organization_name,
+                'approx_nominations' => $req->approx_nominations,
+                'focal_contact_name' => $req->focal_contact_name,
+                'focal_contact_number' => $req->focal_contact_number,
+                'focal_contact_email' => $req->focal_contact_email,
+                'remarks' => $req->remarks,
+            ]);
+    
+            // Flash a success message to the session
+            Session::flash('leadcorporate_success', 'Your Lead Corporate Form has been submitted successfully!');
+    
+        } catch (\Exception $e) {
+            // Log the exception (optional)
+            \Log::error('Error submitting Lead Corporate Form: ' . $e->getMessage());
+    
+            // Flash an error message to the session
+            Session::flash('leadcorporate_error', 'Oops, something went wrong. Please try again later.');
+        }
+    
+        // Redirect back to the form
         return redirect()->back();
     }
     
@@ -75,6 +106,9 @@ class LeadFormController extends Controller
             ];
         }
     }
+
+
+
     function addregistration(Request $req)
     {
 

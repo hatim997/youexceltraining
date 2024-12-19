@@ -126,6 +126,9 @@ Route::get('/add-course', function () {
 });
 
 
+
+Route::get('/program-name',[\App\Http\Controllers\CoursesController::class,'programshow'])->name('program.name');
+
 Route::get('/training-calender', function () {
   
     return view('website.trainingcalender');
@@ -142,6 +145,16 @@ Route::get('/view-registered', function () {
 Route::get('/view-Leadform', function () {
     return view('adminpanel.view-Leadform');
 });
+
+// Route::get('/corporate-leadform', function () {
+//     return view('adminpanel.corporate_leadform');
+// })->name('corporate.leadform');
+
+// Route::get('/corporate-leadform', function () {
+//     return view('adminpanel.corporate_leadform');
+// })->name('corporate.leadform');
+Route::get('/corporate-leadform', [CoursesController::class, 'CorporateLead'])->name('corporate.leadform');
+
 Route::get('/view-navttcform', function () {
     return view('adminpanel.view-navttcdfrom');
 });
@@ -196,6 +209,7 @@ Route::get('/view-free-reg-form-data', [\App\Http\Controllers\ApplicationformCon
 Route::get('/Feedback-Form',[\App\Http\Controllers\HomeController::class,'feedback_form'])->name('feedback');
 
 Route::get('/enquiry-form',[\App\Http\Controllers\HomeController::class,'enquiry_form']);
+Route::get('/enquiry-corporate',[\App\Http\Controllers\HomeController::class,'enquiry_corporate'])->name('enquiry.corporate');
 Route::get('/focenquiryform',[\App\Http\Controllers\HomeController::class,'enquiry_form_custom']);
 Route::get('/enquiryformBBSHRRDB',[\App\Http\Controllers\HomeController::class,'enquiry_form_BBSHRRDB']);
 
@@ -449,10 +463,18 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/course', [CoursesController::class, 'index']);
     Route::post('/course-store', [CoursesController::class, 'addcourses'])->name('course.store');
+    Route::post('/program-store', [CoursesController::class, 'ProgramStore'])->name('program.store');
     Route::post('/edit/{id}', [CoursesController::class, 'editCourses']);
     Route::get('/add-course', [CoursesController::class, 'show']);
     Route::get('/delete-course/{id}', [CoursesController::class, 'delete']);
     Route::get('/edit/{id}', [CoursesController::class, 'editShowdata']);
+
+    // program route
+    Route::get('/delete-program/{id}', [CoursesController::class, 'DeleteProgram'])->name('delete.program');
+    Route::get('/edit-program/{id}', [CoursesController::class, 'EditProgram'])->name('edit.program');
+    Route::post('/update-program/{id}', [CoursesController::class, 'UpdateProgram'])->name('update.program');
+
+
 
     Route::post('/adminpaneltrainerform', [TrainerController::class, 'addtrainer']);
     Route::post('/edit-trainer/{id}', [TrainerController::class, 'editTrainers']);
@@ -565,6 +587,7 @@ Route::delete('/delete-entries/{title}', [CalendarController::class, 'deleteAllB
     // website Feedback routes
 
     // website LeadForm routes
+    Route::post('/leadcorporate', [LeadFormController::class, 'LeadCorporate'])->name('lead.corporate');
     Route::post('/nomanform', [LeadFormController::class, 'addregistration']);
     Route::get('/tna2025', [LeadFormController::class, 'getassest']);
     Route::post('/assestform', [LeadFormController::class, 'assesment'])->name('store.assest');
