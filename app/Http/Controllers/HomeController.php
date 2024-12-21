@@ -150,7 +150,7 @@ function addsupportform(Request $req)
 
     public function enquiry_form()
     {
-        $courses=Courses::orderBy("course","asc")->get();
+        $courses=Courses::orderBy("position","asc")->get();
         return view('website.enquiry-form',['courses'=>$courses]);
     }
 
