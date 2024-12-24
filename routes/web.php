@@ -482,10 +482,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/view-projectform', [ProjectController::class, 'viewprojectform'])->name('view.project.form');
     Route::get('/view-projectformdelete/{id}', [ProjectController::class, 'viewprojectformdelete'])->name('project.form.delete');
 
-    // website Route 
-    Route::get('/enquiry-form-project',[ProjectController::class,'project_form'])->name('project.form');
-    Route::post('/enquiry-form-project-store',[ProjectController::class,'storeprojectwebsite'])->name('store.project.website');
-
+    
     
 
     
@@ -707,3 +704,6 @@ Route::get("/enquiry-form/{course_name}",[\App\Http\Controllers\HomeController::
 Route::get('/support-form',[\App\Http\Controllers\HomeController::class,'support_form']);
 Route::post('/submit-support-form',[\App\Http\Controllers\HomeController::class,'addsupportform']);
 
+// website Route 
+Route::get('/enquiry-form-project',[ProjectController::class,'project_form'])->name('project.form');
+Route::post('/enquiry-form-project-store',[ProjectController::class,'storeprojectwebsite'])->name('store.project.website');
