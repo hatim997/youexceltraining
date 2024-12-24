@@ -755,6 +755,8 @@ Footer Area
 <script src="{{asset('js/gmaps.min.js')}}"></script>
 <!--<script src="{{asset('js/theme.js')}}"></script>-->
 
+<script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.com/widget?wc=siqd6b8d1e5582f414fdcdfc663ef54fab72c53dc84a89ddb07cbe7ea1a65c325d6" defer></script>
+
 
 
 <!-- Jquery -->
@@ -1070,6 +1072,18 @@ function closeModal(modalId, overlayId) {
 @if(Session::has('paymentproof'))
     <script>
         swal("Oops", "Your form not submitted.\n Please Upload Your Proof of Payment File.", "error");
+    </script>
+@endif
+
+@if(Session::has('websiteproject_success'))
+    <script>
+        swal("Success", "{{ Session::get('websiteproject_success') }}", "success");
+    </script>
+@endif
+
+@if(Session::has('websiteproject_error'))
+    <script>
+        swal("Oops", "{{ Session::get('websiteproject_error') }}", "error");
     </script>
 @endif
 

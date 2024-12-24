@@ -282,4 +282,5 @@ class CoursesController extends Controller
         return view('website.course14', compact('pdf'));
     }
     
+    
 }

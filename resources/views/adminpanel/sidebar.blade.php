@@ -52,7 +52,7 @@
                     <a href="add-course" class="nav-link">
                         <i class="nav-icon fas fa-book"></i>
                         <p>
-                            Add Courses Name
+                            Add Regular Course Name
                         </p>
                     </a>
                 </li>
@@ -61,7 +61,16 @@
                     <a href="{{ route('program.name') }}" class="nav-link">
                         <i class="nav-icon fas fa-book"></i>
                         <p>
-                            Add Program Name
+                            Add Corporate Course Name
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="{{ route('project.name') }}" class="nav-link">
+                        <i class="nav-icon fas fa-book"></i>
+                        <p>
+                            Add Project Course Name
                         </p>
                     </a>
                 </li>
@@ -105,6 +114,15 @@
                         <i class="nav-icon fas fa-book"></i>
                         <p>
                             Lead Form Data
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="{{ route('view.project.form') }}" class="nav-link">
+                        <i class="nav-icon fas fa-book"></i>
+                        <p>
+                            Project Form Data
                         </p>
                     </a>
                 </li>

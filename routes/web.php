@@ -16,6 +16,7 @@ use App\Http\Controllers\countController;
 use App\Http\Controllers\ResourceController;
 use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\ProjectController;
 
 use Illuminate\Support\Facades\Route;
 use App\Models\Courses;
@@ -129,6 +130,7 @@ Route::get('/add-course', function () {
 
 Route::get('/program-name',[\App\Http\Controllers\CoursesController::class,'programshow'])->name('program.name');
 
+
 Route::get('/training-calender', function () {
   
     return view('website.trainingcalender');
@@ -209,7 +211,7 @@ Route::get('/view-free-reg-form-data', [\App\Http\Controllers\ApplicationformCon
 Route::get('/Feedback-Form',[\App\Http\Controllers\HomeController::class,'feedback_form'])->name('feedback');
 
 Route::get('/enquiry-form',[\App\Http\Controllers\HomeController::class,'enquiry_form']);
-Route::get('/enquiry-corporate',[\App\Http\Controllers\HomeController::class,'enquiry_corporate'])->name('enquiry.corporate');
+Route::get('/enquiry-form-corporate',[\App\Http\Controllers\HomeController::class,'enquiry_corporate'])->name('enquiry.corporate');
 Route::get('/focenquiryform',[\App\Http\Controllers\HomeController::class,'enquiry_form_custom']);
 Route::get('/enquiryformBBSHRRDB',[\App\Http\Controllers\HomeController::class,'enquiry_form_BBSHRRDB']);
 
@@ -468,6 +470,25 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/add-course', [CoursesController::class, 'show']);
     Route::get('/delete-course/{id}', [CoursesController::class, 'delete']);
     Route::get('/edit/{id}', [CoursesController::class, 'editShowdata']);
+    
+    
+    // Project Route admin panel
+    Route::get('/project-name',[ProjectController::class,'projectname'])->name('project.name');
+    Route::post('/project-store',[ProjectController::class,'projectstore'])->name('project.store');
+    Route::get('/delete-project/{id}', [ProjectController::class, 'deleteproject'])->name('delete.project');
+    Route::get('/edit-project/{id}', [ProjectController::class, 'editproject'])->name('edit.project');
+    Route::post('/update-project/{id}', [ProjectController::class, 'Updateproject'])->name('update.project');
+
+    Route::get('/view-projectform', [ProjectController::class, 'viewprojectform'])->name('view.project.form');
+    Route::get('/view-projectformdelete/{id}', [ProjectController::class, 'viewprojectformdelete'])->name('project.form.delete');
+
+    // website Route 
+    Route::get('/enquiry-form-project',[ProjectController::class,'project_form'])->name('project.form');
+    Route::post('/enquiry-form-project-store',[ProjectController::class,'storeprojectwebsite'])->name('store.project.website');
+
+    
+
+    
 
     // program route
     Route::get('/delete-program/{id}', [CoursesController::class, 'DeleteProgram'])->name('delete.program');
