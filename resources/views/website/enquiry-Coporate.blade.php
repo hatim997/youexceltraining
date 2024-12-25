@@ -35,7 +35,7 @@
                                 <img src="img/Yourexcel-img/excel-logo-new.png" alt="" style="width: 170px;">
                             </div>
 
-                            <h4 class="text-center">Enquiry Corporate Form</h4>
+                            <h4 class="text-center">Corporate Enquiry Form</h4>
 
                             <form action="{{ route('lead.corporate') }}" method="POST">
                                 @csrf

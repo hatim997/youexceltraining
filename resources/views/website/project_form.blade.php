@@ -39,7 +39,7 @@
                                 <img src="img/Yourexcel-img/excel-logo-new.png" alt="" style="width: 170px;">
                             </div>
 
-                            <h4 class="text-center">Enquiry Project Form</h4>
+                            <h4 class="text-center">Project Enquiry Form</h4>
 
                             <form action="{{ route('store.project.website') }}" method="POST">
                                 @csrf
