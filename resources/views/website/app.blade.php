@@ -429,34 +429,41 @@ Footer Area
                 </div>
                 <div class="col-6 col-md-6 col-xl-auto">
                     <div class="widget nav_menu footer-widget">
-                        <h3 class="widget_title">Study Links</h3>
+                        <h3 class="widget_title"> Form Links</h3>
                         <div class="menu-all-pages-container footer-menu">
                             <ul class="menu">
-                                        <li>
-                        <a href="{{url("registration_form")}}">REGISTRATION FORM</a>
-                    </li>
+                                <li>
+                                    <a href="{{url("enquiry-form")}}">ENQUIRY FORM</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('enquiry.corporate')}}">CORPORATE ENQUIRY FORM</a>
+                                </li>
+                                 
+                                <li>
+                                    <a href="{{ route('project.form')}}">PROJECT ENQUIRY FORM</a>
+                                </li>
+
+                                <li>
+                                    <a href="{{url("registration_form")}}">REGISTRATION FORM</a>
+                                </li>
                     <li>
                         <a href="{{url("Feedback-Form")}}">FEEDBACK FORM</a>
                     </li>
                       <li>
                         <a href="{{url("support-form")}}">COMPLAINT FORM</a>
                     </li>
-                     <li>
-                        <a href="{{url("enquiry-form")}}">ENQUIRY FORM</a>
-                    </li>
-                    <li>
-                        <a href="{{url("Careers")}}">CAREERS</a>
-                    </li>
-                    <li>
-                        <a href="{{url("affiliations")}}">AFFILIATIONS</a>
-                    </li>
+                     
+                    
+
                     <!--<li>-->
                     <!--    <a href="https://youexceltraining.com/enquiryformBBSHRRDB">BBSHRRDB Enquiry Form</a>-->
                     <!--</li>-->
+                    {{-- 
                     <li>
                         <a href="https://youexceltraining.com/focenquiryform">NAVTTC Enquiry Form</a>
                          <!--<a href="#">NAVTTC Enquiry Form</a>-->
                     </li>
+                    --}}
                     <!--  <li>-->
                     <!--    <a href="https://youexceltraining.com/freetraining">NAVTTC Registration Tutorial</a>-->
                     <!--    <a href="#">NAVTTC Registration Tutorial</a>-->
@@ -474,7 +481,14 @@ Footer Area
                         <h3 class="widget_title">Quick Links</h3>
                         <div class="menu-all-pages-container footer-menu">
                             <ul class="menu">
-                                <li>
+                    <li>
+                        <a href="{{url("Careers")}}">CAREERS</a>
+                    </li> 
+                     <li>
+                        <a href="{{url("affiliations")}}">AFFILIATIONS</a>
+                    </li>
+
+                    <li>
                         <a href="{{url("Privacy-Policy")}}">PRIVACY POLICY</a>
                     </li>
  <li>

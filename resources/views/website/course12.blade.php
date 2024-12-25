@@ -1,5 +1,10 @@
 @extends('website.app', ['title' => 'Cyber Security Mastery'])
 
+@push('style')
+    .hover-effect:hover {
+        color: #3747ff;
+    }
+@endpush
 @section('content')
     <div class="breadcumb-wrapper " data-bg-src="">
         <div class="container z-index-common">
@@ -104,8 +109,9 @@
                                             <li class="syllabustext">Classification of Attacks</li>
                                             <li class="syllabustext">Information Security Attack Vectors</li>
                                             <li class="syllabustext">Elements of Information Security</li>
-                                            <strong>Practical Lab Activities:</strong>
-                                            <p>Installation of VMs</p>
+                                            <div class="hover-effect" style="cursor: pointer;">
+                                                <strong>Practical Lab Activities:</strong> <span>Installation of VMs</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -137,8 +143,11 @@
                                                 <li style="list-style: decimal !important;">Clearing tracks</li>
                                             </ol>
                                             <li class="syllabustext">Scope and Tools of Ethical Hacking with an </li>
-                                            <strong>Practical Lab Activities:</strong>
-                                            <p>Installation of Linux over VMs</p>
+                                            {{-- <strong>Practical Lab Activities:</strong>
+                                            <p>Installation of Linux over VMs</p> --}}
+                                            <div class="hover-effect" style="cursor: pointer;">
+                                                <strong>Practical Lab Activities:</strong> <span>Installation of Linux over VMs</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -169,9 +178,13 @@
                                                 Assessment</li>
                                             <li class="syllabustext">Vulnerability Assessment Tools and Vulnerability
                                                 Exploitation</li>
-                                            <strong>Practical Lab Activities:</strong>
+                                            <div class="hover-effect" style="cursor: pointer;">
+                                                <strong>Practical Lab Activities:</strong> <span>Practically exploring Linux, having Sudo Overview and Navigating The File
+                                                    System</span>
+                                            </div>
+                                            {{-- <strong>Practical Lab Activities:</strong>
                                             <p>Practically exploring Linux, having Sudo Overview and Navigating The File
-                                                System</p>
+                                                System</p> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -201,8 +214,11 @@
                                             <li class="syllabustext">Different Social Engineering Countermeasures</li>
                                             <li class="syllabustext">Different Insider Threats and Identity Theft
                                                 Countermeasures</li>
-                                            <strong>Practical Lab Activities:</strong>
-                                            <p>User Previliges, Common Network Commands, View Creating and Editing Files</p>
+                                                <div class="hover-effect" style="cursor: pointer;">
+                                                    <strong>Practical Lab Activities:</strong> <span>User Previliges, Common Network Commands, View Creating and Editing Files</span>
+                                                </div>
+                                            {{-- <strong>Practical Lab Activities:</strong>
+                                            <p>User Previliges, Common Network Commands, View Creating and Editing Files</p> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -236,8 +252,11 @@
                                             <li class="syllabustext">Hijacking and Types of Session Hijacking</li>
                                             <li class="syllabustext">Different Session Hijacking Tools and Countermeasures
                                             </li>
-                                            <strong>Practical Lab Activities:</strong>
-                                            <p>User Privileges, Common Network Commands, View Creating and Editing Files</p>
+                                            <div class="hover-effect" style="cursor: pointer;">
+                                                <strong>Practical Lab Activities:</strong> <span>User Privileges, Common Network Commands, View Creating and Editing Files</span>
+                                            </div>
+                                            {{-- <strong>Practical Lab Activities:</strong>
+                                            <p>User Privileges, Common Network Commands, View Creating and Editing Files</p> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -265,8 +284,11 @@
                                             <li class="syllabustext">Web Application Attacks and Countermeasures</li>
                                             <li class="syllabustext">SQL Injection Attacks</li>
                                             <li class="syllabustext">SQL Injection Attacks and Countermeasures</li>
-                                            <strong>Practical Lab Activities:</strong>
-                                            <p>Scripting with Bash</p>
+                                            <div class="hover-effect" style="cursor: pointer;">
+                                                <strong>Practical Lab Activities:</strong> <span>Scripting with Bash</span>
+                                            </div>
+                                            {{-- <strong>Practical Lab Activities:</strong>
+                                            <p>Scripting with Bash</p> --}}
 
 
 
@@ -285,7 +307,7 @@
                                     Wireless Attacks and Countermeasures
                                     <i class="fas fa-angle-down"></i> </button>
                             </div>
-                            <div id="collapseFour2" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            <div id="collapseFour5" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="accordionExample">
 
                                 <div class="accordion-body wow fadeInDown">
@@ -297,8 +319,11 @@
                                             <li class="syllabustext">Wireless Network-Specific Attack Techniques</li>
                                             <li class="syllabustext">Bluetooth Attacks</li>
                                             <li class="syllabustext">Wireless Attack Countermeasures</li>
-                                            <strong>Practical Lab Activities:</strong>
-                                            <p>Python Installation</p>
+                                            <div class="hover-effect" style="cursor: pointer;">
+                                                <strong>Practical Lab Activities:</strong> <span>Python Installation</span>
+                                            </div>
+                                            {{-- <strong>Practical Lab Activities:</strong>
+                                            <p>Python Installation</p> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -327,8 +352,11 @@
                                             </li>
                                             <li class="syllabustext">Mobile Device Management (MDM) Concept</li>
                                             <li class="syllabustext">Mobile Attack Countermeasures</li>
-                                            <strong>Practical Lab Activities:</strong>
-                                            <p>Python Strings and Arithmetic Operations</p>
+                                            <div class="hover-effect" style="cursor: pointer;">
+                                                <strong>Practical Lab Activities:</strong> <span>Python Strings and Arithmetic Operations</span>
+                                            </div>
+                                            {{-- <strong>Practical Lab Activities:</strong>
+                                            <p>Python Strings and Arithmetic Operations</p> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -356,12 +384,15 @@
                                             <li class="syllabustext">IoT Concepts</li>
                                             <li class="syllabustext">IoT Threats and Attacks</li>
                                             <li class="syllabustext">IoT Attack Countermeasures</li>
-                                            <h6 class="syllabustitle">OT Attacks</h6>
+                                            <h6 class="syllabustitle mt-3">OT Attacks</h6>
                                             <li class="syllabustext">OT Concepts</li>
                                             <li class="syllabustext">OT Threats and Attacks</li>
                                             <li class="syllabustext">OT Attack Countermeasures</li>
-                                            <strong>Practical Lab Activities:</strong>
-                                            <p>Python Level 1-Variables and Basic Methods and User Input</p>
+                                            <div class="hover-effect" style="cursor: pointer;">
+                                                <strong>Practical Lab Activities:</strong> <span>Python Level 1-Variables and Basic Methods and User Input</span>
+                                            </div>
+                                            {{-- <strong>Practical Lab Activities:</strong>
+                                            <p>Python Level 1-Variables and Basic Methods and User Input</p> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -605,7 +636,7 @@
                             <div class="process-style1 d-flex align-items-center">
                                 <span class="process-number"><i class="fas fa-circle"></i></span>
                                 <div class="process-content">
-                                    <p class="fs-md process-title">Sales Analysis</p>
+                                    <p class="fs-md process-title">IT professionals</p>
 
                                 </div>
                             </div>
@@ -613,69 +644,69 @@
                             <div class="process-style1 d-flex align-items-center">
                                 <span class="process-number"><i class="fas fa-circle"></i></span>
                                 <div class="process-content">
-                                    <p class="fs-md process-title"> Marketing Analysis </p>
+                                    <p class="fs-md process-title"> Students pursuing a career in Cyber Security </p>
 
                                 </div>
                             </div>
                             <div class="process-style1 d-flex align-items-center">
                                 <span class="process-number"><i class="fas fa-circle"></i></span>
                                 <div class="process-content">
-                                    <p class="fs-md process-title"> Business Analysts </p>
+                                    <p class="fs-md process-title">Small business owners and managers </p>
 
                                 </div>
                             </div>
                             <div class="process-style1 d-flex align-items-center">
                                 <span class="process-number"><i class="fas fa-circle"></i></span>
                                 <div class="process-content">
-                                    <p class="fs-md process-title"> Finance & Accounts</p>
+                                    <p class="fs-md process-title">Anyone interested in understanding Cyber Security</p>
 
                                 </div>
                             </div>
-                            <div class="process-style1 d-flex align-items-center">
+                            {{-- <div class="process-style1 d-flex align-items-center">
                                 <span class="process-number"><i class="fas fa-circle"></i></span>
                                 <div class="process-content">
                                     <p class="fs-md process-title"> Data Analysts</p>
 
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                         <div class="col-sm-6 col-xl-4">
-                            <div class="process-style1 d-flex align-items-center">
+                            {{-- <div class="process-style1 d-flex align-items-center">
                                 <span class="process-number"><i class="fas fa-circle"></i></span>
                                 <div class="process-content">
                                     <p class="fs-md process-title">Project Managers </p>
 
                                 </div>
-                            </div>
+                            </div> --}}
 
-                            <div class="process-style1 d-flex align-items-center">
+                            {{-- <div class="process-style1 d-flex align-items-center">
                                 <span class="process-number"><i class="fas fa-circle"></i></span>
                                 <div class="process-content">
                                     <p class="fs-md process-title">Operations and Logistics Manager</p>
 
                                 </div>
-                            </div>
-                            <div class="process-style1 d-flex align-items-center">
+                            </div> --}}
+                            {{-- <div class="process-style1 d-flex align-items-center">
                                 <span class="process-number"><i class="fas fa-circle"></i></span>
                                 <div class="process-content">
                                     <p class="fs-md process-title"> HR Professionals</p>
 
                                 </div>
-                            </div>
-                            <div class="process-style1 d-flex align-items-center">
+                            </div> --}}
+                            {{-- <div class="process-style1 d-flex align-items-center">
                                 <span class="process-number"><i class="fas fa-circle"></i></span>
                                 <div class="process-content">
                                     <p class="fs-md process-title"> IT Professionals</p>
 
                                 </div>
-                            </div>
-                            <div class="process-style1 d-flex align-items-center">
+                            </div> --}}
+                            {{-- <div class="process-style1 d-flex align-items-center">
                                 <span class="process-number"><i class="fas fa-circle"></i></span>
                                 <div class="process-content">
                                     <p class="fs-md process-title"> Data Scientists</p>
 
                                 </div>
-                            </div>
+                            </div> --}}
 
                         </div>
 
@@ -864,7 +895,7 @@
         <div class="container cta-style2" style="border: 3px solid #fbce4d;">
             <div class="row gx-100 gy-4">
                 <div class="col-lg-12 col-xl-12 col-xxl-12 pt-2 pb-5 text-center">
-                    <h2 class=" pt-1  text-white">Become smarter in just 24 hours </h2>
+                    <h2 class=" pt-1  text-white">Become smarter in just 48 hours </h2>
                     <!--<p class=" pt-1 fs-md text-white">Enter your email id to get latest updates and  amazing discounts</p>-->
                     <br>
                 </div>

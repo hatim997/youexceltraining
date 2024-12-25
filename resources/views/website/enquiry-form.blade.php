@@ -40,6 +40,7 @@ Start a conversation with one of our Training Solutions Experts to see if YouExc
                             <div class="col-lg-12 text-center mb-4">
                                 <img src="img/Yourexcel-img/excel-logo-new.png" alt="" style="width: 170px;">
                             </div>
+                            <h4 class="text-center">Enquiry Form</h4>
                        
                             <form action="{{url('nomanform')}}" method="POST">
                                 @csrf
