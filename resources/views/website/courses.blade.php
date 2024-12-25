@@ -133,7 +133,7 @@
                     </div>
                 </div>
                 <!--python-->
-                <div class="col-sm-6 col-xl-4">
+                {{-- <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border" onclick="window.open('courses/python-data-analysis');">
                         <div class="course-img">
                             <a href="python-data-analysis"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/python.jpg" alt="Course Img"></a>
@@ -157,7 +157,7 @@
                              <a  href="courses/python-data-analysis" class="vs-btn style4 py-3 "> Learn More </a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                  <!--Financial-->
                 <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border" onclick="window.open('courses/financial-modeling');">

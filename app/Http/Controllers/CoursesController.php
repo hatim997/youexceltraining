@@ -221,7 +221,8 @@ class CoursesController extends Controller
     public function pythonDataAnalysis()
     {
          $data= Courses::find(47);
-        $pdf = $data->image;
+        //  dd($data);
+        $pdf = $data->image ?? '';
         return view('website.course7', compact('pdf'));
     }
 
