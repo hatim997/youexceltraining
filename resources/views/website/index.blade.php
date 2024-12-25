@@ -208,6 +208,30 @@
                 <h2 class="sec-title ">Explore Program</h2>
             </div>
             <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.4s" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="2" data-center-mode="true" data-dots="true">
+                
+                <div class="col-sm-6 col-xl-4">
+                    <div class="course-style1">
+                        <div class="course-img">
+                            <a href="course-details"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/csmb.jpeg" alt="Course Img"></a>
+                            <div class="course-category"><a href="course">Cyber Security</a></div>
+                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vs-btn style2 popup-video"><i class="fas fa-play"></i>Preview Course</a>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-top">
+                                <div class="course-review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>(5.0)</div>
+                              
+                            </div>
+                            <h3 class="h5 course-name"><a href="course-details" class="text-inherit">Cyber Security Mastery</a></h3>
+                            <div class="course-teacher"><a class="text-inherit" href="team-details">By Zeeshan Zubair</a></div>
+                        </div>
+                        <div class="course-meta">
+                            <span><i class="fal fa-users"></i>100 Students</span>
+                            <span><i class="fal fa-clock"></i>48h</span>
+                            <span><i class="fal fa-calendar-alt"></i>11 March 2023</span>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-sm-6 col-xl-4">
                     <div class="course-style1">
                         <div class="course-img">

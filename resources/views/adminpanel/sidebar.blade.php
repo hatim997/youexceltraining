@@ -49,7 +49,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="add-course" class="nav-link">
+                    <a href="{{ route('add.course') }}" class="nav-link">
                         <i class="nav-icon fas fa-book"></i>
                         <p>
                             Add Regular Course Name

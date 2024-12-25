@@ -222,7 +222,11 @@
                 <h2 class="sec-title ">Explore Program</h2>
             </div>
             <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.4s" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="2" data-center-mode="true" data-dots="true">
-          <div class="col-sm-6 col-xl-4">
+                
+                
+
+
+                <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border">
                         <div class="course-img" onclick="window.open('courses/courses/visualizing-excel-dashboards-power-point');">
                             <a href="excel-mastery"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/visualizing.jpg" alt="Course Img"></a>
@@ -292,6 +296,30 @@
                             
                         </div>
                          
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-xl-4">
+                    <div class="course-style1 has-border">
+                        <div class="course-img" onclick="window.open('courses/cyber-security');">
+                            <a href="excel-mastery"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/csmp.jpeg" alt="Course Img"></a>
+                            
+                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vs-btn style2 popup-video"><i class="fas fa-play"></i>Preview Course</a>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-top">
+                                <div class="course-review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>(3.5)</div>
+                                
+                            </div>
+                            <h3 class="h5 course-name"><a href="courses/cyber-security" class="text-inherit">Cyber Security Mastery </a></h3>
+                       
+                        </div>
+                        <div class="course-meta">
+                            <span><i class="fal fa-users"></i>New Students</span>
+                            <span><i class="fal fa-clock"></i>48h</span>
+                            
+                        </div>
+                        
                     </div>
                 </div>
                 
