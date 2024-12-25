@@ -516,7 +516,7 @@
                 <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border" onclick="window.open('courses/cit');">
                         <div class="course-img">
-                            <a href="cit"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/CIT.jpg" alt="Course Img"></a>
+                            <a href="cit"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/cit.jpg" alt="Course Img"></a>
 
                             <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vs-btn style2 popup-video"><i class="fas fa-play"></i>Preview Course</a>
                         </div>
