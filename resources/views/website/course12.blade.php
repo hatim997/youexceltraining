@@ -30,7 +30,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td><i class="far fa-hourglass"></i> Duration: &nbsp; 24 hours</td>
+                                    <td><i class="far fa-hourglass"></i> Duration: &nbsp; 48 hours</td>
                                 </tr>
                                 <tr style="padding-top: 8px;">
                                     <td>
@@ -507,7 +507,6 @@
 
                         </div>
                     </div>
-                    <strong>Duration:</strong><span> 48 hours</span>
                     
 
                     {{-- <div class="process-style1 d-flex align-items-center">
@@ -594,34 +593,96 @@
             </div>
         </div>
     </section>
-    <section class="pt-5 pb-3">
+    <section class="pt-3 pb-3">
         <div class="container">
             <div class="row gx-80 align-items-center">
                 <div class="col-md-12">
-                    <h5 class="border-title2 pb-3">Recommended For</h5>
+                    <h5 class="border-title2 pb-3">Target Audience</h5>
                 </div>
-                <div class="col-md-12">
-                    <div class="process-style1 d-flex align-items-center">
-                        <div class="process-content">
-                            <p class="fs-md process-title">Sales and Marketing Analysis, Business Analysts, Finance & Accounts, Data Analysts and Data Scientists, Project Managers, Operations and Logistics Manager, HR Professionals, IT Professionals</P>
+                <div class="col-xl-10">
+                    <div class="row gx-80 align-items-center">
+                        <div class="col-sm-6 col-xl-4">
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title">Sales Analysis</p>
+
+                                </div>
+                            </div>
+
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title"> Marketing Analysis </p>
+
+                                </div>
+                            </div>
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title"> Business Analysts </p>
+
+                                </div>
+                            </div>
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title"> Finance & Accounts</p>
+
+                                </div>
+                            </div>
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title"> Data Analysts</p>
+
+                                </div>
+                            </div>
                         </div>
+                        <div class="col-sm-6 col-xl-4">
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title">Project Managers </p>
+
+                                </div>
+                            </div>
+
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title">Operations and Logistics Manager</p>
+
+                                </div>
+                            </div>
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title"> HR Professionals</p>
+
+                                </div>
+                            </div>
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title"> IT Professionals</p>
+
+                                </div>
+                            </div>
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title"> Data Scientists</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
     </section>
-    <section class="pt-5 pb-3">
-        <div class="container">
-            <div class="row gx-80 align-items-center">
-                <div class="col-md-12">
-                    <h5 class="border-title2 pb-3">Difficulty Level</h5>
-                </div>
-                <div class="col-md-12">
-                    <div class="process-style1 d-flex align-items-center">
-                        <div class="process-content">
-                            <p class="fs-md process-title">Beginners to Intermediate</P>
-                        </div>
-                    </div>
-                </div>
-    </section>
+    
     {{-- <section class="pt-3 pb-3">
         <div class="container">
             <div class="row gx-80 align-items-center">

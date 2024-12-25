@@ -401,7 +401,7 @@
                 <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border">
                         <div class="course-img" onclick="window.open('courses/sql-analytics');" >
-                            <a href="sql-analytics"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/SQL.jpg" alt="Course Img"></a>
+                            <a href="sql-analytics"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/sql.jpg" alt="Course Img"></a>
                         
                             <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vs-btn style2 popup-video"><i class="fas fa-play"></i>Preview Course</a>
                         </div>
@@ -448,7 +448,7 @@
                 <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border" onclick="window.open('courses/financial-modeling');">
                         <div class="course-img">
-                            <a href="financial-modeling"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/FMA.jpg" alt="Course Img"></a>
+                            <a href="financial-modeling"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/fma.jpg" alt="Course Img"></a>
                    
                             <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vs-btn style2 popup-video"><i class="fas fa-play"></i>Preview Course</a>
                         </div>
@@ -471,7 +471,7 @@
                 <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border" onclick="window.open('courses/tax-management');">
                         <div class="course-img">
-                            <a href="tax-management"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/TAX.jpg" alt="Course Img"></a>
+                            <a href="tax-management"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/tax.jpg" alt="Course Img"></a>
                             
                             <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vs-btn style2 popup-video"><i class="fas fa-play"></i>Preview Course</a>
                         </div>
@@ -495,7 +495,7 @@
                 <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border" onclick="window.open('courses/ai-integrated-office');">
                         <div class="course-img">
-                            <a href="ai-integrated-office"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/AI.jpg" alt="Course Img"></a>
+                            <a href="ai-integrated-office"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/ai.jpg" alt="Course Img"></a>
                         
                             <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="vs-btn style2 popup-video"><i class="fas fa-play"></i>Preview Course</a>
                         </div>
