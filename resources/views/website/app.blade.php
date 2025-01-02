@@ -33,6 +33,21 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" type="text/css">
     <!-- cards animation end -->
 
+    {{-- start Gallery All scc --}}
+    <link href="gallery/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="gallery/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="gallery/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="gallery/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="gallery/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    {{-- end Gallery All scc --}}
+
+      <!-- Favicons -->
+    {{-- <link href="gallery/assets/img/favicon.png" rel="icon">
+    <link href="gallery/assets/img/apple-touch-icon.png" rel="apple-touch-icon"> --}}
+
+    <!-- gallery Main CSS File -->
+    <link href="gallery/assets/css/main.css" rel="stylesheet">
+
     <!-- float button whatsapp start  -->
     <link rel="stylesheet" href="{{asset('css/floating-wpp.min.css')}}">
     <!-- float button whatsapp end  -->
@@ -756,6 +771,21 @@ Footer Area
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+<script src="gallery/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="gallery/assets/vendor/php-email-form/validate.js"></script>
+  <script src="gallery/assets/vendor/aos/aos.js"></script>
+  <script src="gallery/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="gallery/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="gallery/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="gallery/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="gallery/assets/js/gallery_main.js"></script>
+
+
 
 <script src="{{asset('js/popper.js')}}"></script>
 <!--<script src="{{asset('js/bootstrap.min.js')}}"></script>-->

@@ -418,7 +418,10 @@ Route::get('/Reviews', function () {
     // Route::get('/Events-gallery', function () {
     //     return view('website.Events-gallery');
     // });
-    Route::get('/Events-gallery', [GalleryController::class, 'EventGallery'])->name('event.gallery');
+    // Route::get('/Events-gallery', [GalleryController::class, 'EventGallery'])->name('event.gallery');
+
+
+    Route::get('/Events-gallery-new', [GalleryController::class, 'EventGalleryNew'])->name('event.gallery');
 
 Route::get('/Picture-gallery', function () {
     return view('website.Picture-gallery');
@@ -447,7 +450,7 @@ Route::middleware(['auth'])->group(function () {
     });
     
     // for gallary cat
-    Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery_cat');
+    Route::get('/gallery-cat', [GalleryController::class, 'index'])->name('gallery_cat');
     Route::post('/store-gallery-cat', [GalleryController::class, 'storegallerycat'])->name('store.gallery.cat');
     Route::get('/edit-gallery-cat/{id}', [GalleryController::class, 'editgallerycat'])->name('edit_gallery_cat');
     Route::post('/update-gallery-cat/{id}', [GalleryController::class, 'updategallerycat'])->name('update.gallery.cat');

@@ -7,7 +7,7 @@
         <div class="vs-mobile-menu">
             <ul>
                 <li>
-                    <a href="{{url("/")}}">Home</a>
+                    <a href="{{url("/home")}}">Home</a>
                 </li>
                 <li>
                     <a href="{{url("/about")}}">About Us</a>
@@ -24,7 +24,7 @@
                 <li>
                     <a href="https://lms.youexceltraining.com/">LMS Login</a>
                 </li>
-
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </ul>
         </div>
     </div>
@@ -96,7 +96,8 @@ Header Area
              
                                 
                                 <li>
-                                    <a href="{{ url('/Events-gallery') }}">Gallery</a>
+                                    {{-- <a href="{{ url('/Events-gallery') }}">Gallery</a> --}}
+                                    <a href="{{ route('event.gallery') }}">Gallery</a>
                                 </li>
                                   <li>
                                 <a href="{{url("/Reviews")}}" class="vs-btn style3">Review</a>

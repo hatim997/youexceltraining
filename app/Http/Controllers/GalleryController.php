@@ -10,19 +10,36 @@ use App\Models\galleryImage;
 class GalleryController extends Controller
 {
 
-    function EventGallery() 
-{
-    $data = galleryImage::with('category')->get();
+    // function EventGallery() 
+    // {
+    //     $data = galleryImage::with('category')->get();
 
-    // Group data by the 'year' from the category relation
-    $dataGroupedByYear = $data->groupBy(function ($item) {
-        return $item->category->year;
-    });
-    // dd($dataGroupedByYear);
+    //     // Group data by the 'year' from the category relation
+    //     $dataGroupedByYear = $data->groupBy(function ($item) {
+    //         return $item->category->year;
+    //     });
+    //     // dd($dataGroupedByYear);
 
-    // Pass grouped data to the view
-    return view('website.Events-gallery', compact('dataGroupedByYear'));
-}
+    //     // Pass grouped data to the view
+    //     return view('website.Events-gallery', compact('dataGroupedByYear'));
+    // }
+
+    
+
+    public function EventGalleryNew()
+    {
+        $data = galleryImage::with('category')->get();
+    
+        // Extract unique category names
+        $categories = $data->pluck('category.name')->unique()->toArray();
+    
+        // Group data by the 'year' from the category relation
+        $dataGroupedByYear = $data->groupBy(function ($item) {
+            return $item->category->year;
+        });
+    
+        return view('website.Events-gallery-new', compact('categories', 'dataGroupedByYear'));
+    }
     public function index()
     {
         $data = GalleryCategory::all();
