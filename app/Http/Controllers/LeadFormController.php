@@ -123,7 +123,7 @@ class LeadFormController extends Controller
         $leadform->Phone = $req->phone;
         $leadform->Email = $req->email;
         $leadform->city = $req->city;
-        $leadform->CoursesIntrested = $courses->coursename ?? "N/A";
+        $leadform->CoursesIntrested = $courses->coursename ?? $req->coursesintrested;
         $leadform->Comments = $req->comments;
         $leadform->save();
 
