@@ -131,9 +131,9 @@ class CoursesController extends Controller
     }
     public function store_pdf(Request $request)
     {
-          $request->validate([
+        $request->validate([
             'title' => 'required',
-            'image' => 'required|mimes:pdf|max:2048',
+            'image' => 'required|mimes:pdf|max:500000',
         ]);
 
        $resource= Courses::find($request->title);

@@ -29,15 +29,14 @@ class GalleryController extends Controller
     public function EventGalleryNew()
     {
         $data = galleryImage::with('category')->get();
-    
+
         // Extract unique category names
-        $categories = $data->pluck('category.name')->unique()->toArray();
-    
-        // Group data by the 'year' from the category relation
+        $categories = $data->pluck('category.cat_name')->unique()->toArray();
+
         $dataGroupedByYear = $data->groupBy(function ($item) {
             return $item->category->year;
-        });
-    
+        })->sortKeys();
+
         return view('website.Events-gallery-new', compact('categories', 'dataGroupedByYear'));
     }
     public function index()

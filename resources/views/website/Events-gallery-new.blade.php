@@ -35,7 +35,7 @@
 				</div>
 
 
-				<div class="col-lg-5 text-center text-lg-end">
+				{{-- <div class="col-lg-5 text-center text-lg-end">
 				  <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
 					<li data-filter="*" class="filter-active">All</li>
 					<li data-filter=".filter-app">App</li>
@@ -43,19 +43,16 @@
 					<li data-filter=".filter-branding">Branding</li>
 					<li data-filter=".filter-books">Books</li>
 				  </ul><!-- End Portfolio Filters -->
-				</div>
-
-				{{-- <div class="col-lg-5 text-center text-lg-end">
-					<ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-						<li data-filter="*" class="filter-active">All</li> <!-- Default filter for 'All' -->
-						@foreach ($categories as $category)
-							<li data-filter=".filter-{{ strtolower($category) }}" 
-								class="{{ $loop->first ? '' : '' }}">
-								{{ ucfirst($category) }}
-							</li>
-						@endforeach
-					</ul>
 				</div> --}}
+
+				<div class="col-lg-5 text-center text-lg-end">
+					<ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+						<li data-filter="*" class="filter-active">All</li>
+						@foreach($dataGroupedByYear as $year => $images)
+							<li data-filter=".filter-{{ $year }}">{{ $year }}</li>
+						@endforeach
+					</ul><!-- End Portfolio Filters -->
+				</div>
 
 
 
@@ -64,50 +61,59 @@
 			  <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 1344px;">
 
 				{{-- <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-					@foreach ($dataGroupedByYear as $year => $items)
-						<div class="year-section">
-							<h2>{{ $year }}</h2>
-							<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-								@foreach ($items as $item)
-									<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-{{ strtolower($item->category->name) }}">
-										<div class="portfolio-content h-100">
-											<img src="{{ asset('gallery_images/' . $item->image) }}" class="img-fluid" alt="{{ $item->title }}" width="356px"  height="267">
-											<div class="portfolio-info">
-												<h4>{{ $item->title }}</h4>
-												<p>{{ $item->description }}</p>
-												<div>
-													<a href="{{ asset('gallery_images/' . $item->image) }}" 
-													title="{{ $item->title }}" 
-													data-gallery="portfolio-gallery-{{ strtolower($item->category->name) }}" 
-													class="glightbox preview-link">
-														<i class="bi bi-zoom-in"></i>
-													</a>
-													<a href="{{ $item->detailsLink }}" title="More Details" class="details-link">
-														<i class="bi bi-link-45deg"></i>
-													</a>
-												</div>
-											</div>
+					@foreach($dataGroupedByYear as $year => $images)
+						@foreach($images as $image)
+							<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-{{ $year }}" style="position: absolute; left: 440px; top: 0px;">
+								<div class="portfolio-content h-100">
+									<img src="{{ asset('gallery_images/' . $image->image) }}" class="img-fluid" alt="">
+									<div class="portfolio-info">
+										<h4>{{ $image->category->cat_name }}</h4>
+										<p>{{ $image->created_at->format('Y-m-d') }}</p>
+										<div>
+											<a href="{{ asset('gallery_images/' . $image->image) }}" title="{{ $image->category->cat_name }}" data-gallery="portfolio-gallery-{{ $year }}" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+											<a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
 										</div>
 									</div>
-								@endforeach
+								</div>
 							</div>
-						</div>
+						@endforeach
 					@endforeach
 				</div> --}}
-	
-				{{-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="position: absolute; left: 0px; top: 0px;">
-				  <div class="portfolio-content h-100">
-					<img src="gallery/assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-					<div class="portfolio-info">
-					  <h4>App 1</h4>
-					  <p>Lorem ipsum</p>
-					  <div>
-						<a href="gallery/assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-						<a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-					  </div>
-					</div>
-				  </div>
-				</div> --}}
+
+					
+
+
+<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+    @foreach($dataGroupedByYear as $year => $images)
+        @foreach($images as $image)
+            <div class="col-lg-4 mt-4 col-md-6 portfolio-item isotope-item filter-{{ $year }}">
+                <div class="portfolio-content h-100">
+                    <!-- Add a class to the image for custom size styling -->
+                    <img src="{{ asset('gallery_images/' . $image->image) }}" 
+                         class="img-fluid fixed-image-size" 
+                         alt="">
+                    <div class="portfolio-info">
+                        <h4>{{ $image->category->cat_name }}</h4>
+                        <p>{{ $image->created_at->format('Y-m-d') }}</p>
+                        <div>
+                            <a href="{{ asset('gallery_images/' . $image->image) }}" 
+                               title="{{ $image->category->cat_name }}" 
+                               data-gallery="portfolio-gallery-{{ $year }}" 
+                               class="glightbox preview-link">
+                                <i class="bi bi-zoom-in"></i>
+                            </a>
+                            {{-- <a href="portfolio-details.html" title="More Details" class="details-link">
+                                <i class="bi bi-link-45deg"></i>
+                            </a> --}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        @endforeach
+    @endforeach
+</div>
+
+				
 				<!-- End Portfolio Item -->
 	
 				{{-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product" style="position: absolute; left: 440px; top: 0px;">

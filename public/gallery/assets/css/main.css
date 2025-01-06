@@ -501,6 +501,12 @@ section,
   margin-bottom: 5px;
 }
 
+.fixed-image-size {
+  width: 414px !important;
+  height: 311px !important;
+  object-fit: cover;  /* This ensures the image covers the area without distorting */
+}
+
 .portfolio .portfolio-info p {
   font-size: 15px;
 }
