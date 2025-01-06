@@ -54,6 +54,12 @@
                         <i class="fas fa-envelope"></i>
                         <a class="text-inherit" href="mailto:info@youexceltraining.com">info@youexceltraining.com</a>
                     </p>
+
+                    <p class="contact-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Address: YouExcel, Suite: 503-506, 5th Floor, Al Samad Tower, Block 13-B, 
+                        Main University Road, Gulshan-e-Iqbal, Karachi, Pakistan.
+                    </p>
                     <div class="mega-hover rounded-20 mt-4 mt-lg-5 mb-4"><img src="assets/img/4D9-OamA.jpeg" alt="office" class="w-100"></div>
                     <!--<p class="font-title text-title fs-md fw-medium pt-xl-2 mb-2">Membership enquiries: <a href="tel:+04432907612" class="text-decoration-underline">+0443-290 7612</a></p>-->
                     <!--<p class="font-title text-title fs-md fw-medium mb-4">Principal Support: <a href="tel:+2256366989" class="text-decoration-underline">+225636-6989</a></p>-->
