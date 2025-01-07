@@ -30,7 +30,7 @@
                      </tr> 
                                 
                             <tr>
-                            <td ><i class="far fa-hourglass"></i> Duration:  &nbsp; 24 hours</td>
+                            <td ><i class="far fa-hourglass"></i> Duration:  &nbsp; 36 hours</td>
                            </tr>
                             <tr style="padding-top: 8px;">
                                 <td>
@@ -247,7 +247,7 @@
                                 </div>
                             </div>
                         </div>
-                               <div class="accordion-item wow fadeInUp ">
+                        <div class="accordion-item wow fadeInUp ">
                             <div class="accordion-header d-flex" id="headingFour">
                                 <button class="accordion-button justify-content-between " type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour3" aria-expanded="false"
@@ -275,6 +275,111 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="accordion-item wow fadeInUp ">
+                            <div class="accordion-header d-flex" id="headingEight">
+                                <button class="accordion-button justify-content-between " type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseEight8" aria-expanded="false"
+                                        aria-controls="collapseEight">
+                                    <span class="button-label">Module 8</span> Introduction To Power BI Desktop
+                                    <i class="fas fa-angle-down"></i> 
+                                </button>
+                            </div>
+                            <div id="collapseEight8" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                 data-bs-parent="accordionExample">
+                                <div class="accordion-body wow fadeInDown">
+                                    <div class="syllabus-list">
+                                        <div class="syllabus-content">
+                                            <li class="syllabustext">Overview of Power BI Desktop, Power BI Service, and Power BI Mobile</li>
+                                            <li class="syllabustext">Data Importing from various data sources like Excel, SQL Server, and online services to Power BI</li>
+                                            <li class="syllabustext">Data Transformation through Power Query Editor for cleaning and transforming data</li>
+                                            <li class="syllabustext">Creating a Report with simple dashboards visualizations techniques using built-in Power BI features</li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item wow fadeInUp ">
+                            <div class="accordion-header d-flex" id="headingNine">
+                                <button class="accordion-button justify-content-between " type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseNine9" aria-expanded="false"
+                                        aria-controls="collapseNine">
+                                    <span class="button-label">Module 9</span> Creating Financial Models In Power BI
+                                    <i class="fas fa-angle-down"></i> 
+                                </button>
+                            </div>
+                            <div id="collapseNine9" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                                 data-bs-parent="accordionExample">
+                                <div class="accordion-body wow fadeInDown">
+                                    <div class="syllabus-list">
+                                        <div class="syllabus-content">
+                                            <li class="syllabustext">Financial Data Modeling Techniques using tables, relationships, and calculated columns</li>
+                                            <li class="syllabustext">Introduction to Data Analysis Expressions (DAX) formulas for creating complex calculations and financial metrics</li>
+                                            <li class="syllabustext">Scenario and Sensitivity Analysis for various financial scenarios and perform sensitivity analysis within Power BI</li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-item wow fadeInUp ">
+                            <div class="accordion-header d-flex" id="headingTen">
+                                <button class="accordion-button justify-content-between " type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTen10" aria-expanded="false"
+                                        aria-controls="collapseTen">
+                                    <span class="button-label">Module 10</span> Storytelling of Financial Models Analysis through Power BI
+                                    <i class="fas fa-angle-down"></i> 
+                                </button>
+                            </div>
+                            <div id="collapseTen10" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                                 data-bs-parent="accordionExample">
+                                <div class="accordion-body wow fadeInDown">
+                                    <div class="syllabus-list">
+                                        <div class="syllabus-content">
+                                            <li class="syllabustext">Creating Charts, Graphs, and custom visuals to enhance insights</li>
+                                            <li class="syllabustext">Building Advanced visuals like waterfall charts, gauge charts, and scatter plots to represent financial data</li>
+                                            <li class="syllabustext">Interactivity and Drill-Down techniques to add interactivity and dynamic filtering to financial reports</li>
+                                            <li class="syllabustext">Storytelling strategies to communicate financial insights effectively through dashboards and narratives</li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item wow fadeInUp ">
+                            <div class="accordion-header d-flex" id="headingEleven">
+                                <button class="accordion-button justify-content-between " type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseEleven11" aria-expanded="false"
+                                        aria-controls="collapseEleven">
+                                    <span class="button-label">Module 11</span> Introduction to AI and Machine Learning Visualization in Power BI
+                                    <i class="fas fa-angle-down"></i> 
+                                </button>
+                            </div>
+                            <div id="collapseEleven11" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                                 data-bs-parent="accordionExample">
+                                <div class="accordion-body wow fadeInDown">
+                                    <div class="syllabus-list">
+                                        <div class="syllabus-content">
+                                            <li class="syllabustext">Apply 'Forecast' feature to predict future trends based on historical data</li>
+                                            <li class="syllabustext">Evaluate Anomaly Detection to identify discrepancies and outliers in datasets</li>
+                                            <li class="syllabustext">Trend Analysis to interpret trends within plotted data for better insights</li>
+                                            <li class="syllabustext">Exploratory Data Analysis (EDA) for mean, median, minimum, maximum, and percentiles on visuals to explore and analyze their impact on data</li>
+                                            <li class="syllabustext">Regression Models with 'Measures' to predict values and derive insights</li>
+                                            <li class="syllabustext">Decomposition Tree to break down the dimensions of a particular matrix</li>
+                                            <li class="syllabustext">Apply in-built machine learning algorithm to identify Key Influencer Visual</li>
+                                            <li class="syllabustext">Examine data through Q&A visual by writing natural language queries and ask questions about your data interactively</li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+
+
                                <div class="accordion-item wow fadeInUp ">
                             <div class="accordion-header d-flex" id="headingFour">
                                 <button class="accordion-button justify-content-between " type="button" data-bs-toggle="collapse"
@@ -632,7 +737,7 @@
               <div class=" row gx-100 gy-4  ">
              <div class="col-lg-12 col-xl-12 col-xxl-12 pt-2 pb-5 text-center">         
                
-             <h2 class=" pt-1  text-white">Become smarter in just 24 hours </h2>
+             <h2 class=" pt-1  text-white">Become smarter in just 36 hours </h2>
              <!--<p class=" pt-1 fs-md text-white">Enter your email id to get latest updates and  amazing discounts</p>-->
                <br>
                
