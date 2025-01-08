@@ -2,6 +2,13 @@
 
 
 @section('content')
+@push('style')
+.fixed-image-size {
+	width: 414px !important;
+	height: 311px !important;
+	object-fit: cover;  /* This ensures the image covers the area without distorting */
+  }	
+@endpush
 
 
     <section class="view-courses-bg ">
@@ -311,5 +318,14 @@
         selector: '.glightbox',
     });
 });
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     const lightbox = GLightbox({
+//         selector: '.glightbox', // Ensure this matches your link class
+//         touchNavigation: true,
+//         loop: true, // Optional: Loop through images
+//         zoomable: true, // Optional: Enable zoom
+//     });
+// });
 </script>
 @endpush
