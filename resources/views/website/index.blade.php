@@ -53,10 +53,10 @@
             </div>
                   
         </div>
-               <div class="media-style7" style="    right: 43px;    position: absolute;    top: 44rem;">
+               {{-- <div class="media-style7" style="    right: 43px;    position: absolute;    top: 44rem;">
                             <!--<h3 class="media-title" style="font-size:30px; ">Schedule a meeting</h3>-->
                             <p class="media-text"></p><button type="button" class="vs-btn">Schedule a Meeting Now</button>
-                        </div>
+                        </div> --}}
     </section><!--==============================
       Features
   ==============================-->
@@ -908,7 +908,7 @@ Your browser does not support the video tag.
                 <div class="col-lg-12 mb-40 mb-lg-0 justify-content-center text-center">
                     <h2 class="mt-2 h2 mb-5">Book a FREE Demo Session with our Career Growth Specialists and Fast track your Individual and Organizational Progress</h2>
                     <!--<p class=" mb-4 pb-2 fs-md col-xl-11">Sign up to our newsletter and we'll send fresh new courses and special offers direct to your inbox, once a week.</p>-->
-                    <a href="contact" class="vs-btn style2 "><i class="far fa-angle-right"></i>Schedule a Meeting Now</a>
+                    {{-- <a href="contact" class="vs-btn style2 "><i class="far fa-angle-right"></i>Schedule a Meeting Now</a> --}}
                 </div>
                 <!--<div class="col-auto d-none d-lg-block">-->
                 <!--    <div class="sec-line2"></div>-->

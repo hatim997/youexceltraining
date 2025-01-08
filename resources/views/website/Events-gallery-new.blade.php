@@ -60,35 +60,16 @@
 	
 			  <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 1344px;">
 
-				{{-- <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-					@foreach($dataGroupedByYear as $year => $images)
-						@foreach($images as $image)
-							<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-{{ $year }}" style="position: absolute; left: 440px; top: 0px;">
-								<div class="portfolio-content h-100">
-									<img src="{{ asset('gallery_images/' . $image->image) }}" class="img-fluid" alt="">
-									<div class="portfolio-info">
-										<h4>{{ $image->category->cat_name }}</h4>
-										<p>{{ $image->created_at->format('Y-m-d') }}</p>
-										<div>
-											<a href="{{ asset('gallery_images/' . $image->image) }}" title="{{ $image->category->cat_name }}" data-gallery="portfolio-gallery-{{ $year }}" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-											<a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						@endforeach
-					@endforeach
-				</div> --}}
+				
 
 					
 
 
-<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+{{-- <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
     @foreach($dataGroupedByYear as $year => $images)
         @foreach($images as $image)
             <div class="col-lg-4 mt-4 col-md-6 portfolio-item isotope-item filter-{{ $year }}">
                 <div class="portfolio-content h-100">
-                    <!-- Add a class to the image for custom size styling -->
                     <img src="{{ asset('gallery_images/' . $image->image) }}" 
                          class="img-fluid fixed-image-size" 
                          alt="">
@@ -102,9 +83,42 @@
                                class="glightbox preview-link">
                                 <i class="bi bi-zoom-in"></i>
                             </a>
-                            {{-- <a href="portfolio-details.html" title="More Details" class="details-link">
-                                <i class="bi bi-link-45deg"></i>
-                            </a> --}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        @endforeach
+    @endforeach
+</div> --}}
+<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+    @foreach($dataGroupedByYear as $year => $images)
+        @foreach($images->groupBy('category.cat_name') as $categoryName => $categoryImages)
+            <!-- Display only the first image of the category -->
+            @php $firstImage = $categoryImages->first(); @endphp
+            <div class="col-lg-4 mt-4 col-md-6 portfolio-item isotope-item filter-{{ $year }}">
+                <div class="portfolio-content h-100">
+                    <img src="{{ asset('gallery_images/' . $firstImage->image) }}" 
+                         class="img-fluid fixed-image-size" 
+                         alt="{{ $categoryName }}">
+                    <div class="portfolio-info">
+                        <h4>{{ $categoryName }}</h4>
+                        <p>{{ $firstImage->created_at->format('Y-m-d') }}</p>
+                        <div>
+                            <!-- Main trigger for the lightbox -->
+                            <a href="{{ asset('gallery_images/' . $firstImage->image) }}" 
+                               title="{{ $categoryName }}" 
+                               data-gallery="portfolio-gallery-{{ $year }}" 
+                               class="glightbox preview-link">
+                                <i class="bi bi-zoom-in"></i>
+                            </a>
+
+                            <!-- Add hidden links for all other images in this category -->
+                            @foreach($categoryImages->skip(1) as $image)
+                                <a href="{{ asset('gallery_images/' . $image->image) }}" 
+                                   title="{{ $categoryName }}" 
+                                   data-gallery="portfolio-gallery-{{ $year }}" 
+                                   class="glightbox d-none"></a>
+                            @endforeach
                         </div>
                     </div>
                 </div>
@@ -112,6 +126,8 @@
         @endforeach
     @endforeach
 </div>
+
+
 
 				
 				<!-- End Portfolio Item -->
@@ -289,5 +305,11 @@
 @endsection
 
 @push('scripts')
-
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+    const lightbox = GLightbox({
+        selector: '.glightbox',
+    });
+});
+</script>
 @endpush

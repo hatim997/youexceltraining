@@ -628,11 +628,11 @@
         <h3 class="widget_title">Contact Detail</h3>
         <div class="menu-all-pages-container footer-menu">
             <ul class="menu" style="padding: 0;">
-                <li>
+                {{-- <li>
                     <p class="footer-info">
                         <a class="text-inherit" href="{{ url('/contact') }}">Schedule a Meeting</a>
                     </p>
-                </li>
+                </li>--}}
                 <li>
                     <p class="footer-info">+92-21-37121738</p>
                 </li>
@@ -802,7 +802,7 @@
     </div>
 
 
-    <a class="scrollToTopp scroll-btnn show" onclick="actionToggle();"><i class="fa-solid fa-pen-to-square"></i></a>
+    {{--  <a class="scrollToTopp scroll-btnn show" onclick="actionToggle();"><i class="fa-solid fa-pen-to-square"></i></a> --}}
 
     <form action="/nomanform" method="POST">
         @csrf

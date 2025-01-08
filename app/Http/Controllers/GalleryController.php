@@ -28,16 +28,20 @@ class GalleryController extends Controller
 
     public function EventGalleryNew()
     {
+        // Fetch images with their associated category
         $data = galleryImage::with('category')->get();
-
-        // Extract unique category names
-        $categories = $data->pluck('category.cat_name')->unique()->toArray();
-
+    
+        // Group images by year and sort by year in ascending order
         $dataGroupedByYear = $data->groupBy(function ($item) {
             return $item->category->year;
         })->sortKeys();
-
-        return view('website.Events-gallery-new', compact('categories', 'dataGroupedByYear'));
+    
+        // Group images by category name
+        $dataGroupedByCategory = $data->groupBy(function ($item) {
+            return $item->category->cat_name;
+        });
+    
+        return view('website.Events-gallery-new', compact('dataGroupedByYear', 'dataGroupedByCategory'));
     }
     public function index()
     {
@@ -108,12 +112,24 @@ class GalleryController extends Controller
         return redirect()->back();
     }
 
-    function deletegalleryImg($id) 
+    public function deletegalleryImg($id) 
     {
+        // Find the image record by ID
+        $image = GalleryImage::findOrFail($id);
 
-        GalleryImage::findOrFail($id)->delete();
+        // Define the path to the image
+        $imagePath = public_path('gallery_images/' . $image->image);
 
-        return redirect()->back(); 
+        // Check if the file exists and delete it
+        if (file_exists($imagePath)) {
+            unlink($imagePath);
+        }
+
+        // Delete the record from the database
+        $image->delete();
+
+        // Redirect back with a success message
+        return redirect()->back()->with('success', 'Image deleted successfully!');
     }
 
 
