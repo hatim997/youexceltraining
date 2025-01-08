@@ -1,4 +1,8 @@
-@extends('website.app', ['title' => 'Advanced Excel'])
+@extends('website.app')
+
+@section('title', 'Advanced MS Excel Course in Karachi Pakistan')
+@section('meta_description', 'Join the Advanced MS Excel Course in Karachi, Pakistan. Master complex Excel functions, data analysis, and automation to enhance your skills and career opportunities.')
+@section('meta_keywords', 'Advanced MS Excel Course in Karachi Pakistan')
 
 @section('content')
     <div class="breadcumb-wrapper " data-bg-src="">

@@ -1,8 +1,8 @@
 @extends('website.app')
 
-@section('title', 'Power bi Course & Certification in Karachi | Python & SQL')
-@section('meta_description', 'Enroll in our Power BI Course in Karachi, SQL, Python certification, and Big Data Analytics courses. Get certified in Python, Power BI, and more')
-@section('meta_keywords', 'power bi course in karachi, power bi certification karachi, sql course in karachi, big data analytics course in karachi, python certification course, python course in karachi')
+@section('title', 'Advance IT Courses in Karachi Pakistan')
+@section('meta_description', 'Explore Advance IT Courses in Karachi, Pakistan. Gain expert-level knowledge in programming, networking, cybersecurity, and more to enhance your career in technology.')
+@section('meta_keywords', 'Advance IT Courses in Karachi Pakistan')
 
 
 @section('content')

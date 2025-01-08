@@ -1,4 +1,9 @@
-@extends('website.app', ['title'=>'Financial Modeling and Analysis'])
+@extends('website.app')
+
+@section('title', 'Financial Modeling and Analysis Course in Karachi Pakistan')
+@section('meta_description', 'Enroll in the Financial Modeling and Analysis Course in Karachi, Pakistan. Master financial forecasting, budgeting, and modeling techniques to advance your career.')
+@section('meta_keywords', 'Financial Modeling and Analysis Course in Karachi Pakistan')
+
 
 @section('content')
     <div class="breadcumb-wrapper " data-bg-src="">

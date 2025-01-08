@@ -1,4 +1,9 @@
-@extends('website.app', ['title' => 'Power BI'])
+@extends('website.app')
+
+@section('title', 'Dashboard Reporting & Analysis with Power BI Course in Karachi')
+@section('meta_description', 'Enroll in the Dashboard Reporting & Analysis with Power BI Course in Karachi. Learn to create interactive dashboards and advanced reports to elevate your data skills.')
+@section('meta_keywords', 'Dashboard Reporting & Analysis with Power BI Course in Karachi')
+
 
 @section('content')
     <div class="breadcumb-wrapper " data-bg-src="">

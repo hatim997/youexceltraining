@@ -1,4 +1,9 @@
-@extends('website.app', ['title' => 'Data Analytics with SQL (Basic to Advanced)'])
+@extends('website.app')
+
+@section('title', 'Data Analytics with SQL Course in Karachi Pakistan')
+@section('meta_description', 'Join the Data Analytics with SQL Course in Karachi, Pakistan. Learn to analyze data, write complex queries, and master SQL for effective data-driven decision making.')
+@section('meta_keywords', 'Data Analytics with SQL Course in Karachi Pakistan')
+
 
 @section('content')
     <div class="breadcumb-wrapper " data-bg-src="">

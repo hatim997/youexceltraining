@@ -1,4 +1,9 @@
-@extends('website.app', ['title'=>'MS Office Management'])
+@extends('website.app')
+
+@section('title', 'MS Office Management Course in Karachi Pakistan')
+@section('meta_description', 'Enroll in the MS Office Management Course in Karachi, Pakistan. Master essential tools like Word, Excel, PowerPoint, and Outlook to boost your productivity and career.')
+@section('meta_keywords', 'MS Office Management Course in Karachi Pakistan')
+
 
 @section('content')
     <div class="breadcumb-wrapper " data-bg-src="">

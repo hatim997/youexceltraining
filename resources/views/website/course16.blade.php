@@ -1,4 +1,9 @@
-@extends('website.app', ['title' => 'E-Dukaan Specialist '])
+@extends('website.app')
+
+@section('title', 'E Dukaan Specialist Course in Karachi Pakistan')
+@section('meta_description', 'Enroll in the E Dukaan Specialist Course in Karachi, Pakistan. Learn to set up, manage, and optimize your online store for success in the e-commerce world.')
+@section('meta_keywords', 'E Dukaan Specialist Course in Karachi Pakistan')
+
 
 @section('content')
     <div class="breadcumb-wrapper " data-bg-src="">

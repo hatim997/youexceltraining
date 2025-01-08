@@ -1,4 +1,9 @@
-@extends('website.app',  ['title'=>'Certificate in Information Technology'])
+@extends('website.app')
+
+@section('title', 'Certification in Information Technology in Karachi Pakistan')
+@section('meta_description', 'Get your Certification in Information Technology in Karachi, Pakistan. Enhance your IT skills, boost your career, and gain industry-recognized qualifications.')
+@section('meta_keywords', 'Certification in Information Technology in Karachi Pakistan')
+
 
 @section('content')
     <div class="breadcumb-wrapper " data-bg-src="">

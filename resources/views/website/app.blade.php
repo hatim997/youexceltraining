@@ -557,18 +557,45 @@
                                     <li>
                                         <a href="{{ url('Policies') }}">DIVERSITY POLICY</a>
                                     </li>
-
-                                    <!--<li>-->
-                                    <!--       <a href="#">OUR APPLICATIONS END</a>-->
-                                    <!--   </li>-->
-                                    <!--   <li>-->
-                                    <!--       <a href="#">LEARNER PORTFOLIO</a>-->
-                                    <!--   </li> -->
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    
+
+                    <div class="col-6 col-md-6 col-xl-auto">
+    <div class="widget nav_menu footer-widget">
+        <h3 class="widget_title">Contact Detail</h3>
+        <div class="menu-all-pages-container footer-menu">
+            <ul class="menu">
+                {{-- <li>
+                    <p class="footer-info">
+                        <a class="text-inherit" href="{{ url('/contact') }}">Schedule a Meeting</a>
+                    </p>
+                </li> --}}
+                <li>
+                    <p class="footer-info">
+                        <a class="text-inherit" href="mailto:info@youexceltraining.com">info@youexceltraining.com</a>
+                    </p>
+                </li>
+                <li>
+                    <p class="footer-info">+92-21-37121738</p>
+                </li>
+                <li>
+                    <p class="footer-info">+92 335 6699331</p>
+                </li><br><br>
+                
+                <li>
+                    <p class="footer-info">
+                        YouExcel, Suite: 503-506, 5th Floor, Al Samad Tower, Block 13-B,
+                        Main University Road, Gulshan-e-Iqbal, Karachi, Pakistan.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
                     <!-- <div class="col-md-6 col-xl-auto">
                         <div class="widget  footer-widget">
                             <h3 class="widget_title">Contact Detail</h3>
@@ -623,38 +650,7 @@
                         </div>
                     </div> -->
 
-                    <div class="col-md-6 col-xl-auto">
-    <div class="widget footer-widget">
-        <h3 class="widget_title">Contact Detail</h3>
-        <div class="menu-all-pages-container footer-menu">
-            <ul class="menu" style="padding: 0;">
-                {{-- <li>
-                    <p class="footer-info">
-                        <a class="text-inherit" href="{{ url('/contact') }}">Schedule a Meeting</a>
-                    </p>
-                </li>--}}
-                <li>
-                    <p class="footer-info">+92-21-37121738</p>
-                </li>
-                <li>
-                    <p class="footer-info">+92 335 6699331</p>
-                </li>
-                <li>
-                    <p class="footer-info">
-                        <a class="text-inherit" href="mailto:info@youexceltraining.com">info@youexceltraining.com</a>
-                    </p>
-                </li>
-                <br> <br>
-                <li>
-                    <p class="footer-info">
-                        YouExcel, Suite: 503-506, 5th Floor, Al Samad Tower, Block 13-B, 
-                        Main University Road, Gulshan-e-Iqbal, Karachi, Pakistan.
-                    </p>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
+                    
                 </div>
             </div>
         </div>
@@ -905,10 +901,10 @@
     <!-- Bootstrap -->
     <!--<script src="assets/js/bootstrap.min.js"></script> -->
     <!-- <script src="assets/js/popper.min.js">
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-</script>
+        < script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity = "sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin = "anonymous" >
+    </script>
 @stack('scripts')
 <!-- Wow.js Animation -->
 
@@ -931,18 +927,18 @@
 
     <script>
         /* const accordionItems = document.querySelectorAll('.accordion-button');
-    accordionItems.forEach(item => {
-      item.addEventListener('click', function() {
-        const icon = this.querySelector('.fas');
-        if (this.getAttribute('aria-expanded') === 'true') {
-          icon.classList.remove('fa-angle-down');
-          icon.classList.add('fa-angle-up');
-        } else {
-          icon.classList.remove('fa-angle-up');
-          icon.classList.add('fa-angle-down');
-        }
-      });
-      }); */
+        accordionItems.forEach(item => {
+          item.addEventListener('click', function() {
+            const icon = this.querySelector('.fas');
+            if (this.getAttribute('aria-expanded') === 'true') {
+              icon.classList.remove('fa-angle-down');
+              icon.classList.add('fa-angle-up');
+            } else {
+              icon.classList.remove('fa-angle-up');
+              icon.classList.add('fa-angle-down');
+            }
+          });
+          }); */
 
         /* $("#accordionExample").on("hide.bs.collapse show.bs.collapse", e => {
             $(e.target).prev().find("i:last-child").toggleClass("fas fa-chevron-circle-down fas fa-chevron-circle-up");
@@ -1063,7 +1059,7 @@
                     // Show the top line and navbar when scrolling up
 
                     document.getElementById("navbar").style.top =
-                    "0px"; // Adjust based on your top line/header height
+                        "0px"; // Adjust based on your top line/header height
 
                 } else {
                     // Hide the top line and navbar when scrolling down
@@ -1081,7 +1077,7 @@
                         // Add mouseout event listener
                         link.addEventListener('mouseout', function() {
                             this.style.color =
-                            '#000000'; // Set the text color to black on mouseout
+                                '#000000'; // Set the text color to black on mouseout
                         });
                     });
 

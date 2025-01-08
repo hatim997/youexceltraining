@@ -1,4 +1,9 @@
-@extends('website.app', ['title'=>'Tax Management with Returns Filing'])
+@extends('website.app')
+
+@section('title', 'Tax Management with Returns Filing Course in Karachi Pakistan')
+@section('meta_description', 'Join the Tax Management with Returns Filing Course in Karachi, Pakistan. Master tax laws, filing procedures, and effective management strategies for businesses and individuals.')
+@section('meta_keywords', 'Tax Management with Returns Filing Course in Karachi Pakistan')
+
 
 @section('content')
     <div class="breadcumb-wrapper " data-bg-src="">
