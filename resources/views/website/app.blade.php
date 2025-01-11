@@ -562,7 +562,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-md-6 col-xl-auto">
+                    <div class="col-12 col-md-6 col-xl-auto">
     <div class="widget nav_menu footer-widget">
         <h3 class="widget_title">Contact Detail</h3>
         <div class="menu-all-pages-container footer-menu">
