@@ -884,7 +884,7 @@
                 <div class="col-sm-6 col-xl-4">
                     <div style="position: relative; overflow: hidden; border-radius: 20px 20px 0 0; height: 314px;">
                         <a href="">
-                            <img class="w-100 custom-img-size" src="{{ asset('img/Yourexcel-img/fm1.PNG') }}" alt="Course Img" 
+                            <img class="w-100 custom-img-size" src="{{ asset('img/Yourexcel-img/fm1.png') }}" alt="Course Img" 
                                  style="pointer-events: none; object-fit: cover; width: 100%; height: 100%; opacity: 1;">
                         </a>
                     </div>
@@ -892,7 +892,7 @@
                 <div class="col-sm-6 col-xl-4">
                     <div style="position: relative; overflow: hidden; border-radius: 20px 20px 0 0; height: 314px;">
                         <a href="">
-                            <img class="w-100" src="{{ asset('img/Yourexcel-img/fm2.PNG') }}" alt="Course Img" 
+                            <img class="w-100" src="{{ asset('img/Yourexcel-img/fm2.png') }}" alt="Course Img" 
                                  style="pointer-events: none; object-fit: cover; width: 100%; height: 100%;">
                         </a>
                     </div>
@@ -901,7 +901,7 @@
                 <div class="col-sm-6 col-xl-4">
                     <div style="position: relative; overflow: hidden; border-radius: 20px 20px 0 0; height: 314px;">
                         <a href="">
-                            <img class="w-100 custom-img-size" src="{{ asset('img/Yourexcel-img/fm3.PNG') }}" alt="Course Img" 
+                            <img class="w-100 custom-img-size" src="{{ asset('img/Yourexcel-img/fm3.png') }}" alt="Course Img" 
                                  style="pointer-events: none; object-fit: cover; width: 100%; height: 100%; opacity: 1;">
                         </a>
                     </div>
@@ -909,7 +909,7 @@
                 <div class="col-sm-6 col-xl-4">
                     <div style="position: relative; overflow: hidden; border-radius: 20px 20px 0 0; height: 314px;">
                         <a href="">
-                            <img class="w-100" src="{{ asset('img/Yourexcel-img/fm4.PNG') }}" alt="Course Img" 
+                            <img class="w-100" src="{{ asset('img/Yourexcel-img/fm4.png') }}" alt="Course Img" 
                                  style="pointer-events: none; object-fit: cover; width: 100%; height: 100%;">
                         </a>
                     </div>
