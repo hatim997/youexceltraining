@@ -1,4 +1,8 @@
-@extends('website.app', ['title' => 'Enquiry Form'])
+@extends('website.app')
+
+@section('title', 'Project Enquiry Form')
+{{-- @section('meta_description', 'Enroll in the Microsoft Excel Mastery Course in Karachi, Pakistan. Learn advanced Excel skills to boost your career with expert training and hands-on experience.')
+@section('meta_keywords', 'Microsoft Excel Mastery Course in Karachi Pakistan') --}}
 
 @section('content')
     <br> <br>
@@ -12,9 +16,8 @@
                 <div class="col-md-12 col-lg-12 col-xl-12 align-self-center text-center text-md-start mb-4 pb-md-0">
                     <div class="breadcumb-content  text-center">
                         <p class="breadcumb-text" style="color:black">
-                            <b>
-                                Start a conversation with one of our Training Solutions Experts to see if YouExcel is the
-                                right platform to fuel your Career Growth. </b>
+                            <b>Prime Minister Youth Skill Development in collaboration with YouExcel (100% Free of Cost Training)
+                                Enquiry Form</b>
                         </p>
                     </div>
                 </div>
@@ -136,11 +139,11 @@
                                         <input class="form-control" name="comments" placeholder="Comments" type="text">
                                     </div>
 
-                                    <label for="" style="font-weight: bold; margin-top: 5px;">Preferred Timing:</label>
+                                    <label for="" style="font-weight: bold; margin-top: 5px;">Preferred Timing (Tentative)</label>
                                     <div class="col-lg-4">
                                         <div>
                                             <input type="checkbox" id="morning" name="preferred_timing[]" value="Morning">
-                                            <label for="morning">Morning</label>
+                                            <label for="morning">Morning (8:30 AM to 1:30 PM)</label>
                                         </div>
                                     </div>
                                     
@@ -148,7 +151,7 @@
                                         {{-- <label for="afternoon" style="font-weight: bold;">Preferred Timing - Afternoon:</label> --}}
                                         <div>
                                             <input type="checkbox" id="afternoon" name="preferred_timing[]" value="Afternoon">
-                                            <label for="afternoon">Afternoon</label>
+                                            <label for="afternoon">Afternoon (1:30 PM to 5:30 PM)</label>
                                         </div>
                                     </div>
                                     
@@ -156,7 +159,7 @@
                                         {{-- <label for="evening" style="font-weight: bold;">Preferred Timing - Evening:</label> --}}
                                         <div>
                                             <input type="checkbox" id="evening" name="preferred_timing[]" value="Evening">
-                                            <label for="evening">Evening</label>
+                                            <label for="evening">Evening (5:30 PM to 9:30 PM)</label>
                                         </div>
                                     </div>
 
