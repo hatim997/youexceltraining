@@ -58,6 +58,9 @@
                                         <th scope="col">Whatsapp no</th>
                                         <th scope="col">Email</th>
                                         <th scope="col">Project Intrested</th>
+                                        <th scope="col">Project Intrested 1</th>
+                                        <th scope="col">Project Intrested 2</th>
+                                        <th scope="col">Preferred Timing</th>
                                         <th scope="col">Comments</th>
                                         <th scope="col">Form Type</th>
                                         <th scope="col">Action</th>
@@ -76,6 +79,18 @@
                                     <td>{{$item['whatsapp']}}</td>
                                     <td>{{$item['email']}}</td>
                                     <td>{{$item['project_name']}}</td>
+                                    <td>{{$item['project_name_2'] ?? 'Null'}}</td>
+                                    <td>{{$item['project_name_3'] ?? 'Null'}}</td>
+                                    <td>
+                                        @php
+                                            $timings = json_decode($item->preferred_timing, true);
+                                        @endphp
+                                        @if ($timings)
+                                            {{ implode(', ', $timings) }}
+                                        @else
+                                            No preference selected
+                                        @endif
+                                    </td>
                                     <td>{{$item['comments']}}</td>
                                     <td>Project Form</td>
                                     <td>

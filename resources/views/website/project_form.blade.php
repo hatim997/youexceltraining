@@ -108,7 +108,7 @@
                                         @endif
                                     </div>
                                     <div class="col-lg-4">
-                                        <label for="">Course Preference : 3<span style="color: red;">*</span></label>
+                                        <label for="">Course Preference 3: <span style="color: red;">*</span></label>
                                         @if (isset($course_name))
                                             <input class="form-control" name="project_name_3" id="project_name_3"
                                                 readonly="true" value="{{ $course_name }}">
@@ -136,7 +136,7 @@
                                         <input class="form-control" name="comments" placeholder="Comments" type="text">
                                     </div>
 
-                                    <label for="" style="font-weight: bold; margin-top: 5px;">Preferred Timing</label>
+                                    <label for="" style="font-weight: bold; margin-top: 5px;">Preferred Timing:</label>
                                     <div class="col-lg-4">
                                         <div>
                                             <input type="checkbox" id="morning" name="preferred_timing[]" value="Morning">
