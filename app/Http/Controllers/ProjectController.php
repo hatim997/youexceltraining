@@ -55,7 +55,7 @@ class ProjectController extends Controller
 
     public function storeprojectwebsite(Request $request)
     {
-        // dd($req->all());
+        // dd($request->all(), $request->project_name_2, $request->project_name_3);
         try {
             // Insert data into the database
             WebsiteProject::create([
@@ -64,13 +64,15 @@ class ProjectController extends Controller
                 'whatsapp' => $request->whatsapp,
                 'email' => $request->email,
                 'project_name' => $request->project_name,
+                'project_name_2' => $request->project_name_2,
+                'project_name_3' => $request->project_name_3,
                 'city' => $request->city,
                 'comments' => $request->comments,
+                'preferred_timing' => json_encode($request->preferred_timing), // Store as JSON
             ]);
     
             // Flash a success message to the session
             Session::flash('websiteproject_success', 'Your Form has been submitted successfully!');
-    
         } catch (\Exception $e) {
             // Log the exception (optional)
             \Log::error('Error submitting Form: ' . $e->getMessage());

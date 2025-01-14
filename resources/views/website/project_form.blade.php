@@ -71,7 +71,7 @@
                                     </div>
 
                                     <div class="col-lg-4">
-                                        <label for="">Course <span style="color: red;">*</span></label>
+                                        <label for="">Course Preference 1: <span style="color: red;">*</span></label>
                                         @if (isset($course_name))
                                             <input class="form-control" name="project_name" id="project_name"
                                                 readonly="true" value="{{ $course_name }}">
@@ -88,6 +88,44 @@
                                             </select>
                                         @endif
                                     </div>
+
+                                    <div class="col-lg-4">
+                                        <label for="">Course Preference 2: <span style="color: red;">*</span></label>
+                                        @if (isset($course_name))
+                                            <input class="form-control" name="project_name_2" id="project_name_2"
+                                                readonly="true" value="{{ $course_name }}">
+                                        @else
+                                            <select class="form-control " name="project_name_2" id="project_name_2"
+                                                aria-label="Default select example" data-live-search="true"
+                                                placeholder="Choose from dropdown list">
+                                                <!-- <option value="Choose from dropdown list" selected readonly>Choose from dropdown list</option> -->
+                                                @foreach ($projects as $project)
+                                                    <option value="{{ $project->project_name }}">
+                                                        {{ $project->project_name }}</option>
+                                                @endforeach
+                                                <option value="Other">Other</option>
+                                            </select>
+                                        @endif
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <label for="">Course Preference : 3<span style="color: red;">*</span></label>
+                                        @if (isset($course_name))
+                                            <input class="form-control" name="project_name_3" id="project_name_3"
+                                                readonly="true" value="{{ $course_name }}">
+                                        @else
+                                            <select class="form-control " name="project_name_3" id="project_name_3"
+                                                aria-label="Default select example" data-live-search="true"
+                                                placeholder="Choose from dropdown list">
+                                                <!-- <option value="Choose from dropdown list" selected readonly>Choose from dropdown list</option> -->
+                                                @foreach ($projects as $project)
+                                                    <option value="{{ $project->project_name }}">
+                                                        {{ $project->project_name }}</option>
+                                                @endforeach
+                                                <option value="Other">Other</option>
+                                            </select>
+                                        @endif
+                                    </div>
+
                                     <div class="col-lg-4">
                                         <label for="">City <span style="color: red;">*</span></label>
                                         <input name="city" placeholder="Your City" class="form-control" required=""
@@ -96,6 +134,30 @@
                                     <div class="col-lg-4">
                                         <label for="">Comments</label>
                                         <input class="form-control" name="comments" placeholder="Comments" type="text">
+                                    </div>
+
+                                    <label for="" style="font-weight: bold; margin-top: 5px;">Preferred Timing</label>
+                                    <div class="col-lg-4">
+                                        <div>
+                                            <input type="checkbox" id="morning" name="preferred_timing[]" value="Morning">
+                                            <label for="morning">Morning</label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4">
+                                        {{-- <label for="afternoon" style="font-weight: bold;">Preferred Timing - Afternoon:</label> --}}
+                                        <div>
+                                            <input type="checkbox" id="afternoon" name="preferred_timing[]" value="Afternoon">
+                                            <label for="afternoon">Afternoon</label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4">
+                                        {{-- <label for="evening" style="font-weight: bold;">Preferred Timing - Evening:</label> --}}
+                                        <div>
+                                            <input type="checkbox" id="evening" name="preferred_timing[]" value="Evening">
+                                            <label for="evening">Evening</label>
+                                        </div>
                                     </div>
 
                                     <br /><br />
