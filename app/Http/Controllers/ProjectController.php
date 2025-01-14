@@ -88,7 +88,7 @@ class ProjectController extends Controller
 
     function viewprojectform()
     {
-        $data = WebsiteProject::orderBy("id","desc")->get();
+        $data = WebsiteProject::orderBy('id','DESC')->get();
         // $data = LeadForm::all();
         // dd($data);
         // return view('add-course', ['Courses'=>$data]);
