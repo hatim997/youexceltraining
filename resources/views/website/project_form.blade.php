@@ -71,10 +71,16 @@
                                         <input name="email" placeholder="Your Email Address" class="form-control"
                                             pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" required=""
                                             type="email">
+
+                                            <label for="">Comments</label>
+                                            <input class="form-control" name="comments" placeholder="Comments" type="text">
+                                        
+
+
                                     </div>
 
                                     <div class="col-lg-4">
-                                        <label for="">Course Preference 1: <span style="color: red;">*</span></label>
+                                        <label for="">Trait Preference<span style="color: red;">*</span></label>
                                         @if (isset($course_name))
                                             <input class="form-control" name="project_name" id="project_name"
                                                 readonly="true" value="{{ $course_name }}">
@@ -82,7 +88,7 @@
                                             <select class="form-control " name="project_name" id="project_name"
                                                 aria-label="Default select example" data-live-search="true"
                                                 placeholder="Choose from dropdown list">
-                                                <!-- <option value="Choose from dropdown list" selected readonly>Choose from dropdown list</option> -->
+                                                <option value="" selected readonly>Choose Trait Preference</option>
                                                 @foreach ($projects as $project)
                                                     <option value="{{ $project->project_name }}">
                                                         {{ $project->project_name }}</option>
@@ -90,9 +96,13 @@
                                                 <option value="Other">Other</option>
                                             </select>
                                         @endif
+
+                                        <label for="">City <span style="color: red;">*</span></label>
+                                        <input name="city" placeholder="Your City" class="form-control" required=""
+                                            type="text">
                                     </div>
 
-                                    <div class="col-lg-4">
+                                    {{-- <div class="col-lg-4">
                                         <label for="">Course Preference 2: <span style="color: red;">*</span></label>
                                         @if (isset($course_name))
                                             <input class="form-control" name="project_name_2" id="project_name_2"
@@ -109,8 +119,8 @@
                                                 <option value="Other">Other</option>
                                             </select>
                                         @endif
-                                    </div>
-                                    <div class="col-lg-4">
+                                    </div> --}}
+                                    {{-- <div class="col-lg-4">
                                         <label for="">Course Preference 3: <span style="color: red;">*</span></label>
                                         @if (isset($course_name))
                                             <input class="form-control" name="project_name_3" id="project_name_3"
@@ -127,17 +137,43 @@
                                                 <option value="Other">Other</option>
                                             </select>
                                         @endif
-                                    </div>
+                                    </div> --}}
 
                                     <div class="col-lg-4">
+                                        <label for="last-education">Last Education (5th semester)<span style="color: red;">*</span></label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="project_name_2" id="postgraduate" value="Post Graduate" required>
+                                            <label class="form-check-label" for="postgraduate">Post Graduate</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="project_name_2" id="graduate" value="Graduate">
+                                            <label class="form-check-label" for="graduate">Graduate</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="project_name_2" id="undergraduate" value="Under Graduate">
+                                            <label class="form-check-label" for="undergraduate">Under Graduate</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="project_name_2" id="intermediate" value="Intermediate/ A levels">
+                                            <label class="form-check-label" for="intermediate">Intermediate/ A levels</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="project_name_2" id="matric" value="Matric/ O Levels">
+                                            <label class="form-check-label" for="matric">Matric/ O Levels</label>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    {{-- <div class="col-lg-4">
+                                        <label for="">Comments</label>
+                                        <input class="form-control" name="comments" placeholder="Comments" type="text">
+                                    </div> --}}
+
+                                    {{-- <div class="col-lg-4">
                                         <label for="">City <span style="color: red;">*</span></label>
                                         <input name="city" placeholder="Your City" class="form-control" required=""
                                             type="text">
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <label for="">Comments</label>
-                                        <input class="form-control" name="comments" placeholder="Comments" type="text">
-                                    </div>
+                                    </div> --}}
 
                                     <label for="" style="font-weight: bold; margin-top: 5px;">Preferred Timing (Tentative)</label>
                                     <div class="col-lg-4">
@@ -162,6 +198,8 @@
                                             <label for="evening">Evening (5:30 PM to 9:30 PM)</label>
                                         </div>
                                     </div>
+
+                                    
 
                                     <br /><br />
                                 </div>

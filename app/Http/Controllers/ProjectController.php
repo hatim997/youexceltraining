@@ -65,7 +65,7 @@ class ProjectController extends Controller
                 'email' => $request->email,
                 'project_name' => $request->project_name,
                 'project_name_2' => $request->project_name_2,
-                'project_name_3' => $request->project_name_3,
+                'project_name_3' => $request->project_name_3 ?? 'Null',
                 'city' => $request->city,
                 'comments' => $request->comments,
                 'preferred_timing' => json_encode($request->preferred_timing), // Store as JSON
