@@ -55,14 +55,16 @@ class ProjectController extends Controller
     {
         // Fetch all projects from the database
         $projects = Project::get();
+        dd($projects->toArray());
     
         // Map URL course slugs to project names dynamically
         $slugToProjectMapping = [
-            'pbida' => 'Python for Business Intelligence & Data Analysis',
-            'dmbi' => 'Data Modeling & Business Intelligence',
-            'wad' => 'Web Application Development',
+            'pbida' => 'Advance Python Programming & Applications',
+            'dmbi' => 'Data Mining / Business Intelligence',
+            'wad' => 'Advance Web application Development',
             'ppa' => 'Professional Programming Approach',
-            'cs' => 'Cyber Security',
+            'cs' => 'Cyber Security (CEH, CHFI)',
+            'dap' => 'Data Analysis using Python',
         ];
     
         // Find the matching course name based on the slug
