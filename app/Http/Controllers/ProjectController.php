@@ -59,10 +59,10 @@ class ProjectController extends Controller
     
         // Map URL course slugs to project names dynamically
         $slugToProjectMapping = [
-            'pbida' => 'Advance Python Programming & Applications',
+            'ppa' => 'Advance Python Programming & Applications',
             'dmbi' => 'Data Mining / Business Intelligence',
             'wad' => 'Advance Web application Development',
-            'ppa' => 'Professional Programming Approach',
+            'pbida' => 'MS Power BI and Data Analyst Professional Certificate',
             'cs' => 'Cyber Security (CEH, CHFI)',
             'dap' => 'Data Analysis using Python',
         ];
