@@ -46,10 +46,29 @@ class ProjectController extends Controller
         return redirect()->route('project.name');
     }
 
-    public function project_form()
+    // public function project_form()
+    // {
+    //     $projects = Project::get();
+    //     return view('website.project_form', compact('projects'));
+    // }
+    public function project_form($course = null)
     {
+        // Fetch all projects from the database
         $projects = Project::get();
-        return view('website.project_form', compact('projects'));
+    
+        // Map URL course slugs to project names dynamically
+        $slugToProjectMapping = [
+            'pbida' => 'Python for Business Intelligence & Data Analysis',
+            'dmbi' => 'Data Modeling & Business Intelligence',
+            'wad' => 'Web Application Development',
+            'ppa' => 'Professional Programming Approach',
+            'cs' => 'Cyber Security',
+        ];
+    
+        // Find the matching course name based on the slug
+        $course_name = $slugToProjectMapping[$course] ?? null;
+    
+        return view('website.project_form', compact('projects', 'course_name'));
     }
 
 

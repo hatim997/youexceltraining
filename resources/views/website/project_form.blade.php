@@ -73,7 +73,7 @@
                                             type="email">
 
                                     </div>
-                                    <div class="col-lg-4">
+                                    {{-- <div class="col-lg-4">
                                         <label for="">Trade Preference<span style="color: red;">*</span></label>
                                         @if (isset($course_name))
                                             <input class="form-control" name="project_name" id="project_name"
@@ -90,9 +90,25 @@
                                                 <option value="Other">Other</option>
                                             </select>
                                         @endif
+                                    </div> --}}
 
-                                        
+                                    <div class="col-lg-4">
+                                        <label for="">Trade Preference<span style="color: red;">*</span></label>
+                                        @if (isset($course_name) && $course_name)
+                                            <!-- Show readonly input if course_name is dynamically matched -->
+                                            <input class="form-control" name="project_name" id="project_name" readonly value="{{ $course_name }}">
+                                        @else
+                                            <!-- Otherwise, show the dropdown -->
+                                            <select class="form-control" name="project_name" id="project_name" aria-label="Default select example" data-live-search="true">
+                                                <option value="" selected readonly>Choose Trade Preference</option>
+                                                @foreach ($projects as $project)
+                                                    <option value="{{ $project->project_name }}">{{ $project->project_name }}</option>
+                                                @endforeach
+                                                <option value="Other">Other</option>
+                                            </select>
+                                        @endif
                                     </div>
+
                                     <div class="col-lg-4">
                                     <label for="">City <span style="color: red;">*</span></label>
                                         <input name="city" placeholder="Your City" class="form-control" required=""
