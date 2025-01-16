@@ -55,7 +55,7 @@ class ProjectController extends Controller
     {
         // Fetch all projects from the database
         $projects = Project::get();
-        dd($projects->toArray());
+        // dd($projects->toArray());
     
         // Map URL course slugs to project names dynamically
         $slugToProjectMapping = [
