@@ -14,6 +14,7 @@ use App\Http\Controllers\HomeController;
 use App\Models\Courses;
 use Illuminate\Support\Facades\Http;
 use App\Models\LeadCorporate;
+use Carbon\Carbon;
 
 class LeadFormController extends Controller
 {
@@ -113,6 +114,26 @@ class LeadFormController extends Controller
     {
 
         $courses = Courses::where('duration', $req->coursesintrested)->first();
+        
+        
+        // Check for duplicate email and course combination
+        $existingEntry = LeadForm::where('Email', trim($req->email))
+        ->where('CoursesIntrested', trim($courses->coursename))
+        ->orderBy('DateTime', 'desc')
+        ->first();
+    
+
+        if ($existingEntry) {
+            $timeDifference = Carbon::now()->diffInHours($existingEntry->DateTime);
+
+            if ($timeDifference < 24) {
+                // Flash error to session if less than 24 hours
+                // return redirect()->back()->with('error', 'You can only submit this course again after 24 hours.');
+                return redirect()->back()->with('leadvalidafail', 'You can only submit this course again after 24 hours.');
+            }
+        }
+
+        
 
         $accessToken = $this->fetchZohoAccessToken();
         // dd($accessToken, $courses->coursename);
@@ -219,45 +240,45 @@ class LeadFormController extends Controller
 //        });
 
         Session::flash('appoinmentbooked', 'Appoinment has been Successfully !!');
-$grp=[
-'Excel Mastery' => 'https://chat.whatsapp.com/FwJviq20BlaGwV35eW5zv4',
+    $grp=[
+    'Excel Mastery' => 'https://chat.whatsapp.com/FwJviq20BlaGwV35eW5zv4',
 
-'Advanced Excel' => 'https://chat.whatsapp.com/BZPNHlRXzjtAyxnszSQhwN',
+    'Advanced Excel' => 'https://chat.whatsapp.com/BZPNHlRXzjtAyxnszSQhwN',
 
-'Dashboard Reporting Powerbi Analysis' => 'https://chat.whatsapp.com/ItIaIY12UOj0U3jQm65Nth',
+    'Dashboard Reporting Powerbi Analysis' => 'https://chat.whatsapp.com/ItIaIY12UOj0U3jQm65Nth',
 
-'Sql Analytics' => 'https://chat.whatsapp.com/EywU3yz9xR2F9vr9xFHrSa',
+    'Sql Analytics' => 'https://chat.whatsapp.com/EywU3yz9xR2F9vr9xFHrSa',
 
-'Python Data Analysis' => 'https://chat.whatsapp.com/EywU3yz9xR2F9vr9xFHrSa',
+    'Python Data Analysis' => 'https://chat.whatsapp.com/EywU3yz9xR2F9vr9xFHrSa',
 
-'Financial Modeling' => 'https://chat.whatsapp.com/GMGk16y41NrExVmqHUT6iE',
+    'Financial Modeling' => 'https://chat.whatsapp.com/GMGk16y41NrExVmqHUT6iE',
 
-'Tax Management' => 'https://chat.whatsapp.com/K3IIAq7xfloFyL4du4d5Wj',
+    'Tax Management' => 'https://chat.whatsapp.com/K3IIAq7xfloFyL4du4d5Wj',
 
-'Ai Integrated Office' => 'https://chat.whatsapp.com/EywU3yz9xR2F9vr9xFHrSa',
+    'Ai Integrated Office' => 'https://chat.whatsapp.com/EywU3yz9xR2F9vr9xFHrSa',
 
-'Cit' => 'https://chat.whatsapp.com/EywU3yz9xR2F9vr9xFHrSa',
+    'Cit' => 'https://chat.whatsapp.com/EywU3yz9xR2F9vr9xFHrSa',
 
-'Visualizing Excel Dashboards Power Point' => 'https://chat.whatsapp.com/EywU3yz9xR2F9vr9xFHrSa',
+    'Visualizing Excel Dashboards Power Point' => 'https://chat.whatsapp.com/EywU3yz9xR2F9vr9xFHrSa',
 
-'Data Science' => 'https://chat.whatsapp.com/Dzv1B05ZMco1p3gXAF8k7G',
+    'Data Science' => 'https://chat.whatsapp.com/Dzv1B05ZMco1p3gXAF8k7G',
 
-'Ms Fabric' => 'https://chat.whatsapp.com/GtjGTMYBYBH6iw58hJBjqf',
+    'Ms Fabric' => 'https://chat.whatsapp.com/GtjGTMYBYBH6iw58hJBjqf',
 
-'Presenting With Impact' => 'https://chat.whatsapp.com/EywU3yz9xR2F9vr9xFHrSa',
+    'Presenting With Impact' => 'https://chat.whatsapp.com/EywU3yz9xR2F9vr9xFHrSa',
 
-'Cyber Security' => 'https://chat.whatsapp.com/DVnnulrbkRqE7FFBct5cIx',
+    'Cyber Security' => 'https://chat.whatsapp.com/DVnnulrbkRqE7FFBct5cIx',
 
-'Computerized Accounting' => 'https://chat.whatsapp.com/Jr1vqkm4Erb3H3L4nA5VvM'
-];
-$coursesInterested = $req->coursesintrested;
-$matchedUrls = [];
+    'Computerized Accounting' => 'https://chat.whatsapp.com/Jr1vqkm4Erb3H3L4nA5VvM'
+    ];
+    $coursesInterested = $req->coursesintrested;
+    $matchedUrls = [];
 
-if (array_key_exists($coursesInterested, $grp)) {
-    $url = $grp[$coursesInterested];
-    // echo "Course: $coursesInterested - URL: $url<br>";
-           Session::flash('appoinmentt', $url);
-}
+    if (array_key_exists($coursesInterested, $grp)) {
+        $url = $grp[$coursesInterested];
+        // echo "Course: $coursesInterested - URL: $url<br>";
+            Session::flash('appoinmentt', $url);
+    }
 
 
         // Mail::to($req)->send(new ContactMail($details));

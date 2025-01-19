@@ -1188,6 +1188,13 @@
 
     <!-- script popup start  -->
     <script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+
+    @if (Session::has('leadvalidafail'))
+        <script>
+            swal("ERROR", "{{ Session::get('leadvalidafail') }}", "error");
+        </script>
+    @endif
+
     @if (Session::has('appoinmentbooked'))
         <script>
             swal("THANK YOU", "Your form has been submitted.\nYou will get a confirmation email soon.", "success");
