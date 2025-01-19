@@ -32,6 +32,7 @@ use App\Models\Calendar;
 use App\Models\Contactus;
 use App\Mail\ContactMail;
 use App\Http\Controllers\Auth\LoginController;
+use Illuminate\Support\Facades\Response;
 
 
 Route::get('/trainer_profiles',[\App\Http\Controllers\HomeController::class,'trainer_profiles']);
@@ -393,6 +394,12 @@ Route::get('/Student-Policy', function () {
 Route::get('/about', function () {
     return view('website.about');
 });
+
+Route::get('/download-company-profile', function () {
+    $filePath = public_path('pdf/company_profile.pdf');
+    $fileName = 'company_profile.pdf';
+    return Response::download($filePath, $fileName);
+})->name('download.company_profile');
 
 
 
