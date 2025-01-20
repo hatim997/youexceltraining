@@ -1,7 +1,8 @@
 @extends('website.app')
 
 @section('title', 'Dashboard Reporting & Analysis with Power BI Course in Karachi')
-@section('meta_description', 'Enroll in the Dashboard Reporting & Analysis with Power BI Course in Karachi. Learn to create interactive dashboards and advanced reports to elevate your data skills.')
+@section('meta_description', 'Enroll in the Dashboard Reporting & Analysis with Power BI Course in Karachi. Learn to
+    create interactive dashboards and advanced reports to elevate your data skills.')
 @section('meta_keywords', 'Dashboard Reporting & Analysis with Power BI Course in Karachi')
 
 
@@ -21,8 +22,8 @@
             </div>
         </div>
     </div> <!--==============================
-          Course Area
-      ==============================-->
+              Course Area
+          ==============================-->
     <section class="course-details pb-3 pt-3">
         <div class="container">
 
@@ -37,11 +38,11 @@
                                 </tr>
 
                                 <tr>
-                                    <td><i class="far fa-hourglass"></i> Duration: &nbsp; 48 hours</td>
+                                    <td><i class="far fa-hourglass"></i> Duration: &nbsp; 36 hours</td>
                                 </tr>
                                 <tr style="padding-top: 8px;">
                                     <td>
-                                        <i class="far fa-suitcase"></i>Difficulty Level: &nbsp; Beginner to Advance
+                                        <i class="far fa-suitcase"></i>Difficulty Level: &nbsp; Beginner to Advanced
                                     </td>
                                 </tr>
                                 <tr>
@@ -82,21 +83,14 @@
                     <div class="mb-3">
                         <img src="https://youexceltraining.com/img/Yourexcel-img/pbib.jpg" />
                     </div>
-                    <h5 class="border-title2 wow fadeInUp ">Overview</h5>
-                    <p class="wow fadeInDown">Become proficient in the field of Data Analysis by enabling yourself to make
-                        confident decisions using up-to-the-minute analytics.
-                        Gain the knowledge and apply skills to import and merge large amounts of data, summarize and
-                        aggregate data, present strategic data and empower informed decision-making.</p>
-                    <p class="wow fadeInDown">This training program also covers advanced tools and techniques which include
-                        Data Normalization,
-                        Data Modeling Analysis, Visualization, SQL for Power BI, Python integration, and using Built-in
-                        Artificial Intelligence features in Power-BI.
-                    </p>
-                    <p class="wow fadeInDown">Now introducing MS Fabric for enhanced data analytics. Learn how to build
-                        workspaces and Lakehouses. Further you will be able to learn apply on how to Auto-Create a report in
-                        Power BI.</p>
+                    <h5 class="border-title2 wow fadeInUp ">Program Overview</h5>
 
-
+                    <p class="wow fadeInDown">Master Power BI attractive Dashboard Reporting by integrating data from
+                        various sources, configuring and optimizing. It emphasizes data cleaning, transformation, and
+                        loading using Power Query.</p>
+                    <p class="wow fadeInDown">Develop robust data models and manage relationships between databases. The
+                        program also focuses on DAX functions for calculations, advanced reporting with visuals and AI
+                        features, and effective workspace and dataset management, including security and data refresh.</p>
 
 
                     <h5 class="border-title2 wow fadeInUp ">Training Outline</h5>
@@ -105,15 +99,14 @@
                 <div class="col-lg-12">
 
                     <div class="accordion accordion-style4" id="accordionExample">
+
                         <div class="accordion-item active wow fadeInUp ">
                             <div class="accordion-header d-flex" id="headingOne">
                                 <button class="accordion-button justify-content-between" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                                     aria-controls="collapseOne">
-                                    <span class="button-label">Module 1</span>
-                                    Using
-                                    Pivot
-                                    Table in MS Excel
+                                    <span class="button-label">Module 01</span>
+                                    Connecting to Power BI Data
                                     <i class="fas fa-angle-down"></i> </button>
                             </div>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -122,31 +115,23 @@
                                 <div class="accordion-body wow fadeInDown">
                                     <div class="syllabus-list">
 
-
                                         <div class="syllabus-content">
-                                            <li class="syllabustext">Introduction to Pivot Table</li>
-                                            <li class="syllabustext">Create a Basic Pivot Table Report</li>
-                                            <li class="syllabustext">Rearranging a Pivot Table Report</li>
-                                            <li class="syllabustext">Customizing a Pivot Table</li>
-                                            <li class="syllabustext">Adding and Removing Subtotals</li>
-                                            <li class="syllabustext">Sorting in a Pivot Table</li>
-                                            <li class="syllabustext">Filtering in a Pivot Table</li>
-                                            <li class="syllabustext">Create Report Filter Pages</li>
-                                            <li class="syllabustext">Using Slicers in Pivot Table</li>
-                                            <li class="syllabustext"> Working with Pivot Chart</li>
+                                            <li class="syllabustext">Sourcing Data</li>
+                                            <li class="syllabustext">Configuring Data</li>
+                                            <li class="syllabustext">Advanced Data Sourcing</li>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="accordion-item wow fadeInUp ">
                             <div class="accordion-header d-flex" id="headingTwo">
                                 <button class="accordion-button justify-content-between " type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                     aria-controls="collapseTwo">
-                                    <span class="button-label">Module 2</span>
-                                    Application of PowerPivot and Power BI
+                                    <span class="button-label">Module 02</span>
+                                    Cleaning, Transforming and Loading Data in Power BI
                                     <i class="fas fa-angle-down"></i> </button>
                             </div>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -155,37 +140,23 @@
                                 <div class="accordion-body wow fadeInUp ">
                                     <div class="syllabus-list">
                                         <div class="syllabus-content">
-                                            <li class="syllabustext">Introducing Busniess Intelligence for MS Excel</li>
-                                            <li class="syllabustext">Understanding BI Data</li>
-                                            <li class="syllabustext">Creating Data Models</li>
-                                            <li class="syllabustext">Defining a Report</li>
-                                            <li class="syllabustext">Understanding and Creating PowerPivot Data
-                                                reports</li>
-                                            <li class="syllabustext">Creating DAX (Data Analysis Expressions)
-                                                Functions</li>
-                                            <li class="syllabustext">Mining for information with date and time
-                                                analysis</li>
-                                            <li class="syllabustext">Dates and Hierarchies and Shaping Reports</li>
-                                            <li class="syllabustext">Creating Calendar Table</li>
-                                            <li class="syllabustext">Working with multiple date columns</li>
-                                            <li class="syllabustext">Apply ETL (Extraction, Transformation & Loading)
-                                                process using Power Query</li>
-                                            <li class="syllabustext">Query Editor Transformations</li>
-
+                                            <li class="syllabustext">Understanding your Power BI data</li>
+                                            <li class="syllabustext">Transforming rows and columns on Power Query</li>
+                                            <li class="syllabustext">Manipulating and Queries and Tables on Power Query</li>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="accordion-item">
+
+
+                        <div class="accordion-item wow fadeInUp ">
                             <div class="accordion-header d-flex" id="headingThree">
                                 <button class="accordion-button justify-content-between " type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                                     aria-controls="collapseThree">
-                                    <span class="button-label">Module 3</span>
-                                    Introduction
-                                    to Power BI Desktop
+                                    <span class="button-label">Module 03</span>
+                                    Design and Develop a Power BI Data Model
                                     <i class="fas fa-angle-down"></i> </button>
                             </div>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
@@ -194,32 +165,21 @@
                                 <div class="accordion-body wow fadeInUp ">
                                     <div class="syllabus-list">
                                         <div class="syllabus-content">
-                                            {{--                                            <h6 class="syllabustitle">Introduction</h6> --}}
-                                            <li class="syllabustext">Getting started with Power BI Desktop</li>
-                                            <li class="syllabustext">Data Sources in Power BI Desktop</li>
-                                            <li class="syllabustext">Connect to live Web Data </li>
-                                            <li class="syllabustext">Import Excel Workbooks</li>
-                                            <li class="syllabustext">Analysis Services Tabular Data</li>
-                                            <li class="syllabustext">Shape and Combine Data</li>
-                                            <li class="syllabustext">Data Categorization</li>
-                                            <li class="syllabustext">Relationship View</li>
-                                            <li class="syllabustext">Create and manage relationships in Power BI
-                                                Desktop</li>
-                                            <li class="syllabustext">Data Type in Power BI Desktop</li>
-                                            <li class="syllabustext">Measures in Power BI Desktop</li>
-                                            <li class="syllabustext">Calculated Columns and Tables</li>
-                                            <li class="syllabustext">Report View</li>
+                                            <li class="syllabustext">Designing a Power BI Data Model</li>
+                                            <li class="syllabustext">Working With Relationships</li>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="accordion-item wow fadeInUp ">
                             <div class="accordion-header d-flex" id="headingFour">
                                 <button class="accordion-button justify-content-between " type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFour66" aria-expanded="false"
                                     aria-controls="collapseFour">
-                                    <span class="button-label">Module 4</span>Power BI Desktop
+                                    <span class="button-label">Module 04</span>
+                                    Creating Model Calculations Using DAX
                                     <i class="fas fa-angle-down"></i> </button>
                             </div>
                             <div id="collapseFour66" class="accordion-collapse collapse" aria-labelledby="headingFour"
@@ -229,303 +189,113 @@
                                     <div class="syllabus-list">
 
                                         <div class="syllabus-content">
-                                            {{--                                            <h6 class="syllabustitle">Introduction</h6> --}}
-                                            <li class="syllabustext">Tips and tricks for creating reports</li>
-                                            <li class="syllabustext">Import and display KPIs</li>
-                                            <li class="syllabustext">Creating Tables in Power BI</li>
-                                            <li class="syllabustext">Matrix Visualization</li>
-                                            <li class="syllabustext">Tables and Matrices</li>
-                                            <li class="syllabustext">Methods of Aggregation</li>
-                                            <li class="syllabustext">Exploring New Card Visual</li>
-                                            <li class="syllabustext">Exploring New Button Visual</li>
-                                            <li class="syllabustext">Creating and Using Bookmarks to create stunning
-                                                visuals</li>
-                                            <li class="syllabustext">Cards and Multi Row Cards</li>
-                                            <li class="syllabustext">Percentage Calculations</li>
-                                            <li class="syllabustext">Filtering Data - Using Slicers, Visual Filters, Page
-                                                Filters, Drill Down and Drill Through Filter</li>
-                                            <li class="syllabustext">Clustered Column Graphs</li>
-                                            <li class="syllabustext">Stacked and 100% Graphs</li>
-                                            <li class="syllabustext">Graph Options</li>
-                                            <li class="syllabustext">Trend Analysis Graphs</li>
-                                            <li class="syllabustext">Area Graphs</li>
-                                            <li class="syllabustext">Ribbon Graphs</li>
-                                            <li class="syllabustext">Scatterplots and Bubble plots</li>
-                                            <li class="syllabustext">Using Smart Narrative feature in Power BI</li>
-                                            <li class="syllabustext">Creating Dashboard report using Q&A feature</li>
-                                            <li class="syllabustext">Publish from Power BI Desktop</li>
-                                            <li class="syllabustext">Share Dashboards through Power BI Desktop and Mobile
-                                                Application</li>
-
+                                            <li class="syllabustext">DAX Aggregate Functions</li>
+                                            <li class="syllabustext">Measures and Calculated Columns</li>
+                                            <li class="syllabustext">DAX Logical and Filter Functions</li>
+                                            <li class="syllabustext">Using DAX Time Intelligence Functions</li>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeInUp ">
-                            <div class="accordion-header d-flex" id="headingFour">
-                                <button class="accordion-button justify-content-between " type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour6" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    <span class="button-label">Module 5</span>Advanced Power Query
-                                    <i class="fas fa-angle-down"></i> </button>
+
+                        <div class="accordion-item wow fadeInUp">
+                            <div class="accordion-header d-flex" id="headingFive">
+                                <button class="accordion-button justify-content-between" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                                    aria-controls="collapseFive">
+                                    <span class="button-label">Module 05</span>Creating Reports in Power BI
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
                             </div>
-                            <div id="collapseFour6" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                 data-bs-parent="accordionExample">
 
                                 <div class="accordion-body wow fadeInDown">
                                     <div class="syllabus-list">
-
                                         <div class="syllabus-content">
-                                            {{--                                            <h6 class="syllabustitle">Introduction</h6> --}}
-                                            <li class="syllabustext">Chapter Introduction - Advanced Power Query</li>
-                                            <li class="syllabustext">M Language Basic Syntax</li>
-                                            <li class="syllabustext">M Language IntelliSense</li>
-                                            <li class="syllabustext">Query Editor Concepts</li>
-                                            <li class="syllabustext">Query Order of Operations</li>
-                                            <li class="syllabustext">Query Parameters</li>
-                                            <li class="syllabustext">Extracting Table headers dynamically using M Code</li>
-                                            <li class="syllabustext">Understand the Underscore Parameter</li>
+                                            <li class="syllabustext">Creating Reports</li>
+                                            <li class="syllabustext">Doing More with Reports</li>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeInUp ">
-                            <div class="accordion-header d-flex" id="headingFour">
-                                <button class="accordion-button justify-content-between " type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour77" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    <span class="button-label">Module 6</span>Advanced Data Modeling & DAX
-                                    <i class="fas fa-angle-down"></i> </button>
+
+                        <div class="accordion-item wow fadeInUp">
+                            <div class="accordion-header d-flex" id="headingSix">
+                                <button class="accordion-button justify-content-between" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                                    aria-controls="collapseSix">
+                                    <span class="button-label">Module 06</span>Advanced Reporting in Power BI
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
                             </div>
-                            <div id="collapseFour77" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                                 data-bs-parent="accordionExample">
 
                                 <div class="accordion-body wow fadeInDown">
                                     <div class="syllabus-list">
-
                                         <div class="syllabus-content">
-                                            {{--                                            <h6 class="syllabustitle">Introduction</h6> --}}
-                                            <li class="syllabustext">Chapter Introduction - Advanced Data Modeling & DAX
-                                            </li>
-                                            <li class="syllabustext">DAX Functions for Advanced Data Modeling</li>
-                                            <li class="syllabustext">Build the Visual Dimension</li>
-                                            <li class="syllabustext">Create the Visual Measure with USERELATIONSHIP()</li>
-                                            <li class="syllabustext">Create the Visual Measure with CONTAINSSTRING()</li>
-                                            <li class="syllabustext">Creating and Using Calculation Groups from within
-                                                powerbi desktop</li>
-                                            <li class="syllabustext">Using New DAX Query View</li>
-                                            <li class="syllabustext">Using visual level calculations (New)</li>
-
+                                            <li class="syllabustext">The Analytics Features of Power BI</li>
+                                            <li class="syllabustext">The AI Capabilities of Power BI</li>
+                                            <li class="syllabustext">Advanced Visual Interactions</li>
+                                            <li class="syllabustext">Power BI Report Navigation</li>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeInUp ">
-                            <div class="accordion-header d-flex" id="headingFour">
-                                <button class="accordion-button justify-content-between " type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour7" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    <span class="button-label">Module 7</span>Artificial Intelligence in Power BI
-                                    <i class="fas fa-angle-down"></i> </button>
+
+                        <div class="accordion-item wow fadeInUp">
+                            <div class="accordion-header d-flex" id="headingSeven">
+                                <button class="accordion-button justify-content-between" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false"
+                                    aria-controls="collapseSeven">
+                                    <span class="button-label">Module 07</span>Manage Workspaces
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
                             </div>
-                            <div id="collapseFour7" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
                                 data-bs-parent="accordionExample">
 
                                 <div class="accordion-body wow fadeInDown">
                                     <div class="syllabus-list">
-
                                         <div class="syllabus-content">
-                                            {{--                                            <h6 class="syllabustitle">Introduction</h6> --}}
-                                            <li class="syllabustext">Artificial Intelligence in Power BI</li>
-                                            <li class="syllabustext">Generate a Summary with a Smart Narrative</li>
-                                            <li class="syllabustext">Create a Q&A Visual</li>
-                                            <li class="syllabustext">Configure the Q&A Visual</li>
-                                            <li class="syllabustext">Analyze to Explain the Increase or Decrease</li>
-                                            <li class="syllabustext">Identify the Key Influencers</li>
-                                            <li class="syllabustext">Creating a Decomposition Tree</li>
-                                            <li class="syllabustext">Generate Insights in Power BI Service</li>
-
+                                            <li class="syllabustext">Understanding Workspaces</li>
+                                            <li class="syllabustext">Configuring Workspace Assets</li>
+                                            <li class="syllabustext">Configuring Content Value</li>
+                                            <li class="syllabustext">Doing More with Workspaces</li>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeInUp ">
-                            <div class="accordion-header d-flex" id="headingFour">
-                                <button class="accordion-button justify-content-between " type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour8" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    <span class="button-label">Module 8</span>SQL with Power BI Training
-                                    <i class="fas fa-angle-down"></i> </button>
+
+                        <div class="accordion-item wow fadeInUp">
+                            <div class="accordion-header d-flex" id="headingEight">
+                                <button class="accordion-button justify-content-between" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false"
+                                    aria-controls="collapseEight">
+                                    <span class="button-label">Module 08</span>Managing Datasets in Power BI
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
                             </div>
-                            <div id="collapseFour8" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
                                 data-bs-parent="accordionExample">
 
                                 <div class="accordion-body wow fadeInDown">
                                     <div class="syllabus-list">
-
                                         <div class="syllabus-content">
-                                            {{--                                            <h6 class="syllabustitle">Introduction</h6> --}}
-                                            <li class="syllabustext">Understanding SQL and its Role in Data Analysis</li>
-                                            <li class="syllabustext">Connecting Power BI to SQL Server</li>
-                                            <li class="syllabustext">Exploring Power BI Interface and Data Model</li>
-                                            <li class="syllabustext">Using SQL Queries in Power BI</li>
-                                            <li class="syllabustext">Basic SQL Querying in Power BI</li>
-                                            <li class="syllabustext">Advance SQL Queries in Power BI</li>
-                                            <li class="syllabustext">Using SQL Views</li>
-                                            <li class="syllabustext">Optimizing Query Performance</li>
-
+                                            <li class="syllabustext">Power BI Datasets</li>
+                                            <li class="syllabustext">Refreshing Your Power BI Data</li>
+                                            <li class="syllabustext">Working with Row Level Security</li>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item wow fadeInUp ">
-                            <div class="accordion-header d-flex" id="headingFour">
-                                <button class="accordion-button justify-content-between " type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour99" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    <span class="button-label">Module 9</span>Python Integration in Power BI
-                                    <i class="fas fa-angle-down"></i> </button>
-                            </div>
-                            <div id="collapseFour99" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="accordionExample">
 
-                                <div class="accordion-body wow fadeInDown">
-                                    <div class="syllabus-list">
-
-                                        <div class="syllabus-content">
-                                            {{--                                            <h6 class="syllabustitle">Introduction</h6> --}}
-                                            <li class="syllabustext">Chapter Introduction - Python Integration in Power BI
-                                            </li>
-                                            <li class="syllabustext">Download & Connect Python to Power BI</li>
-                                            <li class="syllabustext">Create Data with a Python Script</li>
-                                            <li class="syllabustext">Import External Data with Python</li>
-                                            <li class="syllabustext">Run a Python Script in Power Query</li>
-                                            <li class="syllabustext">Create a Visual with Matplotlib</li>
-                                            <li class="syllabustext">Data Cleaning with Python</li>
-                                            <li class="syllabustext">What is Fabric?</li>
-                                            <li class="syllabustext">Enabling fabric preview</li>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp ">
-                            <div class="accordion-header d-flex" id="headingFour">
-                                <button class="accordion-button justify-content-between " type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour9" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    <span class="button-label">Module 10</span>Introduction to MS Fabric
-                                    <i class="fas fa-angle-down"></i> </button>
-                            </div>
-                            <div id="collapseFour9" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="accordionExample">
-
-                                <div class="accordion-body wow fadeInDown">
-                                    <div class="syllabus-list">
-
-                                        <div class="syllabus-content">
-                                            {{--                                            <h6 class="syllabustitle">Introduction</h6> --}}
-                                            <li class="syllabustext">What is Fabric?</li>
-                                            <li class="syllabustext">Enabling fabric preview</li>
-
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp ">
-                            <div class="accordion-header d-flex" id="headingFour">
-                                <button class="accordion-button justify-content-between " type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour0" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    <span class="button-label">Module 11</span>: Building Workspaces and Lakehouses
-                                    <i class="fas fa-angle-down"></i> </button>
-                            </div>
-                            <div id="collapseFour0" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="accordionExample">
-
-                                <div class="accordion-body wow fadeInDown">
-                                    <div class="syllabus-list">
-
-                                        <div class="syllabus-content">
-                                            {{--                                            <h6 class="syllabustitle">Introduction</h6> --}}
-                                            <li class="syllabustext">Onelake and Lake house</li>
-                                            <li class="syllabustext">Workspace Creation</li>
-                                            <li class="syllabustext">Creating a Lakehouse for Power BI Data</li>
-                                            <li class="syllabustext">Exploring the Lakehouse</li>
-
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp ">
-                            <div class="accordion-header d-flex" id="headingFour">
-                                <button class="accordion-button justify-content-between " type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour00" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    <span class="button-label">Module 12</span>Creating Flows in Fabric
-                                    <i class="fas fa-angle-down"></i> </button>
-                            </div>
-                            <div id="collapseFour00" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="accordionExample">
-
-                                <div class="accordion-body wow fadeInDown">
-                                    <div class="syllabus-list">
-
-                                        <div class="syllabus-content">
-                                            {{--                                            <h6 class="syllabustitle">Introduction</h6> --}}
-                                            <li class="syllabustext">Adding Users to a Workspace</li>
-                                            <li class="syllabustext">Dataflow Creation</li>
-                                            <li class="syllabustext">Loading Dataflow to Lakehouse</li>
-                                            <li class="syllabustext">Notebook creation</li>
-                                            <li class="syllabustext">Building Data Pipelines</li>
-                                            <li class="syllabustext">Creating Data mart</li>
-                                            <li class="syllabustext">Building Models in the Data mart</li>
-                                            <li class="syllabustext">Building SQL Queries and Visual Queries</li>
-                                            <li class="syllabustext">Creating and Using Datasets</li>
-                                            <li class="syllabustext">Adding DAX Measures and Selecting Tables</li>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp ">
-                            <div class="accordion-header d-flex" id="headingFour">
-                                <button class="accordion-button justify-content-between " type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour00" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    <span class="button-label">Module 13</span>Auto Create a Report in Power BI
-                                    <i class="fas fa-angle-down"></i> </button>
-                            </div>
-                            <div id="collapseFour00" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="accordionExample">
-
-                                <div class="accordion-body wow fadeInDown">
-                                    <div class="syllabus-list">
-
-                                        <div class="syllabus-content">
-                                            {{--                                            <h6 class="syllabustitle">Introduction</h6> --}}
-                                            <li class="syllabustext">Auto creating a Report in Fabric</li>
-                                            <li class="syllabustext">Creating a Report from Scratch</li>
-                                            <li class="syllabustext">Promoting or Certifying Your Report</li>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
                 </div>
@@ -534,200 +304,125 @@
     </section>
 
 
-    <section class=" pb-3" id="div2">
+    <section class="pb-3" id="div2">
         <div class="container">
-            <div class=" text-left">
-
-
+            <div class="text-left">
                 <h5 class="border-title2">Learning Outcomes</h5>
             </div>
             <div class="row align-items-start">
-                <div class="col-md-6 col-lg process-inner1 order-2 order-lg-1">
+                <div class="col-md-12 col-lg process-inner1 order-2 order-lg-1">
                     <div class="process-style1 d-flex align-items-center">
                         <span class="process-number"><i class="fas fa-circle"></i></span>
                         <div class="process-content">
-                            <p class="fs-md process-title">Integrate existing data with Power BI seamlessly with any source
-                            </p>
-
+                            <p class="fs-md process-title">Gain the ability to Source data from files, databases, SQL, NoSQL, and Dataverse</p>
                         </div>
                     </div>
                     <div class="process-style1 d-flex align-items-center">
                         <span class="process-number"><i class="fas fa-circle"></i></span>
                         <div class="process-content">
-                            <p class="fs-md process-title">Apply Artificial Intelligence features in Power BI to automate
-                                the repetitive tasks in a workflow to boost efficiency
-
-                            </p>
-
-                        </div>
-                    </div>
-
-                    <div class="process-style1 d-flex align-items-center">
-                        <span class="process-number"><i class="fas fa-circle"></i></span>
-                        <div class="process-content">
-                            <p class="fs-md process-title"> Create advanced queries using query editor in Power BI
-
-                            </p>
-
+                            <p class="fs-md process-title">Learn to Manage storage modes, privacy levels, and troubleshoot issues</p>
                         </div>
                     </div>
                     <div class="process-style1 d-flex align-items-center">
                         <span class="process-number"><i class="fas fa-circle"></i></span>
                         <div class="process-content">
-                            <p class="fs-md process-title">Add user-controlled elements in dashboards
-
-
-
-                            </p>
-
+                            <p class="fs-md process-title">Develop skills in Cleaning, transforming, and loading data using Power Query</p>
                         </div>
                     </div>
                     <div class="process-style1 d-flex align-items-center">
                         <span class="process-number"><i class="fas fa-circle"></i></span>
                         <div class="process-content">
-                            <p class="fs-md process-title">Integrate Python as a data source in Power BI
-
-                            </p>
-
-                        </div>
-                    </div>
-
-
-                    <div class="process-style1 d-flex align-items-center">
-                        <span class="process-number"><i class="fas fa-circle"></i></span>
-                        <div class="process-content">
-                            <p class="fs-md process-title">Create interactive dashboards in Power BI to see whole company
-                                data in one snap-shot</p>
-
+                            <p class="fs-md process-title">Build and optimize data models with metadata and relationships</p>
                         </div>
                     </div>
                     <div class="process-style1 d-flex align-items-center">
                         <span class="process-number"><i class="fas fa-circle"></i></span>
                         <div class="process-content">
-                            <p class="fs-md process-title">Develop familiarity with core concepts of Microsoft Fabrics for
-                                data analytics and engineering
-
-
-                            </p>
-
+                            <p class="fs-md process-title">Apply DAX for measures, calculated columns, and time intelligence</p>
                         </div>
                     </div>
                     <div class="process-style1 d-flex align-items-center">
                         <span class="process-number"><i class="fas fa-circle"></i></span>
                         <div class="process-content">
-                            <p class="fs-md process-title">Create and customize workspaces in Fabric, utilizing Lake houses
-                                for efficient Power BI data storage.
-
-
-
-                            </p>
-
+                            <p class="fs-md process-title">Design interactive reports with visuals, filters, and AI tools</p>
                         </div>
                     </div>
-
                     <div class="process-style1 d-flex align-items-center">
                         <span class="process-number"><i class="fas fa-circle"></i></span>
                         <div class="process-content">
-                            <p class="fs-md process-title">Develop skills in data flow creation, building data pipelines,
-                                and optimizing data models within Fabric for advanced analytics and reporting in Power BI.
-                            </p>
+                            <p class="fs-md process-title">Configure workspaces, permissions, refresh schedules, and security</p>
+                        </div>
+                    </div>
+                    <div class="process-style1 d-flex align-items-center">
+                        <span class="process-number"><i class="fas fa-circle"></i></span>
+                        <div class="process-content">
+                            <p class="fs-md process-title">Leverage AI and advanced analytics for actionable insights</p>
                         </div>
                     </div>
                 </div>
-                <!--<div class="col-lg-5 order-3 order-lg-2 mb-30 mb-md-5 mb-lg-0">-->
-                <!--  <div class="img-box3 mb-30">-->
-                <!--      <div class="img-1 mega-hover"><img src="https://html.vecurosoft.com/educino/demo/assets/img/about/about-2-1.png" alt="banner"></div>-->
-                <!--      <div class="shape-dotted jump"></div>-->
-                <!--   </div>-->
-
-
-                <!--</div>-->
-
             </div>
         </div>
     </section>
-    <section class=" pt-3 pb-3 background-image">
+    
+    <section class="pt-3 pb-3 background-image">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 m-auto">
-                    <div class="title-area   -animated" data--delay="0.3s"
-                        style="visibility: visible; animation-delay: 0.3s; animation-name: ;">
-
-
-                        <!--<span class="sec-subtitle">IDEAL TUTOR FOR EVERYONE</span>-->
-                        <h5 class="border-title2">Salient Features </h5>
+                    <div class="title-area -animated" data--delay="0.3s" style="visibility: visible; animation-delay: 0.3s;">
+                        <h5 class="border-title2">Salient Features</h5>
                     </div>
                 </div>
             </div>
-            <div class="row   -animated" data--delay="0.4s"
-                style="visibility: visible; animation-delay: 0.4s; animation-name: ;">
+            <div class="row -animated" data--delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">
                 <div class="col-sm-6 col-xl-4">
                     <div class="media-style9">
-                        <div class="d-flex justify-content-end">
-                        </div>
-                        <div class="media-icon"><img src="https://youexceltraining.com/img/icon/training-icon-1-1.svg"
-                                alt="icon"></div>
-
-
-                        <p class="fs-md">Integrate smoothly with existing applications using DAX Function
-                        <p>
+                        <div class="d-flex justify-content-end"></div>
+                        <div class="media-icon"><img src="https://youexceltraining.com/img/icon/training-icon-1-1.svg" alt="icon"></div>
+                        <p class="fs-md">Data Integration</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-4">
                     <div class="media-style9">
-                        <div class="d-flex justify-content-end">
-                        </div>
-                        <div class="media-icon"><img src="https://youexceltraining.com/img/icon/training-icon-1-2.svg"
-                                alt="icon"></div>
-
-                        <p class="fs-md">Personalized Dashboards</p>
+                        <div class="d-flex justify-content-end"></div>
+                        <div class="media-icon"><img src="https://youexceltraining.com/img/icon/training-icon-1-2.svg" alt="icon"></div>
+                        <p class="fs-md">Interactive Real-time visual Analytics</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-4">
                     <div class="media-style9">
-                        <div class="d-flex justify-content-end">
-                        </div>
-                        <div class="media-icon"><img src="https://youexceltraining.com/img/icon/training-icon-1-3.svg"
-                                alt="icon"></div>
-
-                        <p class="fs-md">No Memory and Speed Constraints</p>
+                        <div class="d-flex justify-content-end"></div>
+                        <div class="media-icon"><img src="https://youexceltraining.com/img/icon/training-icon-1-3.svg" alt="icon"></div>
+                        <p class="fs-md">Smart Narrative using AI Capabilities</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-4">
                     <div class="media-style9">
-                        <div class="d-flex justify-content-end">
-                        </div>
-                        <div class="media-icon"><img src="https://youexceltraining.com/img/icon/training-icon-1-4.svg"
-                                alt="icon"></div>
-                        <!--<h5 class="media-title">Conditional Formatting </h5>  -->
-                        <p class="fs-md">Simple and Performance Oriented</p>
+                        <div class="d-flex justify-content-end"></div>
+                        <div class="media-icon"><img src="https://youexceltraining.com/img/icon/training-icon-1-4.svg" alt="icon"></div>
+                        <p class="fs-md">Collaborative Reporting</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-4">
                     <div class="media-style9">
-                        <div class="d-flex justify-content-end">
-                        </div>
-                        <div class="media-icon"><img src="https://youexceltraining.com/img/icon/training-icon-1-5.svg"
-                                alt="icon"></div>
-                        <!--<h5 class="media-title">Data Visualization</h5>-->
-                        <p class="fs-md">Secure Reports</p>
+                        <div class="d-flex justify-content-end"></div>
+                        <div class="media-icon"><img src="https://youexceltraining.com/img/icon/training-icon-1-5.svg" alt="icon"></div>
+                        <p class="fs-md">Scalable Solutions</p>
                     </div>
                 </div>
-
-
                 <div class="col-sm-6 col-xl-4">
                     <div class="media-style9">
-                        <div class="d-flex justify-content-end">
-                        </div>
-                        <div class="media-icon"><img src="https://youexceltraining.com/img/icon/training-icon-1-5.svg"
-                                alt="icon"></div>
-                        <!--<h5 class="media-title">Data Visualization</h5>-->
-                        <p class="fs-md">No Specialized or External Support Required</p>
+                        <div class="d-flex justify-content-end"></div>
+                        <div class="media-icon"><img src="https://youexceltraining.com/img/icon/training-icon-1-5.svg" alt="icon"></div>
+                        <p class="fs-md">Cross-platform Access</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
+
+
+
     <section class="pt-3 pb-3">
         <div class="container">
             <div class="row gx-80 align-items-center">
@@ -740,37 +435,7 @@
                             <div class="process-style1 d-flex align-items-center">
                                 <span class="process-number"><i class="fas fa-circle"></i></span>
                                 <div class="process-content">
-                                    <p class="fs-md process-title">Sales Analysis</p>
-
-                                </div>
-                            </div>
-
-                            <div class="process-style1 d-flex align-items-center">
-                                <span class="process-number"><i class="fas fa-circle"></i></span>
-                                <div class="process-content">
-                                    <p class="fs-md process-title"> Marketing Analysis </p>
-
-                                </div>
-                            </div>
-                            <div class="process-style1 d-flex align-items-center">
-                                <span class="process-number"><i class="fas fa-circle"></i></span>
-                                <div class="process-content">
-                                    <p class="fs-md process-title"> Business Analysts </p>
-
-                                </div>
-                            </div>
-                            <div class="process-style1 d-flex align-items-center">
-                                <span class="process-number"><i class="fas fa-circle"></i></span>
-                                <div class="process-content">
-                                    <p class="fs-md process-title"> Finance & Accounts</p>
-
-                                </div>
-                            </div>
-                            <div class="process-style1 d-flex align-items-center">
-                                <span class="process-number"><i class="fas fa-circle"></i></span>
-                                <div class="process-content">
-                                    <p class="fs-md process-title"> Data Analysts</p>
-
+                                    <p class="fs-md process-title">Data Analysts</p>
                                 </div>
                             </div>
                         </div>
@@ -778,45 +443,56 @@
                             <div class="process-style1 d-flex align-items-center">
                                 <span class="process-number"><i class="fas fa-circle"></i></span>
                                 <div class="process-content">
-                                    <p class="fs-md process-title">Project Managers </p>
-
+                                    <p class="fs-md process-title">Business Intelligence Professionals</p>
                                 </div>
                             </div>
-
-                            <div class="process-style1 d-flex align-items-center">
-                                <span class="process-number"><i class="fas fa-circle"></i></span>
-                                <div class="process-content">
-                                    <p class="fs-md process-title">Operations and Logistics Manager</p>
-
-                                </div>
-                            </div>
-                            <div class="process-style1 d-flex align-items-center">
-                                <span class="process-number"><i class="fas fa-circle"></i></span>
-                                <div class="process-content">
-                                    <p class="fs-md process-title"> HR Professionals</p>
-
-                                </div>
-                            </div>
-                            <div class="process-style1 d-flex align-items-center">
-                                <span class="process-number"><i class="fas fa-circle"></i></span>
-                                <div class="process-content">
-                                    <p class="fs-md process-title"> IT Professionals</p>
-
-                                </div>
-                            </div>
-                            <div class="process-style1 d-flex align-items-center">
-                                <span class="process-number"><i class="fas fa-circle"></i></span>
-                                <div class="process-content">
-                                    <p class="fs-md process-title"> Data Scientists</p>
-
-                                </div>
-                            </div>
-
                         </div>
-
+                        <div class="col-sm-6 col-xl-4">
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title">IT Professionals</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xl-4">
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title">Decision Makers and Managers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xl-4">
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title">Developers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xl-4">
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title">Finance Professionals</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xl-4">
+                            <div class="process-style1 d-flex align-items-center">
+                                <span class="process-number"><i class="fas fa-circle"></i></span>
+                                <div class="process-content">
+                                    <p class="fs-md process-title">Project Managers</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
     </section>
+    
     <section class="pb-3">
         <div class="container">
             <div class="row gx-80 align-items-center">
@@ -828,10 +504,7 @@
                         <div class="process-style1 d-flex align-items-center">
                             <span class="process-number"><i class="fas fa-circle"></i></span>
                             <div class="process-content">
-                                <p class="fs-md process-title ">Basic computer literacy, familiarity with Windows operating
-                                    system
-                                </p>
-
+                                <p class="fs-md process-title ">Familiarity with Microsoft Excel and Analytical Mindset</p>
                             </div>
                         </div>
 
@@ -849,13 +522,14 @@
                 </div>
                 <div class="col-lg-6" style="padding:0">
                     <div class="title-area mb-4">
-
-                        <h5 class="sec-title mb-3 mb-lg-4" style="font-size: 30px;
-">Tahir Ali</h5>
-                        <p class="fs-md about-text pe-xl-5 me-xl-3">Tahir Ali is a highly motivated corporate trainer with
-                            experience in training small and large groups across diverse industries. Proven success in
-                            leveraging educational theories and methodologies to design, develop, and deliver successful
-                            training programs and integrate instructional technology to provide onsite and virtual training.
+                         
+                        <h5 class="sec-title mb-3 mb-lg-4" style="font-size: 30px;">Tahir Ali</h5>
+                        <p class="fs-md about-text pe-xl-5 me-xl-3">Tahir Ali is a<b> highly motivated corporate trainer with experience 
+                            in training small and large groups </b>
+                            across diverse industries. <b> Proven success with over 16 years </b>of professional experience of
+                            industry in leveraging educational theories and methodologies 
+                            to design, develop, and deliver successful training programs and integrate instructional
+                            technology to provide onsite and virtual training.
                         </p>
                     </div>
                     <h5>Professional Certifications:</h5>
@@ -871,17 +545,68 @@
                 </div>
                 <div class="col-lg-6" style="padding:0">
                     <div class="img-box3 mb-30">
-                        <div class="img-1 mega-hover"><img class="" src="{{ asset('img/trainer/tahir.jpeg') }}"
-                                alt="About Img" style="
-    width: 502px;
-    border-radius: 50px;
-"></div>
+                        <div class="img-1 mega-hover"><img class="" src="{{ asset('img/trainer/tahir.jpeg') }}"width: 502px;border-radius: 50px;"></div>
                         <div class="shape-dotted jump"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="pb-3" id="div2">
+        <div class="container">
+            <div class="text-left">
+                <h5 class="border-title2">Value Added Services</h5>
+            </div>
+            <div class="row align-items-start">
+                <div class="col-md-12 col-lg process-inner1 order-2 order-lg-1">
+                    <div class="process-style1 d-flex align-items-center">
+                        <span class="process-number"><i class="fas fa-circle"></i></span>
+                        <div class="process-content">
+                            <p class="fs-md process-title">Lifetime video recorded session with personalized Learning Management System (LMS) access login ID for months</p>
+                        </div>
+                    </div>
+                    <div class="process-style1 d-flex align-items-center">
+                        <span class="process-number"><i class="fas fa-circle"></i></span>
+                        <div class="process-content">
+                            <p class="fs-md process-title">Lifetime WhatsApp post-training support</p>
+                        </div>
+                    </div>
+                    <div class="process-style1 d-flex align-items-center">
+                        <span class="process-number"><i class="fas fa-circle"></i></span>
+                        <div class="process-content">
+                            <p class="fs-md process-title">100% job and business-oriented training</p>
+                        </div>
+                    </div>
+                    <div class="process-style1 d-flex align-items-center">
+                        <span class="process-number"><i class="fas fa-circle"></i></span>
+                        <div class="process-content">
+                            <p class="fs-md process-title">Certificate of completion recognized from Trade Testing Board, Government of Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="process-style1 d-flex align-items-center">
+                        <span class="process-number"><i class="fas fa-circle"></i></span>
+                        <div class="process-content">
+                            <p class="fs-md process-title">Fully equipped training center venue for on-campus trainings readily available with laptops, projectors, and air-conditioning</p>
+                        </div>
+                    </div>
+                    <div class="process-style1 d-flex align-items-center">
+                        <span class="process-number"><i class="fas fa-circle"></i></span>
+                        <div class="process-content">
+                            <p class="fs-md process-title">Live physical on-campus and online sessions facility</p>
+                        </div>
+                    </div>
+                    <div class="process-style1 d-flex align-items-center">
+                        <span class="process-number"><i class="fas fa-circle"></i></span>
+                        <div class="process-content">
+                            <p class="fs-md process-title">Claim Continuing Professional Development (CPD) hours for the training</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
 
 
@@ -959,7 +684,7 @@
             <div class=" row gx-100 gy-4  ">
                 <div class="col-lg-12 col-xl-12 col-xxl-12 pt-2 pb-5 text-center">
 
-                    <h2 class=" pt-1  text-white">Become smarter in just 48 hours </h2>
+                    <h2 class=" pt-1  text-white">Become smarter in just 36 hours </h2>
                     <!--<p class=" pt-1 fs-md text-white">Enter your email id to get latest updates and  amazing discounts</p>-->
                     <br>
 
@@ -984,8 +709,8 @@
     <div class="modal bd-example-modal-lg" id="myModal" style="z-index:99 ">
         <div class="modal-dialog" style="width:100% ; background-color: #f7a530;" role="document">
             <div class="modal-content"style="
-        background-color: transparent;
-    ">
+            background-color: transparent;
+        ">
                 <div class="modal-body" style="position:relative;height: 106vh;">
                     <span class="close">&times;</span>
                     <div class="wrapper">
