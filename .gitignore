@@ -7,6 +7,7 @@
 /storage/*.key
 /vendor
 /storage/logs/laravel.log
+/public/video/
 
 /.env
 .env
