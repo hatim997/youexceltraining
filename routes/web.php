@@ -234,6 +234,7 @@ Route::get('/webste.main-page', function () {
 
 
 
+
 Route::get('/financial-modeling-analysis-fundamental', function () {
     return view('website.financial-modeling-analysis-fundamental');
 });
