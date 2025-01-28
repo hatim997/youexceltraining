@@ -188,17 +188,6 @@ class CoursesController extends Controller
     public function sqlAnalytics()
     {
 
-
-
-
-
-
-
-
-
-
-
-        
          $data= Courses::find(46);
         $pdf = $data->image;
         return view('website.course3', compact('pdf'));

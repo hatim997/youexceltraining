@@ -222,7 +222,6 @@ Route::get('/free-of-cost-training-registration-form', function () {
     return view('website.Application-Form');
 });
 
-
 Route::get('/enquiry-form-financial-modeling-analysis', function () {
     return view('website.enquiry-form-financial-modeling-analysis');
 });
