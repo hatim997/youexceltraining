@@ -232,8 +232,6 @@ Route::get('/webste.main-page', function () {
 });
 
 
-Route::get('/enquiry-form',[\App\Http\Controllers\HomeController::class,'enquiry_form']);
-
 
 
 Route::get('/financial-modeling-analysis-fundamental', function () {
