@@ -2063,9 +2063,7 @@
 
                 <div class="col-md-6">
 
-                    <h1 class="about-heading">
-                        Step Into Excellence by Empowering yourself with skills. Download Our Company Profile to Learn More!
-                    </h1>
+                    <h3 class="about-heading">Step Into Excellence by Empowering yourself with skills</h3>
 
                     {{-- <div class="img-1 mega-hover"> <img src="{{ asset('img/excel_skill123.jpeg') }}" alt=""></div>
                     <div class="shape-dotted jump"></div> --}}

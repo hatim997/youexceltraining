@@ -967,7 +967,33 @@
     
     {{-- slider content end --}}
 
-
+    <section class="space-top space-extra-bottom">
+        <div class="container-lg">
+            <div class="title-area text-center wow fadeInUp" data-wow-delay="0.3s">
+                <h2 class="sec-title">Financial Modeling Chapter Previews Video</h2>
+            </div>
+                
+                <!-- First Slide -->
+                {{-- <div class="col-sm-6 col-xl-4">
+                    <div style="position: relative; overflow: hidden; border-radius: 20px 20px 0 0; height: 314px;">
+                        <a href="">
+                            <img class="w-100 custom-img-size" src="{{ asset('img/Yourexcel-img/fm1.png') }}" alt="Course Img" 
+                                 style="pointer-events: none; object-fit: cover; width: 100%; height: 100%; opacity: 1;">
+                        </a>
+                    </div>
+                </div> --}}
+                <div class="position-relative overflow-hidden rounded-20 mt-5">
+                    <img src="{{ asset('img/Yourexcel-img/fmas.png') }}" alt="blog video">
+                    <!-- Play Button for Fancybox Popup -->
+                    <a href="{{ asset('video/77.mp4') }}" class="play-btn popup-video position-center" data-fancybox="video" data-caption="My Local Video">
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+                
+                 
+    
+        </div>
+    </section>
 
     <section class="pb-5">
         <div class="container pb-3">
