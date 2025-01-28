@@ -1201,6 +1201,12 @@
         </script>
     @endif
 
+    @if (Session::has('democonfirm'))
+    <script>
+        swal("THANK YOU", "{{ Session::get('democonfirm') }}", "success");
+    </script>
+    @endif
+
     @if (Session::has('paymentproof'))
         <script>
             swal("Oops", "Your form not submitted.\n Please Upload Your Proof of Payment File.", "error");

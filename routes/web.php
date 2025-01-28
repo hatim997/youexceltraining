@@ -17,6 +17,7 @@ use App\Http\Controllers\ResourceController;
 use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\DemoConfirmationController;
 
 use Illuminate\Support\Facades\Route;
 use App\Models\Courses;
@@ -231,7 +232,8 @@ Route::get('/webste.main-page', function () {
 });
 
 
-
+Route::get('/demo-confirmation',[DemoConfirmationController::class,'DemoConfirmation']);
+Route::post('/store-demo-confirmation', [DemoConfirmationController::class, 'StoreDemoConfirmation'])->name('store.demo.confirmation');
 
 
 Route::get('/financial-modeling-analysis-fundamental', function () {
