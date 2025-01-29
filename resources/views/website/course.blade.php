@@ -100,49 +100,88 @@
 
                     <div class="accordion accordion-style4" id="accordionExample">
 
-                        <div class="accordion-item active wow fadeInUp ">
+                        <div class="accordion-item active wow fadeInUp">
                             <div class="accordion-header d-flex" id="headingOne">
                                 <button class="accordion-button justify-content-between" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                                     aria-controls="collapseOne">
                                     <span class="button-label">Module 01</span>
                                     Connecting to Power BI Data
-                                    <i class="fas fa-angle-down"></i> </button>
+                                    <i class="fas fa-angle-down"></i> 
+                                </button>
                             </div>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="accordionExample">
-
                                 <div class="accordion-body wow fadeInDown">
                                     <div class="syllabus-list">
-
                                         <div class="syllabus-content">
-                                            <li class="syllabustext">Sourcing Data</li>
-                                            <li class="syllabustext">Configuring Data</li>
-                                            <li class="syllabustext">Advanced Data Sourcing</li>
+                                            <strong>1. Sourcing Data</strong>
+                                            <ul>
+                                                <li class="syllabustext">Get data from a file</li>
+                                                <li class="syllabustext">Get data from a local db</li>
+                                                <li class="syllabustext">Get data from SQL</li>
+                                                <li class="syllabustext">Get data from other applications</li>
+                                                <li class="syllabustext">Connecting with shared data</li>
+                                            </ul>
+                        
+                                            <strong>2. Configuring Data</strong>
+                                            <ul>
+                                                <li class="syllabustext">Working with source data settings</li>
+                                                <li class="syllabustext">Configuring Power BI storage modes</li>
+                                                <li class="syllabustext">Modifying Power BI privacy levels</li>
+                                                <li class="syllabustext">Updating field properties</li>
+                                                <li class="syllabustext">Resolving import errors</li>
+                                                <li class="syllabustext">Fixing performance issues</li>
+                                            </ul>
+                        
+                                            <strong>3. Advanced Data Sourcing</strong>
+                                            <ul>
+                                                <li class="syllabustext">Connecting to a Dataverse</li>
+                                                <li class="syllabustext">Connecting with a NoSQL database</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
 
-                        <div class="accordion-item wow fadeInUp ">
+                        <div class="accordion-item wow fadeInUp">
                             <div class="accordion-header d-flex" id="headingTwo">
-                                <button class="accordion-button justify-content-between " type="button"
+                                <button class="accordion-button justify-content-between" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                     aria-controls="collapseTwo">
                                     <span class="button-label">Module 02</span>
                                     Cleaning, Transforming and Loading Data in Power BI
-                                    <i class="fas fa-angle-down"></i> </button>
+                                    <i class="fas fa-angle-down"></i> 
+                                </button>
                             </div>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="accordionExample">
-
-                                <div class="accordion-body wow fadeInUp ">
+                                <div class="accordion-body wow fadeInUp">
                                     <div class="syllabus-list">
                                         <div class="syllabus-content">
-                                            <li class="syllabustext">Understanding your Power BI data</li>
-                                            <li class="syllabustext">Transforming rows and columns on Power Query</li>
-                                            <li class="syllabustext">Manipulating and Queries and Tables on Power Query</li>
+                                            <strong>1. Understanding Your Power BI Data</strong>
+                                            <ul>
+                                                <li class="syllabustext">The data treatment process on Power BI</li>
+                                                <li class="syllabustext">Profiling Power BI data</li>
+                                                <li class="syllabustext">Cleaning, transforming, and loading the data</li>
+                                                <li class="syllabustext">Profiling and loading your data</li>
+                                            </ul>
+                        
+                                            <strong>2. Transforming Rows and Columns on Power Query</strong>
+                                            <ul>
+                                                <li class="syllabustext">Cleaning up your data</li>
+                                                <li class="syllabustext">Row and column transformations</li>
+                                            </ul>
+                        
+                                            <strong>3. Manipulating Queries and Tables on Power Query</strong>
+                                            <ul>
+                                                <li class="syllabustext">Identifying keys on your Power BI model</li>
+                                                <li class="syllabustext">Shaping and transforming tables</li>
+                                                <li class="syllabustext">Referencing and duplicating queries</li>
+                                                <li class="syllabustext">Working with tables and queries</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -150,122 +189,288 @@
                         </div>
 
 
-                        <div class="accordion-item wow fadeInUp ">
+                        <div class="accordion-item wow fadeInUp">
                             <div class="accordion-header d-flex" id="headingThree">
-                                <button class="accordion-button justify-content-between " type="button"
+                                <button class="accordion-button justify-content-between" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                                     aria-controls="collapseThree">
                                     <span class="button-label">Module 03</span>
                                     Design and Develop a Power BI Data Model
-                                    <i class="fas fa-angle-down"></i> </button>
+                                    <i class="fas fa-angle-down"></i> 
+                                </button>
                             </div>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="accordionExample">
-
-                                <div class="accordion-body wow fadeInUp ">
+                                <div class="accordion-body wow fadeInUp">
                                     <div class="syllabus-list">
                                         <div class="syllabus-content">
-                                            <li class="syllabustext">Designing a Power BI Data Model</li>
-                                            <li class="syllabustext">Working With Relationships</li>
+                                            <strong>1. Designing a Power BI Data Model</strong>
+                                            <ul>
+                                                <li class="syllabustext">Understanding Data Models</li>
+                                                <li class="syllabustext">Star and Snowflake Schemas</li>
+                                                <li class="syllabustext">Filtering Out Unnecessary Data</li>
+                                                <li class="syllabustext">Report Granularity</li>
+                                                <li class="syllabustext">Configuring Metadata</li>
+                                                <li class="syllabustext">Manipulating Tables on a Power BI Data Model</li>
+                                                <li class="syllabustext">Configuring Table and Column Properties</li>
+                                            </ul>
+                        
+                                            <strong>2. Working With Relationships</strong>
+                                            <ul>
+                                                <li class="syllabustext">Creating and Configuring Relationships</li>
+                                                <li class="syllabustext">Configuring Cross Filter Direction</li>
+                                                <li class="syllabustext">Working with Date Tables</li>
+                                                <li class="syllabustext">Role-Playing Dimensions on Power BI</li>
+                                                <li class="syllabustext">Configuring Relationships</li>
+                                                <li class="syllabustext">Working with Role-Playing Dimensions</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
 
-                        <div class="accordion-item wow fadeInUp ">
+                        <div class="accordion-item wow fadeInUp">
                             <div class="accordion-header d-flex" id="headingFour">
-                                <button class="accordion-button justify-content-between " type="button"
+                                <button class="accordion-button justify-content-between" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFour66" aria-expanded="false"
-                                    aria-controls="collapseFour">
+                                    aria-controls="collapseFour66">
                                     <span class="button-label">Module 04</span>
                                     Creating Model Calculations Using DAX
-                                    <i class="fas fa-angle-down"></i> </button>
+                                    <i class="fas fa-angle-down"></i> 
+                                </button>
                             </div>
                             <div id="collapseFour66" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="accordionExample">
-
                                 <div class="accordion-body wow fadeInDown">
                                     <div class="syllabus-list">
-
                                         <div class="syllabus-content">
-                                            <li class="syllabustext">DAX Aggregate Functions</li>
-                                            <li class="syllabustext">Measures and Calculated Columns</li>
-                                            <li class="syllabustext">DAX Logical and Filter Functions</li>
-                                            <li class="syllabustext">Using DAX Time Intelligence Functions</li>
+                                            <strong>1. DAX Aggregate Functions</strong>
+                                            <ul>
+                                                <li class="syllabustext">Create a Measure with Sum</li>
+                                                <li class="syllabustext">Understanding DAX Syntax</li>
+                                                <li class="syllabustext">Display the Measure in a Matrix</li>
+                                                <li class="syllabustext">Format a Measure</li>
+                                                <li class="syllabustext">Create Measures with Count and CountRows</li>
+                                                <li class="syllabustext">Delete or Edit a Measure</li>
+                                                <li class="syllabustext">Check Your Data with CountBlank</li>
+                                                <li class="syllabustext">Create a Measure with DistinctCount</li>
+                                            </ul>
+                        
+                                            <strong>2. Measures and Calculated Columns</strong>
+                                            <ul>
+                                                <li class="syllabustext">Add a Calculated Column</li>
+                                                <li class="syllabustext">Understand Explicit vs. Implicit Measures</li>
+                                                <li class="syllabustext">Create a Measure with Operators</li>
+                                                <li class="syllabustext">Create a Measure with Divide</li>
+                                                <li class="syllabustext">Iterators and Row Context SUMX</li>
+                                                <li class="syllabustext">Basic DAX Date and Time Functions</li>
+                                            </ul>
+                        
+                                            <strong>3. DAX Logical and Filter Functions</strong>
+                                            <ul>
+                                                <li class="syllabustext">Use FIND</li>
+                                                <li class="syllabustext">Use IF</li>
+                                                <li class="syllabustext">Use OR to Handle Case Sensitivity</li>
+                                                <li class="syllabustext">Use CALCULATE to Create a Simple Filter</li>
+                                                <li class="syllabustext">Use SWITCH</li>
+                                            </ul>
+                        
+                                            <strong>4. Using DAX Time Intelligence Functions</strong>
+                                            <ul>
+                                                <li class="syllabustext">DAX Time Intelligence Functions</li>
+                                                <li class="syllabustext">Summarize Year-to-Date with DATESYTD</li>
+                                                <li class="syllabustext">Visualize Cumulative YTD Data</li>
+                                                <li class="syllabustext">Compare Totals with SAMEPERIODLASTYEAR</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
 
                         <div class="accordion-item wow fadeInUp">
                             <div class="accordion-header d-flex" id="headingFive">
                                 <button class="accordion-button justify-content-between" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
                                     aria-controls="collapseFive">
-                                    <span class="button-label">Module 05</span>Creating Reports in Power BI
+                                    <span class="button-label">Module 05</span> Creating Reports in Power BI
                                     <i class="fas fa-angle-down"></i>
                                 </button>
                             </div>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                 data-bs-parent="accordionExample">
-
                                 <div class="accordion-body wow fadeInDown">
                                     <div class="syllabus-list">
                                         <div class="syllabus-content">
-                                            <li class="syllabustext">Creating Reports</li>
-                                            <li class="syllabustext">Doing More with Reports</li>
+                                            <strong>1. Creating Reports</strong>
+                                            <ul>
+                                                <li class="syllabustext">Getting Started with a Visual</li>
+                                                <li class="syllabustext">How to Know Which Visual is Best</li>
+                                                <li class="syllabustext">Tailor Your Visual</li>
+                                                <li class="syllabustext">Adding Custom Visualizations</li>
+                                                <li class="syllabustext">Adding R and Python Visualizations</li>
+                                                <li class="syllabustext">Working with Filters</li>
+                                                <li class="syllabustext">Working with Slicers</li>
+                                            </ul>
+                        
+                                            <strong>2. Doing More with Reports</strong>
+                                            <ul>
+                                                <li class="syllabustext">Working with Report Themes</li>
+                                                <li class="syllabustext">Conditional Formatting</li>
+                                                <li class="syllabustext">Customize Your Layout</li>
+                                                <li class="syllabustext">Working with Paginated Reports</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
 
                         <div class="accordion-item wow fadeInUp">
                             <div class="accordion-header d-flex" id="headingSix">
                                 <button class="accordion-button justify-content-between" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
                                     aria-controls="collapseSix">
-                                    <span class="button-label">Module 06</span>Advanced Reporting in Power BI
+                                    <span class="button-label">Module 06</span> Advanced Reporting in Power BI
                                     <i class="fas fa-angle-down"></i>
                                 </button>
                             </div>
                             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                                 data-bs-parent="accordionExample">
-
                                 <div class="accordion-body wow fadeInDown">
                                     <div class="syllabus-list">
                                         <div class="syllabus-content">
-                                            <li class="syllabustext">The Analytics Features of Power BI</li>
-                                            <li class="syllabustext">The AI Capabilities of Power BI</li>
-                                            <li class="syllabustext">Advanced Visual Interactions</li>
-                                            <li class="syllabustext">Power BI Report Navigation</li>
+                                            <strong>1. The Analytics Features of Power BI</strong>
+                                            <ul>
+                                                <li class="syllabustext">Grouping, Binning, and Clustering</li>
+                                                <li class="syllabustext">Working with Groups, Bins, and Clusters</li>
+                                                <li class="syllabustext">The Power BI Analytics Pane</li>
+                                                <li class="syllabustext">Working with the Analytics Pane</li>
+                                            </ul>
+                        
+                                            <strong>2. The AI Capabilities of Power BI</strong>
+                                            <ul>
+                                                <li class="syllabustext">The AI Capabilities of Power BI</li>
+                                                <li class="syllabustext">Power BI AI Visuals</li>
+                                                <li class="syllabustext">AI Charts on Power BI Desktop</li>
+                                                <li class="syllabustext">Text-Based AI on Power BI Desktop</li>
+                                                <li class="syllabustext">AI Features on the Power BI Service</li>
+                                            </ul>
+                        
+                                            <strong>3. Advanced Visual Interactions</strong>
+                                            <ul>
+                                                <li class="syllabustext">Advanced Visual Interactions</li>
+                                                <li class="syllabustext">Working with Visual Interactions</li>
+                                                <li class="syllabustext">Hierarchies and Drill Downs</li>
+                                                <li class="syllabustext">Working with Hierarchies</li>
+                                            </ul>
+                        
+                                            <strong>4. Power BI Report Navigation</strong>
+                                            <ul>
+                                                <li class="syllabustext">Report Navigation on Power BI</li>
+                                                <li class="syllabustext">Creating a Navigation Page</li>
+                                                <li class="syllabustext">The Adventure Works Gazette</li>
+                                                <li class="syllabustext">Mobile and Export Options</li>
+                                                <li class="syllabustext">Working with Other Formats and Devices</li>
+                                                <li class="syllabustext">Advanced Visual Interactions</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
 
                         <div class="accordion-item wow fadeInUp">
                             <div class="accordion-header d-flex" id="headingSeven">
                                 <button class="accordion-button justify-content-between" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false"
                                     aria-controls="collapseSeven">
-                                    <span class="button-label">Module 07</span>Manage Workspaces
+                                    <span class="button-label">Module 07</span> Manage Workspaces
                                     <i class="fas fa-angle-down"></i>
                                 </button>
                             </div>
                             <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
                                 data-bs-parent="accordionExample">
-
                                 <div class="accordion-body wow fadeInDown">
                                     <div class="syllabus-list">
                                         <div class="syllabus-content">
-                                            <li class="syllabustext">Understanding Workspaces</li>
-                                            <li class="syllabustext">Configuring Workspace Assets</li>
-                                            <li class="syllabustext">Configuring Content Value</li>
-                                            <li class="syllabustext">Doing More with Workspaces</li>
+                                            <strong>1. Understanding Workspaces</strong>
+                                            <ul>
+                                                <li class="syllabustext">Getting Started with Workspaces</li>
+                                                <li class="syllabustext">Configure Workspace Settings</li>
+                                                <li class="syllabustext">Customize Workspace Roles</li>
+                                            </ul>
+                        
+                                            <strong>2. Configuring Workspace Assets</strong>
+                                            <ul>
+                                                <li class="syllabustext">Getting Started with Workspace Assets</li>
+                                                <li class="syllabustext">Import and Configure Workspace Assets</li>
+                                                <li class="syllabustext">Create Dashboards</li>
+                                                <li class="syllabustext">Creating Even More Workspace Assets</li>
+                                                <li class="syllabustext">Distribute Your Workspace Assets</li>
+                                                <li class="syllabustext">Create and Configure a Workspace App</li>
+                                            </ul>
+                        
+                                            <strong>3. Configuring Content Value</strong>
+                                            <ul>
+                                                <li class="syllabustext">Get Familiar with Content Sensitivity Labels</li>
+                                                <li class="syllabustext">Configure Workspace Content Endorsement</li>
+                                            </ul>
+                        
+                                            <strong>4. Doing More with Workspaces</strong>
+                                            <ul>
+                                                <li class="syllabustext">Establish Alerts and Subscriptions</li>
+                                                <li class="syllabustext">Navigate Workspace Usage Metrics</li>
+                                                <li class="syllabustext">Working with Lineage View</li>
+                                                <li class="syllabustext">Deep Dive Using Analyze in Excel</li>
+                                                <li class="syllabustext">Customize Workspace Roles</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="accordion-item wow fadeInUp">
+                            <div class="accordion-header d-flex" id="headingEight">
+                                <button class="accordion-button justify-content-between" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false"
+                                    aria-controls="collapseEight">
+                                    <span class="button-label">Module 08</span> Managing Datasets in Power BI
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="accordionExample">
+                                <div class="accordion-body wow fadeInDown">
+                                    <div class="syllabus-list">
+                                        <div class="syllabus-content">
+                                            <strong>1. Power BI Datasets</strong>
+                                            <ul>
+                                                <li class="syllabustext">What Are Power BI Datasets</li>
+                                                <li class="syllabustext">Working With Shared Datasets</li>
+                                                <li class="syllabustext">Configuring Dataset Permissions and Settings</li>
+                                                <li class="syllabustext">Securing and Endorsing Power BI Datasets</li>
+                                            </ul>
+                        
+                                            <strong>2. Refreshing Your Power BI Data</strong>
+                                            <ul>
+                                                <li class="syllabustext">Power BI Gateways</li>
+                                                <li class="syllabustext">Scheduling Dataset Refreshes</li>
+                                                <li class="syllabustext">Configuring Power BI Data Refreshes</li>
+                                            </ul>
+                        
+                                            <strong>3. Working with Row Level Security</strong>
+                                            <ul>
+                                                <li class="syllabustext">Understanding Row Level Security</li>
+                                                <li class="syllabustext">Configuring RLS on Power BI</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -273,29 +478,122 @@
                         </div>
 
                         <div class="accordion-item wow fadeInUp">
-                            <div class="accordion-header d-flex" id="headingEight">
+                            <div class="accordion-header d-flex" id="headingNine">
                                 <button class="accordion-button justify-content-between" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false"
-                                    aria-controls="collapseEight">
-                                    <span class="button-label">Module 08</span>Managing Datasets in Power BI
+                                    data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false"
+                                    aria-controls="collapseNine">
+                                    <span class="button-label">Module 09</span> SQL with Power BI Training
                                     <i class="fas fa-angle-down"></i>
                                 </button>
                             </div>
-                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
                                 data-bs-parent="accordionExample">
-
                                 <div class="accordion-body wow fadeInDown">
                                     <div class="syllabus-list">
                                         <div class="syllabus-content">
-                                            <li class="syllabustext">Power BI Datasets</li>
-                                            <li class="syllabustext">Refreshing Your Power BI Data</li>
-                                            <li class="syllabustext">Working with Row Level Security</li>
+                                            <ul>
+                                                <li class="syllabustext">Understanding SQL and its Role in Data Analysis</li>
+                                                <li class="syllabustext">Connecting Power BI to SQL Server</li>
+                                                <li class="syllabustext">Exploring Power BI Interface and Data Model</li>
+                                                <li class="syllabustext">Using SQL Queries in Power BI</li>
+                                                <li class="syllabustext">Basic SQL Querying in Power BI</li>
+                                                <li class="syllabustext">Advanced SQL Queries in Power BI</li>
+                                                <li class="syllabustext">Using SQL Views</li>
+                                                <li class="syllabustext">Optimizing Query Performance</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
+                        <div class="accordion-item wow fadeInUp">
+                            <div class="accordion-header d-flex" id="headingTen">
+                                <button class="accordion-button justify-content-between" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false"
+                                    aria-controls="collapseTen">
+                                    <span class="button-label">Module 10</span> Python Integration in Power BI
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                                data-bs-parent="accordionExample">
+                                <div class="accordion-body wow fadeInDown">
+                                    <div class="syllabus-list">
+                                        <div class="syllabus-content">
+                                            <ul>
+                                                <li class="syllabustext">Chapter Introduction - Python Integration in Power BI</li>
+                                                <li class="syllabustext">Download & Connect Python to Power BI</li>
+                                                <li class="syllabustext">Create Data with a Python Script</li>
+                                                <li class="syllabustext">Import External Data with Python</li>
+                                                <li class="syllabustext">Run a Python Script in Power Query</li>
+                                                <li class="syllabustext">Create a Visual with Matplotlib</li>
+                                                <li class="syllabustext">Data Cleaning with Python</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item wow fadeInUp">
+                            <div class="accordion-header d-flex" id="headingEleven">
+                                <button class="accordion-button justify-content-between" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false"
+                                    aria-controls="collapseEleven">
+                                    <span class="button-label">Module 11</span> Introducing Machine Learning integration in Power BI
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                                data-bs-parent="accordionExample">
+                                <div class="accordion-body wow fadeInDown">
+                                    <div class="syllabus-list">
+                                        <div class="syllabus-content">
+                                            <strong>Power BI</strong>
+                                            <ul>
+                                                <li class="syllabustext">What Is Machine Learning</li>
+                                                <li class="syllabustext">What Is Supervised Learning</li>
+                                                <li class="syllabustext">How To Format Data For Scikit Learn</li>
+                                                <li class="syllabustext">Linear Regression Using Scikit Learn</li>
+                                                <li class="syllabustext">Train Test Split</li>
+                                                <li class="syllabustext">Logistic Regression Using Scikit Learn</li>
+                                                <li class="syllabustext">Logistic Regression For Multiclass Classification</li>
+                                                <li class="syllabustext">What Is Unsupervised Learning</li>
+                                                <li class="syllabustext">K Means Clustering</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item wow fadeInUp">
+                            <div class="accordion-header d-flex" id="headingTwelve">
+                                <button class="accordion-button justify-content-between" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false"
+                                    aria-controls="collapseTwelve">
+                                    <span class="button-label">Module 12</span> Introduction to MS Fabric
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                                data-bs-parent="accordionExample">
+                                <div class="accordion-body wow fadeInDown">
+                                    <div class="syllabus-list">
+                                        <div class="syllabus-content">
+                                            <ul>
+                                                <li class="syllabustext">Building Workspaces and Lakehouses</li>
+                                                <li class="syllabustext">Creating Flows in Fabric</li>
+                                                <li class="syllabustext">Auto Create a Report in Power BI</li>
+                                                <li class="syllabustext">Enabling Fabric Preview</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
 
                 </div>
