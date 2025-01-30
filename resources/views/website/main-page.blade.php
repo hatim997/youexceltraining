@@ -541,7 +541,7 @@
                       
                     </div>
                 </div>
-                <div class="col-sm-6 col-xl-4">
+                {{-- <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border" onclick="window.open('courses/cit');">
                         <div class="course-img">
                             <a href="cit"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/cit.jpg" alt="Course Img"></a>
@@ -562,7 +562,7 @@
                         </div>
                   
                     </div>
-                </div>
+                </div> --}}
         
             </div>
         </div>
