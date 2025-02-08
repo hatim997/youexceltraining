@@ -1,4 +1,9 @@
-@extends('website.app', ['title' => 'Enquiry Form'])
+@extends('website.app')
+
+@section('title', 'One Minute Feed Back Form')
+@section('meta_description', 'One Minute Feed Back Form')
+@section('meta_keywords', 'One Minute Feed Back Form')
+
 
 @section('content')
     <br> <br>
