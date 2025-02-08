@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 </div>
-                 <div class="col-sm-6 col-xl-4">
+                 {{-- <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border" onclick="window.open('courses/advanced-excel');">
                         <div class="course-img">
                             <a href="advanced-excel"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/advancedExcel.jpg" alt="Course Img"></a>
@@ -75,7 +75,7 @@
                              <a href="courses/advanced-excel" class="vs-btn style4 py-3 "> Learn More </a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 
                 <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border" onclick="window.open('courses/dashboard-reporting-powerbi-analysis');">
@@ -197,7 +197,7 @@
                                 <div class="course-review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i>(4.5)</div>
                               
                             </div>
-                            <h3 class="h5 course-name"><a href="courses/financial-modeling-self" class="text-inherit">Financial Modeling Self</a></h3>
+                            <h3 class="h5 course-name"><a href="courses/financial-modeling-self" class="text-inherit">Financial Modeling and Analysis - Self-paced Learning</a></h3>
                            
                         </div>
                         <div class="course-meta">

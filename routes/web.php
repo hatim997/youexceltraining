@@ -231,8 +231,11 @@ Route::get('/webste.main-page', function () {
     return view('admin-panel.main-page');
 });
 
+Route::get('/1-min-feedback-form',[DemoConfirmationController::class,'OneMintFeedForm'])->name('one.mint.feed.form');
+Route::post('/store-one-mint-feedform', [DemoConfirmationController::class, 'StoreOneMintFeedForm'])->name('store.one.mint.feedform');
 
-Route::get('/demo-confirmation',[DemoConfirmationController::class,'DemoConfirmation']);
+
+Route::get('/demo-confirmation',[DemoConfirmationController::class,'DemoConfirmation'])->name('demo.confirmation');
 Route::post('/store-demo-confirmation', [DemoConfirmationController::class, 'StoreDemoConfirmation'])->name('store.demo.confirmation');
 
 

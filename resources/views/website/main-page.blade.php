@@ -376,7 +376,7 @@
                        
                     </div>
                 </div>
-                 <div class="col-sm-6 col-xl-4">
+                 {{-- <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border" onclick="window.open('courses/advanced-excel');">
                         <div class="course-img">
                             <a href="advanced-excel"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/advancedExcel.jpg" alt="Course Img"></a>
@@ -398,7 +398,7 @@
                         </div>
                         
                     </div>
-                </div>
+                </div> --}}
                 
                 <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border" onclick="window.open('courses/dashboard-reporting-powerbi-analysis');">
@@ -1046,25 +1046,29 @@ Your browser does not support the video tag.
                     <h2 class="mt-2 h2 mb-5">Book a FREE Demo Session with our Career Growth Specialists and Fast track your Individual and Organizational Progress</h2>
                     <!--<p class=" mb-4 pb-2 fs-md col-xl-11">Sign up to our newsletter and we'll send fresh new courses and special offers direct to your inbox, once a week.</p>-->
                     {{-- <a href="contact" class="vs-btn style2 "><i class="far fa-angle-right"></i>Schedule a Meeting Now</a> --}}
-                </div>
-                <!--<div class="col-auto d-none d-lg-block">-->
-                <!--    <div class="sec-line2"></div>-->
-                <!--</div>-->
-                <!--<div class="col-lg-auto">-->
-                    <!--<h6 class="mt-n1">Academic Leadership Team</h6>-->
-                    <!--<div class="mini-avater">-->
-                    <!--    <a href="team-details"><img src="assets/img/team/team-s-1-1.jpg" alt="avater"></a>-->
-                    <!--    <a href="team-details"><img src="assets/img/team/team-s-1-2.jpg" alt="avater"></a>-->
-                    <!--    <a href="team-details"><img src="assets/img/team/team-s-1-3.jpg" alt="avater"></a>-->
-                    <!--    <a href="team-details"><img src="assets/img/team/team-s-1-4.jpg" alt="avater"></a>-->
-                    <!--</div>-->
-                      <!--<div class="media-style7" style="">-->
-                            <!--<h3 class="media-title" style="font-size:30px; ">Schedule a meeting</h3>-->
-                      <!--      <p class="media-text"></p><button type="button" class="vs-btn">Schedule a Meeting Now</button>-->
-                      <!--  </div>-->
-                <!--                          <a href="contact" class="vs-btn style2"><i class="far fa-angle-right"></i>Schedule a Meeting Now</a>-->
+                    <!-- Buttons -->
+                    <div class="d-flex justify-content-around">
+                        <a href="{{ url('/enquiry-form') }}" class="vs-btn style3"></i>Enquiry Form</a>
+                        <a href="{{ url('/enquiry-form-corporate') }}" class="vs-btn style3"></i>Corporate Enquiry Form</a>
+                    </div>
 
-                <!--</div>-->
+                </div>
+                
+                {{-- <div class="col-lg-auto">
+                    <h6 class="mt-n1">Academic Leadership Team</h6>
+                    <div class="mini-avater">
+                        <a href="team-details"><img src="assets/img/team/team-s-1-1.jpg" alt="avater"></a>
+                        <a href="team-details"><img src="assets/img/team/team-s-1-2.jpg" alt="avater"></a>
+                        <a href="team-details"><img src="assets/img/team/team-s-1-3.jpg" alt="avater"></a>
+                        <a href="team-details"><img src="assets/img/team/team-s-1-4.jpg" alt="avater"></a>
+                    </div>
+                      <div class="media-style7" style="">
+                            <h3 class="media-title" style="font-size:30px; ">Schedule a meeting</h3>
+                            <p class="media-text"></p><button type="button" class="vs-btn">Schedule a Meeting Now</button>
+                        </div>
+                                          <a href="contact" class="vs-btn style2"><i class="far fa-angle-right"></i>Schedule a Meeting Now</a>
+
+                </div> --}}
             </div>
         </div>
     </section>

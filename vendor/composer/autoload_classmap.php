@@ -59,6 +59,7 @@ return array(
     'App\\Models\\LeadCorporate' => $baseDir . '/app/Models/LeadCorporate.php',
     'App\\Models\\LeadForm' => $baseDir . '/app/Models/LeadForm.php',
     'App\\Models\\LeadFromTwo' => $baseDir . '/app/Models/LeadFromTwo.php',
+    'App\\Models\\OneMintFeedbackForm' => $baseDir . '/app/Models/OneMintFeedbackForm.php',
     'App\\Models\\People' => $baseDir . '/app/Models/People.php',
     'App\\Models\\Program' => $baseDir . '/app/Models/Program.php',
     'App\\Models\\Project' => $baseDir . '/app/Models/Project.php',

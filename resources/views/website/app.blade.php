@@ -495,6 +495,10 @@
                                     </li>
 
                                     <li>
+                                        <a href="{{ route('demo.confirmation') }}">DEMO CONFIRMATION FORM</a>
+                                    </li>
+
+                                    <li>
                                         <a href="{{ url('registration_form') }}">REGISTRATION FORM</a>
                                     </li>
                                     <li>
@@ -1222,6 +1226,12 @@
     @if (Session::has('democonfirm'))
     <script>
         swal("THANK YOU", "{{ Session::get('democonfirm') }}", "success");
+    </script>
+    @endif
+
+    @if (Session::has('OneMintFeedBackForm'))
+    <script>
+        swal("THANK YOU", "{{ Session::get('OneMintFeedBackForm') }}", "success");
     </script>
     @endif
 

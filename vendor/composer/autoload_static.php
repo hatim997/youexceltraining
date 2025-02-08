@@ -563,6 +563,7 @@ class ComposerStaticInitcf14086919a839fe740e00554e4baff6
         'App\\Models\\LeadCorporate' => __DIR__ . '/../..' . '/app/Models/LeadCorporate.php',
         'App\\Models\\LeadForm' => __DIR__ . '/../..' . '/app/Models/LeadForm.php',
         'App\\Models\\LeadFromTwo' => __DIR__ . '/../..' . '/app/Models/LeadFromTwo.php',
+        'App\\Models\\OneMintFeedbackForm' => __DIR__ . '/../..' . '/app/Models/OneMintFeedbackForm.php',
         'App\\Models\\People' => __DIR__ . '/../..' . '/app/Models/People.php',
         'App\\Models\\Program' => __DIR__ . '/../..' . '/app/Models/Program.php',
         'App\\Models\\Project' => __DIR__ . '/../..' . '/app/Models/Project.php',

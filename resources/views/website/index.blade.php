@@ -320,7 +320,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-xl-4">
+                {{-- <div class="col-sm-6 col-xl-4">
                     <div class="course-style1">
                         <div class="course-img">
                             <a href="course-details"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/msexcel.jpg" alt="Course Img"></a>
@@ -341,7 +341,7 @@
                             <span><i class="fal fa-calendar-alt"></i>11 March 2023</span>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col-sm-6 col-xl-4">
                     <div class="course-style1">
                         <div class="course-img">
