@@ -68,7 +68,7 @@
                                     <div class="col-lg-4">
                                         <label for="">Course <span style="color: red;">*</span></label>
                                         @if (isset($course_name))
-                                            <input class="form-control" name="coursesintrested" id="coursesintrested"
+                                            <input class="form-control" name="coursesintrested_name" id="coursesintrested_name"
                                                 readonly="true" value="{{ $course_name }}">
                                         @else
                                             <select class="form-control " name="coursesintrested" id="coursesintrested"

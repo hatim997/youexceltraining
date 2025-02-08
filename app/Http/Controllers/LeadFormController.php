@@ -115,23 +115,27 @@ class LeadFormController extends Controller
 
         $courses = Courses::where('duration', $req->coursesintrested)->first();
         
+        if($courses){
+
+            // Check for duplicate email and course combination
+            $existingEntry = LeadForm::where('Email', trim($req->email))
+            ->where('CoursesIntrested', trim($courses->coursename))
+            ->orderBy('DateTime', 'desc')
+            ->first();
         
-        // Check for duplicate email and course combination
-        $existingEntry = LeadForm::where('Email', trim($req->email))
-        ->where('CoursesIntrested', trim($courses->coursename))
-        ->orderBy('DateTime', 'desc')
-        ->first();
-    
 
-        if ($existingEntry) {
-            $timeDifference = Carbon::now()->diffInHours($existingEntry->DateTime);
+            if ($existingEntry) {
+                $timeDifference = Carbon::now()->diffInHours($existingEntry->DateTime);
 
-            if ($timeDifference < 24) {
-                // Flash error to session if less than 24 hours
-                // return redirect()->back()->with('error', 'You can only submit this course again after 24 hours.');
-                return redirect()->back()->with('leadvalidafail', 'You can only submit this course again after 24 hours.');
+                if ($timeDifference < 24) {
+                    // Flash error to session if less than 24 hours
+                    // return redirect()->back()->with('error', 'You can only submit this course again after 24 hours.');
+                    return redirect()->back()->with('leadvalidafail', 'You can only submit this course again after 24 hours.');
+                }
             }
         }
+        
+
 
         
 
@@ -285,7 +289,7 @@ class LeadFormController extends Controller
         // Mail::to('youexceltraining@gmail.com')->send(new ContactMail($details));
         // $leadform->save();
         // Session::flash('appoinmentbooked','Appoinment has been Successfully !!');
-        return redirect('/');
+        return redirect('/home');
     }
 
 
