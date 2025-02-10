@@ -157,4 +157,32 @@
     </div>
 
 
+    <section class="pb-5">
+        <div class="container pb-3">
+        </div>
+        <div class="container cta-style2" style="border: 3px solid #fbce4d;">
+            <div class="row gx-100 gy-4">
+                <div class="col-lg-12 col-xl-12 col-xxl-12 pt-2 pb-5 text-center">
+                    <h2 class="pt-1 text-white">Get Ready for an Exclusive Demo!</h2>
+                    <p class="pt-1 fs-md text-white">
+                        Fill out the form below and take the first step towards an exciting journey.  
+                        Register now and experience the best we have to offer!
+                    </p>
+                    <br>
+                </div>
+            </div>
+            <div class="row gx-100 gy-4 pb-5 justify-content-md-center">
+                <div class="col-lg-10 col-xl-10 col-xxl-10 pb-5">
+                    <form class="newsletter-form d-flex flex-row justify-content-center align-items-center">
+                        <a href="{{ route('demo.confirmation') }}" class="vs-btn style2">
+                            <i class="far fa-angle-right"></i> GET DEMO FORM HERE
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
 @endsection
