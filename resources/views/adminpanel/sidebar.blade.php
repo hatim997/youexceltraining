@@ -66,6 +66,16 @@
                     </a>
                 </li>
 
+
+                <li class="nav-item">
+                    <a href="{{ route('demo.course.name') }}" class="nav-link">
+                        <i class="nav-icon fas fa-book"></i>
+                        <p>
+                            Add Demo Course Name
+                        </p>
+                    </a>
+                </li>
+
                 <li class="nav-item">
                     <a href="{{ route('project.name') }}" class="nav-link">
                         <i class="nav-icon fas fa-book"></i>

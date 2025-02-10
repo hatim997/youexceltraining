@@ -52,6 +52,7 @@ return array(
     'App\\Models\\CareerForm' => $baseDir . '/app/Models/CareerForm.php',
     'App\\Models\\Contactus' => $baseDir . '/app/Models/Contactus.php',
     'App\\Models\\DemoConfirmation' => $baseDir . '/app/Models/DemoConfirmation.php',
+    'App\\Models\\DemoCourse' => $baseDir . '/app/Models/DemoCourse.php',
     'App\\Models\\Feedback' => $baseDir . '/app/Models/Feedback.php',
     'App\\Models\\Freedemo' => $baseDir . '/app/Models/Freedemo.php',
     'App\\Models\\GalleryCategory' => $baseDir . '/app/Models/GalleryCategory.php',

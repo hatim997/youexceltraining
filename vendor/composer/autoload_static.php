@@ -556,6 +556,7 @@ class ComposerStaticInitcf14086919a839fe740e00554e4baff6
         'App\\Models\\CareerForm' => __DIR__ . '/../..' . '/app/Models/CareerForm.php',
         'App\\Models\\Contactus' => __DIR__ . '/../..' . '/app/Models/Contactus.php',
         'App\\Models\\DemoConfirmation' => __DIR__ . '/../..' . '/app/Models/DemoConfirmation.php',
+        'App\\Models\\DemoCourse' => __DIR__ . '/../..' . '/app/Models/DemoCourse.php',
         'App\\Models\\Feedback' => __DIR__ . '/../..' . '/app/Models/Feedback.php',
         'App\\Models\\Freedemo' => __DIR__ . '/../..' . '/app/Models/Freedemo.php',
         'App\\Models\\GalleryCategory' => __DIR__ . '/../..' . '/app/Models/GalleryCategory.php',

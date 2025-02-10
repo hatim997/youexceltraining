@@ -18,6 +18,8 @@ use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\DemoConfirmationController;
+use App\Http\Controllers\DemoCourseController;
+
 
 use Illuminate\Support\Facades\Route;
 use App\Models\Courses;
@@ -237,6 +239,8 @@ Route::post('/store-one-mint-feedform', [DemoConfirmationController::class, 'Sto
 
 Route::get('/demo-confirmation',[DemoConfirmationController::class,'DemoConfirmation'])->name('demo.confirmation');
 Route::post('/store-demo-confirmation', [DemoConfirmationController::class, 'StoreDemoConfirmation'])->name('store.demo.confirmation');
+
+
 
 
 Route::get('/financial-modeling-analysis-fundamental', function () {
@@ -496,10 +500,11 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/view-projectformdelete/{id}', [ProjectController::class, 'viewprojectformdelete'])->name('project.form.delete');
 
     
+    Route::get('/demo-course', [DemoCourseController::class, 'index'])->name('demo.course.name');
+    Route::post('/store-demo-course', [DemoCourseController::class, 'adddemocourse'])->name('store.demo.course.name');
+    Route::get('/delete-demo-course/{id}', [DemoCourseController::class, 'Deletedemocourse'])->name('delete.demo.course');
     
-
     
-
     // program route
     Route::get('/delete-program/{id}', [CoursesController::class, 'DeleteProgram'])->name('delete.program');
     Route::get('/edit-program/{id}', [CoursesController::class, 'EditProgram'])->name('edit.program');

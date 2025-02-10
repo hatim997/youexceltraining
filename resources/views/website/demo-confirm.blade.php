@@ -58,8 +58,15 @@
 
                                     <div class="col-lg-12">
                                         <label for="">Choose the FREE demo you'd like to attend<span style="color: red;">*</span></label>
+
+                                        @foreach ($demoCourse as $item)
+                                            <div class="custom-control custom-radio mt-4">
+                                                <input type="radio" id="demo{{ $item->id }}" name="demo" class="custom-control-input" value="{{ $item->course_name }}" required>
+                                                <label class="custom-control-label" for="demo{{ $item->id }}">{{ $item->course_name }}</label>
+                                            </div>
+                                        @endforeach
                                         
-                                        <div class="custom-control custom-radio mt-4">
+                                        {{-- <div class="custom-control custom-radio mt-4">
                                             <input type="radio" id="demo1" name="demo" class="custom-control-input" value="Dashboard Reporting with Analysis Power Bi (1st-Feb-25 between 7:00pm to 8:30pm)" required>
                                             <label class="custom-control-label" for="demo1">Dashboard Reporting with Analysis Power Bi (1st-Feb-25 between 7:00pm to 8:30pm)</label>
                                         </div>
@@ -67,7 +74,7 @@
                                         <div class="custom-control custom-radio mt-4">
                                             <input type="radio" id="demo2" name="demo" class="custom-control-input" value="First Free Session of Financial Modeling & Analysis (26th-Jan-25 between 2:00pm to 5:00pm)" required>
                                             <label class="custom-control-label" for="demo2">First Free Session of Financial Modeling & Analysis (26th-Jan-25 between 2:00pm to 5:00pm)</label>
-                                        </div>
+                                        </div> --}}
                                     </div>
 
 

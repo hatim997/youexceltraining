@@ -7,13 +7,14 @@ use App\Models\DemoConfirmation;
 use App\Models\Courses;
 use App\Models\OneMintFeedbackForm;
 use Session;
+use App\Models\DemoCourse;
 
 class DemoConfirmationController extends Controller
 {
     public function DemoConfirmation() 
     {
-        
-        return view("website.demo-confirm"); // Passes course name to view
+        $demoCourse = DemoCourse::get();
+        return view("website.demo-confirm", compact('demoCourse')); // Passes course name to view
         
     }
 
