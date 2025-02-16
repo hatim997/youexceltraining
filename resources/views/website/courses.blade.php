@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 </div>
-                 {{-- <div class="col-sm-6 col-xl-4">
+                 <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border" onclick="window.open('courses/advanced-excel');">
                         <div class="course-img">
                             <a href="advanced-excel"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/advancedExcel.jpg" alt="Course Img"></a>
@@ -75,7 +75,7 @@
                              <a href="courses/advanced-excel" class="vs-btn style4 py-3 "> Learn More </a>
                         </div>
                     </div>
-                </div> --}}
+                </div>
                 
                 <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border" onclick="window.open('courses/dashboard-reporting-powerbi-analysis');">
@@ -315,7 +315,7 @@
                     </div>
                 </div> --}}
                 
-                   <div class="col-sm-6 col-xl-4">
+                   {{-- <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border">
                         <div class="course-img" onclick="window.open('courses/visualizing-excel-dashboards-power-point');">
                             <a href="excel-mastery"><img class="w-100" src="https://youexceltraining.com/img/Yourexcel-img/visualizing.jpg" alt="Course Img"></a>
@@ -340,7 +340,7 @@
                              <a href="courses/visualizing-excel-dashboards-power-point"  class="vs-btn style4 py-3 "> Learn More </a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 
                    <div class="col-sm-6 col-xl-4">
                     <div class="course-style1 has-border">
